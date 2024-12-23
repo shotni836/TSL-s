@@ -1,0 +1,189 @@
+.FinalInspectionReports .CustomBareWitnessBox .witnessesByPipeDiv p {
+    font-size: 9px;
+}
+
+.FinalInspectionReports .CustomPhosWitnessFlex {
+    width: 92%;
+}
+
+.FinalInspectionReports .ReporttableSection table tr th {
+    vertical-align: baseline;
+}
+
+.FinalInspectionReports .FooterdataSection table tr td .AccceptedBYFlexBox {
+    padding: 0;
+}
+
+.FinalInspectionReports .CustomBareWitnessBox .CustomBorderLine {
+    height: 23.57px;
+}
+
+.FinalInspectionReports .CustomBareWitnessBox .Approvelevel1FlexBox {
+    height: 23.67px;
+}
+
+.FinalInspectionReports .RemarksCustomHeight4 {
+    height: 118px;
+}
+
+
+.ThicknessinspPrintReport .RemarksCustomHeight4 {
+    height: 41px !important;
+}
+
+@media print {
+
+    .FinalInspectionReports .RemarksCustomHeight4 {
+        height: 53px !important;
+    }
+
+    .FinalInspectionReports .CustomBareWitnessBox .CustomBorderLine {
+        height: 15.67px !important;
+    }
+
+    .FinalInspectionReports .CustomBareWitnessBox .Approvelevel1FlexBox {
+        height: 15.67px !important;
+    }
+
+    .FinalInspectionReports .HeaderDataSection .HeaderDataFlexdisplay .tatalogoimg {
+        width: 30px !important;
+        margin-bottom: -20px;
+    }
+
+    .FinalInspectionReports .HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+        margin-bottom: -20px;
+    }
+
+    .FinalInspectionReports .HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+        width: 70px !important;
+    }
+
+    .FinalInspectionReports .InspReportSection form .form-group label {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .InspReportSection form .form-group h4 {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .ReporttableSection table tr th {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .ReporttableSection table tr th {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .ReporttableSection table tr td {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .ResultPageSection table tr td {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .InstrumentusedSection table tr th {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .InstrumentusedSection table tr td {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr td .FooterDataSignatureSection {
+        padding: 0;
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr td .FooterDataSignatureSection .INSPECTEDBYBoxLabelBox {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .CustomBareWitnessBox .witnessesByPipeDiv p {
+        font-size: 8px;
+    }
+
+    .FinalInspectionReports .CustomBarePipeWitnessBox {
+        min-width: 40px;
+    }
+
+    .FinalInspectionReports .CustomPhosWitnessFlex {
+        width: 100%;
+    }
+
+    .FinalInspectionReports .ReporttableSection table {
+        /* table-layout: auto; */
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr td .FooterDataSignatureSection .FooterDataSignBox {
+        height: 45px;
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+        width: 100%;
+        min-width: auto;
+        max-width: fit-content;
+        object-fit: contain;
+        height: 45px;
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+        top: 0;
+        right: 10px;
+        left: auto;
+    }
+
+    .FinalInspectionReports .CustomPhosWitnessFlex {
+        page-break-before: auto;
+        width: 100% !important;
+    }
+
+    .FinalInspectionReports FooterdataSection table tr td .AccceptedBYFlexBox h3 {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr th {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .HeaderDataSection h1 {
+        font-size: 9px;
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .HeaderDataSection p {
+        font-size: 9px;
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .AcceptedBoxLabelBox .Approvedtxt {
+        display: none;
+    }
+
+    .FinalInspectionReports .FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .TPISignatureimg {
+        width: 90px;
+        min-width: 90px;
+        max-width: 90px;
+    }
+
+    .FinalInspectionReports .RemarksCustomHeight1 {
+        height: 131px !important;
+    }
+
+    .FinalInspectionReports .CustomBorderLine1 {
+        height: 14.67px !important;
+    }
+
+    .FinalInspectionReports .Approvelevel1FlexBox1 {
+        height: 14.67px !important;
+    }
+
+    .FinalInspectionReports .Reportrawmaterialsection table tr td {
+        font-size: 9px;
+    }
+}

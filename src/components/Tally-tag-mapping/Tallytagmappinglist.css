@@ -1,0 +1,230 @@
+.TallytagmappinglistPageSection {
+    padding: 2em 0;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .fadedIcon ul {
+    display: flex;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .fadedIcon li {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 16px;
+    font-weight: 600;
+    color: #525252;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .fadedIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .fadedIcon .ProcessSheetNoBox {
+    width: 16%;
+    padding: 10px 0px 10px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .fadedIcon .ProcessSheetNoBox label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .fadedIcon .ProcessSheetNoBox input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables li i {
+    margin-right: 4px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .tableheaderAddbutton a {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .tableheaderAddbutton a i {
+    margin-right: 6px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .tableheaderfilter span {
+    display: block;
+    font-size: 14px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .tableheaderfilter label {
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .tableheaderfilter label input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .fa-refresh {
+    color: #3d7edb;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .DateFilterBox {
+    display: flex;
+    align-items: center;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .DateFilterBox .form-group {
+    margin-right: 20px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .DateFilterBox .form-group label {
+    min-width: 120px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: block;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .DateFilterBox .form-group input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables table {
+    width: 100%;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables table tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables table tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables table tr th {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables table tr td {
+    color: black;
+    font-size: 14px;
+    padding: 10px 16px;
+    border: 1px solid #e5e5e5;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables table tr td i {
+    color: #34B233;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .FilterText {
+    font-size: 16px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .FilterText span {
+    color: #FFA100;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.TallytagmappinglistPageSection .ag-header-viewport {
+    position: relative;
+    height: 100%;
+    min-width: 0px;
+    overflow: hidden;
+    flex: 1 1 auto;
+    background-color: #5a245a;
+    color: #fff;
+
+}
+
+.TallytagmappinglistPageSection .ag-header-cell-text {
+    color: #fff;
+}
+
+.TallytagmappinglistPageSection .tallytagmappingListTable .ag-header-cell {
+    border-right: 1px solid #e1e1e1;
+}
+
+.TallytagmappinglistPageSection .tallytagmappingListTable .ag-cell {
+    border-right: 1px solid #e1e1e1;
+}
+
+.TallytagmappinglistPageSection .tallytagmappingListTable .ag-ltr .ag-header-viewport .ag-header-cell-resize::after {
+    display: none;
+}
+
+.react-confirm-alert-overlay {
+    background: rgb(0 0 0 / 73%) !important;
+    top: 0 !important;
+    z-index: 999 !important;
+}
+
+.react-confirm-alert-overlay h1 {
+    margin: 0 !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    margin-bottom: 4px !important;
+}
+
+.react-confirm-alert-body {
+    text-align: center !important;
+}
+
+.react-confirm-alert-button-group {
+    justify-content: center !important;
+}
+
+.react-confirm-alert-button-group button:nth-child(1) {
+    background-color: #ED2939;
+    color: #fff;
+}
+
+.tall-tag-button {
+    background: transparent;
+    border: none;
+}
+
+.TallytagmappinglistPageSection .TallytagmappinglistTables .tableheaderflex .DateFilterBox .form-group select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}

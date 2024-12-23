@@ -1,0 +1,20 @@
+.footerpage{
+    padding: 10px 0;
+    background: whitesmoke;
+}
+
+.footerpage .mwslogoImg{
+    width: 10%;
+}
+
+.footerpage p{
+    margin: 0;
+    color: #000;
+    font-family: 'Myriad Pro Semibold';
+}
+
+.footerpage .footerpageFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

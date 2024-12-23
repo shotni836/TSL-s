@@ -1,0 +1,54 @@
+{
+  "reportTableData": {
+    "reportTableList": [
+      {
+        "srNo": 1,
+        "pipeNo":"M20025971",
+        "heatNo": "22C0161",
+        "length":"12.17",
+        "visualInsp":"OK",
+        "remarks": "1843"
+      },
+      {
+        "srNo": 2,
+        "pipeNo":"M20025987",
+        "heatNo": "22C0161",
+        "length":"12.17",
+        "visualInsp":"OK",
+        "remarks": "1842"
+      },
+      {
+        "srNo": 3,
+        "pipeNo":"M20025748",
+        "heatNo": "22C0163",
+        "length":"12.13",
+        "visualInsp":"OK",
+        "remarks": "1798"
+      },
+      {
+        "srNo": 4,
+        "pipeNo":"M20026866",
+        "heatNo": "22C0163",
+        "length":"12.11",
+        "visualInsp":"OK",
+        "remarks": "1861"
+      },
+      {
+        "srNo": 5,
+        "pipeNo":"M20026867",
+        "heatNo": "22C0161",
+        "length":"12.11",
+        "visualInsp":"OK",
+        "remarks": "1860"
+      },
+      {
+        "srNo": 6,
+        "pipeNo":"M20026868",
+        "heatNo": "22C0163",
+        "length":"12.11",
+        "visualInsp":"OK",
+        "remarks": "1859"
+      }
+    ]
+  }
+}

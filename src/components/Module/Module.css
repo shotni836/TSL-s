@@ -1,0 +1,53 @@
+.ModulePageSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+.ModuledetailsSection{
+    padding: 3em 0;
+}
+
+.ModuledetailsSection .ModuledetailsBox{
+    border-radius: 20px;
+    box-shadow: 0 0 10px -3px #000;
+    position: relative;
+    transform: translateY(0);
+    transition-duration: 0.3s;
+    margin-bottom: 20px;
+    background: #3D7EDB;
+    text-align: center;
+}
+
+.ModuledetailsSection .ModuledetailsBoxs{
+    border-radius: 20px;
+    position: relative;
+    transform: translateY(0);
+    transition-duration: 0.3s;
+    margin-bottom: 20px;
+    background: #ced9e2;
+    text-align: center;
+}
+
+.ModuledetailsSection .ModuledetailsBox:hover{
+    transform: translateY(-4px);
+}
+
+.ModuledetailsSection .ModuledetailsBox img{
+    margin: 20px 0;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.ModuledetailsSection .ModuledetailsBox h3{
+    margin: 0;
+    color: #3D7EDB;
+    font-size: 16px;
+    font-family: 'Myriad Pro Regular';
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 12px 0;
+}

@@ -1,0 +1,143 @@
+.ChromatecoatinspPrintReport .CustomBareWitnessBox .witnessesByPipeDiv p {
+    font-size: 10px;
+}
+
+.ChromatecoatinspPrintReport .CustomChromateWitnessFlex {
+    width: 92%;
+}
+
+.ChromatecoatinspPrintReport .ReporttableSection table tr th {
+    vertical-align: baseline;
+}
+
+
+@media print {
+
+    .CustomBareWitnessBox .RemarksCustomHeight2 {
+        height: 89.67px !important;
+    }
+
+    .ChromatecoatinspPrintReport .CustomBorderLine1 {
+        height: 13.67px !important;
+    }
+
+    .ChromatecoatinspPrintReport .Approvelevel1FlexBox1 {
+        height: 13.67px !important;
+    }
+
+    .ChromatecoatinspPrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatalogoimg {
+        width: 30px !important;
+        margin-bottom: -20px;
+    }
+
+    .ChromatecoatinspPrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+        width: 60px !important;
+        margin-bottom: -20px;
+    }
+
+    .ChromatecoatinspPrintReport .InspReportSection form .form-group label {
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .InspReportSection form .form-group h4 {
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .ReporttableSection table tr th {
+        padding: 0;
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .ReporttableSection table tr th {
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .ReporttableSection table tr td {
+        padding: 0;
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .ResultPageSection table tr td {
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .InstrumentusedSection table tr th {
+        padding: 0;
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .InstrumentusedSection table tr td {
+        padding: 0;
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        width: 70px;
+        min-width: 70px;
+        max-width: 70px;
+    }
+
+    .ChromatecoatinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection {
+        padding: 0;
+    }
+
+    .ChromatecoatinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .INSPECTEDBYBoxLabelBox {
+        font-size: 10px;
+    }
+
+    .ChromatecoatinspPrintReport .CustomBareWitnessBox .witnessesByPipeDiv p {
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .CustomBarePipeWitnessBox {
+        min-width: 20px;
+    }
+
+    .ChromatecoatinspPrintReport .ReportremarksSection table tr td {
+        font-size: 8px;
+    }
+
+    .ChromatecoatinspPrintReport .ReporttableSection table {
+        /* table-layout: auto; */
+    }
+
+    .ChromatecoatinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .FooterDataSignBox {
+        height: 45px;
+    }
+
+    .ChromatecoatinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+        width: 100%;
+        min-width: auto;
+        max-width: fit-content;
+        object-fit: contain;
+        height: 45px;
+    }
+
+    .ChromatecoatinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        top: 0;
+        right: 10px;
+        left: auto;
+    }
+
+    .ChromatecoatinspPrintReport .CustomChromateWitnessFlex {
+        page-break-before: always;
+        width: 100% !important;
+    }
+
+    .ChromatecoatinspPrintReport FooterdataSection table tr td .AccceptedBYFlexBox h3 {
+        font-size: 10px;
+    }
+
+    .ChromatecoatinspPrintReport .FooterdataSection table tr th {
+        font-size: 10px;
+    }
+
+    .ChromatecoatinspPrintReport .HeaderDataSection h1 {
+        font-size: 10px;
+        font-size: 10px;
+    }
+
+    .ChromatecoatinspPrintReport .HeaderDataSection p {
+        font-size: 10px;
+    }
+}

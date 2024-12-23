@@ -1,0 +1,340 @@
+.AddproductionparameterchartSection {
+    padding-bottom: 10px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox {
+    position: relative;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    padding: 60px 30px 30px;
+}
+
+.AddproductionparameterchartSection .PipeTallySheetDetails {
+    width: 72%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.AddproductionparameterchartSection .PipeTallySheetDetails form {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.AddproductionparameterchartSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox {
+    margin-bottom: 0;
+}
+
+.AddproductionparameterchartSection .productionparSaveBtn {
+    text-align: right;
+}
+
+.AddproductionparameterchartSection .productionparSaveBtn a {
+    background: #3d7edb;
+    color: #fff;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .ppcUlList {
+    margin-top: 8em;
+    text-align: center;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .ppcUlList .ppcUlListtable {
+    margin: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .ppcUlList .ppcUlListtable th {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    /* border: 1px solid #999999; */
+    font-size: 14px;
+    text-align: left;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .ppcUlList .ppcUlListtable td {
+    padding: 2px;
+    color: #000;
+    /* border: 1px solid #999999; */
+    font-size: 14px;
+    text-align: left;
+    font-family: "Myriad Pro Light";
+    word-wrap: break-word;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border: 1px solid #999999;
+    position: relative;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .Span1 {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    background-color: #fff;
+    border: 1px solid #999999;
+    border-left: 0;
+    height: 50px;
+    position: relative;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .Span2 {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    background-color: #999999;
+    height: 50px;
+    position: relative;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .Span3 {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    background-color: #fff;
+    border: 1px solid #999999;
+    height: 50px;
+    position: relative;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .LinePipeTxt {
+    position: absolute;
+    bottom: -50px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .LinePipeTxt hr {
+    margin: 0;
+    border: none;
+    border-left: 1px solid #999999;
+    height: 26px;
+    margin-left: 20px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .Span3 hr {
+    display: block;
+    position: absolute;
+    margin: 0;
+    bottom: -25px;
+    border: 1px solid #999999;
+    width: 350px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .Span3 b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0;
+    bottom: -45px;
+    width: 350px;
+    text-align: left;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .bottomBox .Span3 b span {
+    display: block;
+    min-width: 208px;
+    text-align: right;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    padding-right: 20px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topleftBox {
+    width: 45%;
+    text-align: center;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topleftBox .topleftSpan1 {
+    display: block;
+    width: 40%;
+    height: 20px;
+    border: 1px solid #999999;
+    margin: 0 auto;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topleftBox .topleftSpan2 {
+    display: flex;
+    align-items: center;
+    width: 4%;
+    background-color: #999999;
+    height: 50px;
+    position: relative;
+    margin: 0 10px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox {
+    width: 55%;
+    text-align: center;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox .topRightSpan1 {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    height: 23px;
+    border: 1px solid #999999;
+    margin: 0 auto;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox .topRightSpan2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 20px;
+    border-right: 1px solid #999999;
+    width: 40%;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox .topRightSpan2 .topRightSpan3 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid #999999;
+    width: 36%;
+    position: relative;
+    z-index: 1;
+    margin: 0 16px;
+    top: 50px;
+    background: white;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox .topRightSpan2 .topRightSpan3 b {
+    position: absolute;
+    top: -34px;
+    display: block;
+    width: 100px;
+    text-align: left;
+    left: -18px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox .topRightSpan4 {
+    display: block;
+    height: 18px;
+    width: 60%;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox .topRightSpan4 b {
+    display: block;
+    position: relative;
+    top: -20px;
+}
+
+.AddproductionparameterchartSection .cpldiagramBox .topRightBox .topRightSpan4 .topRightSpan5 {
+    display: inline-flex;
+    align-items: center;
+    width: 4%;
+    background-color: #999999;
+    height: 80px;
+    position: relative;
+    margin: 0 10px;
+}
+
+.AddproductionparameterchartSection .SubmitNextbtn {
+    background: #3D7EDB;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: 'Myriad Pro Light';
+}
+
+.AddCoatingApplicationTable {
+    margin-top: 20px;
+}
+
+.AddCoatingApplicationTable table {
+    width: 100%;
+}
+
+.AddCoatingApplicationTable table tr th {
+    padding: 6px 10px;
+    color: #000;
+    border: 1px solid #999999;
+    font-size: 12px;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+    text-align: center;
+    min-width: 60px;
+}
+
+.AddCoatingApplicationTable table tr td {
+    padding: 6px 10px;
+    color: #000;
+    border: 1px solid #999999;
+    font-size: 12px;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.AddCoatingApplicationTable table tr td input {
+    padding: 2px 4px !important;
+    text-align: center;
+}
+
+.AddCoatingApplicationTable table tr td input.input-error {
+    border: 1px solid #ed2939 !important;
+}
+
+.AddproductionparameterchartSection .SubmitBtn {
+    background: #3D7EDB;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: 'Myriad Pro Light';
+}
+
+.AddproductionparameterchartTable {
+    margin: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.AddproductionparameterchartTable tr th {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.AddproductionparameterchartTable tr td {
+    padding: 2px;
+    color: #000;
+    border: 1px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Myriad Pro Light";
+    word-wrap: break-word;
+}
+
+.AddproductionparameterchartSection .FooterdataSection table tr th {
+    border-top: none;
+}
+
+.AddproductionparameterchartSection .FooterdataSection table tr td .FooterDataSignBox {
+    align-items: center;
+}

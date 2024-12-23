@@ -1,0 +1,16 @@
+{
+  "reportMasterData": {
+    "client": "M/S HINDUSTAN PETROLEUM CORPORATION LIMITED",
+    "reportNo": "CDT/20230517-01",
+    "poNo": "22001053-OQ-10157",
+    "dateAndShift": "17.05.2023 & DAY",
+    "pipeSize": "168.3 mm OD X 6.40 mm WT",
+    "processSheetNo": "TSL/PSC/EXT/3LPE/HPCL/2023-01 Rev.00 DATE: 09.02.2023",
+    "typeOfCoating": "3LPE",
+    "procedureWI": "TSL/COAT/QC/WI-35",
+    "testStartDate": "19.04.2023",
+    "testStartTime": "3:00 PM",
+    "testFinishDate": "17.05.2023",
+    "testFinishTime": "3:00 PM"
+  }
+}

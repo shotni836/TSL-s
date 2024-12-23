@@ -1,0 +1,161 @@
+.PhosblastinspPrintReport .CustomBareWitnessBox .witnessesByPipeDiv p {
+    font-size: 9px;
+}
+
+.PhosblastinspPrintReport .CustomPhosWitnessFlex {
+    width: 92%;
+}
+
+.PhosblastinspPrintReport .ReporttableSection table tr th {
+    vertical-align: baseline;
+}
+
+.PhosblastinspPrintReport .FooterdataSection table tr td .AccceptedBYFlexBox {
+    padding: 0;
+}
+
+
+@media print {
+
+    .PhosblastinspPrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatalogoimg {
+        width: 30px !important;
+        margin-bottom: -20px;
+    }
+
+    .PhosblastinspPrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+        margin-bottom: -20px;
+    }
+
+    .PhosblastinspPrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+        width: 70px !important;
+    }
+
+    .PhosblastinspPrintReport .InspReportSection form .form-group label {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .InspReportSection form .form-group h4 {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .ReporttableSection table tr th {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .ReporttableSection table tr th {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .ReporttableSection table tr td {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .ResultPageSection table tr td {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .InstrumentusedSection table tr th {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .InstrumentusedSection table tr td {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection {
+        padding: 0;
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .INSPECTEDBYBoxLabelBox {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .CustomBareWitnessBox .witnessesByPipeDiv p {
+        font-size: 8px;
+    }
+
+    .PhosblastinspPrintReport .CustomBarePipeWitnessBox {
+        min-width: 40px;
+    }
+
+    .PhosblastinspPrintReport .CustomPhosWitnessFlex {
+        width: 100%;
+    }
+
+    .PhosblastinspPrintReport .ReporttableSection table {
+        /* table-layout: auto; */
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .FooterDataSignBox {
+        height: 45px;
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+        width: 100%;
+        min-width: auto;
+        max-width: fit-content;
+        object-fit: contain;
+        height: 45px;
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+        top: 0;
+        right: 10px;
+        left: auto;
+    }
+
+    .PhosblastinspPrintReport .CustomPhosWitnessFlex {
+        page-break-before: auto;
+        width: 100% !important;
+    }
+
+    .PhosblastinspPrintReport FooterdataSection table tr td .AccceptedBYFlexBox h3 {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr th {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .HeaderDataSection h1 {
+        font-size: 9px;
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .HeaderDataSection p {
+        font-size: 9px;
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .AcceptedBoxLabelBox .Approvedtxt {
+        display: none;
+    }
+
+    .PhosblastinspPrintReport .FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .TPISignatureimg {
+        width: 90px;
+        min-width: 90px;
+        max-width: 90px;
+    }
+
+    .PhosblastinspPrintReport .RemarksCustomHeight1 {
+        height: 131px !important;
+    }
+
+    .PhosblastinspPrintReport .CustomBorderLine1 {
+        height: 14.67px !important;
+    }
+
+    .PhosblastinspPrintReport .Approvelevel1FlexBox1 {
+        height: 14.67px !important;
+    }
+
+    .PhosblastinspPrintReport .Reportrawmaterialsection table tr td {
+        font-size: 9px;
+    }
+}

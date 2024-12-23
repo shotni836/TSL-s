@@ -1,0 +1,12 @@
+.highlight {
+    border: 1px solid red !important;
+    border-radius: 5px !important;
+}
+
+.page-header {
+    margin: 20px 0;
+}
+
+.TATAStampImg {
+    filter: brightness(2.5);
+}

@@ -1,0 +1,287 @@
+.ProcessSheetlistSectionPage {
+    padding: 20px 0;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .FilterText {
+    font-size: 16px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter .fa-refresh {
+    color: #3d7edb;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter .DateFilterBox {
+    display: flex;
+    align-items: center;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter .DateFilterBox .form-group {
+    margin-right: 20px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter .DateFilterBox label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter .DateFilterBox input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter .DateFilterBox select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderAddbutton a {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderAddbutton a i {
+    margin-right: 6px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .fadedIcon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .fadedIcon li {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 16px;
+    font-weight: 600;
+    color: #525252;
+}
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .fadedIcon li i {
+    margin-right: 4px;
+}
+
+.ProcessSheetlistTable table {
+    width: 100%;
+}
+
+.ProcessSheetlistTable table tr th {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.ProcessSheetlistTable table tr td {
+    color: black;
+    font-size: 14px;
+    padding: 10px 16px;
+    border: 1px solid #b7b7b7;
+    font-family: 'Myriad Pro Regular';
+}
+
+.ProcessSheetlistTable table tr td .fa-eye {
+    color: #34B233;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ProcessSheetlistSectionPage .custom-header {
+    background-color: #5A245A !important;
+    border-right: 1px solid #2e2d2e;
+    border-bottom: 1px solid #2e2d2e;
+    color: #fff;
+}
+
+.ProcessSheetlistSectionPage .custom-header span.ag-icon {
+    color: #fff;
+}
+
+.ProcessSheetlistSectionPage .ag-cell {
+    border-right: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.ProcessSheetlistSectionPage .ag-cell .action-icons i {
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.ProcessSheetlistSectionPage .ag-ltr .ag-header-cell-resize {
+    display: none;
+}
+
+.ProcessApprovalRejectionModal h2 {
+    margin: 0;
+    font-size: 16px;
+    background: #3D7EDB;
+    padding: 16px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ProcessApprovalRejectionModal form {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.ProcessApprovalRejectionModal form input {
+    font-size: 14px;
+    width: 100%;
+    background: white;
+    border: 1px solid lightgrey;
+}
+
+.ProcessApprovalRejectionModal form div {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.ProcessApprovalRejectionModal .modal-footer {
+    background: #f1f1f1;
+    border-top: 1px solid #d1d1d1;
+    padding: 10px 0;
+}
+
+.ProcessApprovalRejectionModal .modal-footer button {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 6px 20px;
+    border-radius: 4px;
+    background-color: #34B233;
+    border: none;
+    outline: none;
+}
+
+.ProcessApprovalRejectionModal .modal-footer .RejectBtnFooter {
+    background-color: #ED2939;
+}
+
+.Toastify svg {
+    display: none;
+}
+
+.Toastify__toast-body {
+    display: block;
+}
+
+.wanttodeleteModal {
+    text-align: center;
+}
+
+.wanttodeleteModal p {
+    font-size: 15px;
+}
+
+.wanttodeleteModal i {
+    font-size: 20px;
+    background: #34B233;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 6px;
+}
+
+.wanttodeleteModal i.fa-times {
+    background: #ED2939;
+}
+
+.Toastify__toast-container--top-center {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: none;
+    background: rgb(0 0 0 / 88%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DownloadExcelUl li i.fa-file-excel {
+    margin-right: 0 !important;
+    color: #fff;
+    font-size: 14px;
+    background: #1d7c1c;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.DownloadExcelUl {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.DownloadExcelUl .ProcessSheetNoBox input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.DownloadExcelUl .ProcessSheetNoBox label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.DownloadExcelUl .ProcessSheetNoBox {
+    width: 16%;
+}
+
+
+.ProcessSheetlistSectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter label select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+    width: 150px;
+}

@@ -1,0 +1,109 @@
+.HeadersectionProfile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.HeadersectionProfile .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.HeadersectionProfile h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  background: #5A245A;
+  border-radius: 25px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.HeadersectionProfile h4:hover {
+  background: #732c73;
+}
+
+.HeadersectionProfile h4 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 2px solid #d1d1d1;
+}
+
+.HeadersectionProfile .dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 47px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: hidden;
+  animation: fadeIn 0.3s ease;
+}
+
+.HeadersectionProfile .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.HeadersectionProfile .dropdown-content .DropdownProfile {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 10px;
+}
+
+.HeadersectionProfile .dropdown-content .DropdownProfile img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 2px solid #d1d1d1;
+}
+
+.HeadersectionProfile .dropdown-content .DropdownProfile h5 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.HeadersectionProfile .dropdown-content .DropdownProfile h5 b {
+  font-size: 13px;
+  display: block;
+}
+
+.HeadersectionProfile .dropdown-content .DropdownProfile p {
+  margin: 0;
+  font-size: 12px;
+  color: #606060;
+  margin-top: 4px;
+}
+
+.HeadersectionProfile .dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  color: #333333;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.HeadersectionProfile .dropdown-content a:hover {
+  background: #e9e9e9;
+}
+
+.HeadersectionProfile .dropdown-content .fa-angle-double-right {
+  margin-right: 8px;
+}

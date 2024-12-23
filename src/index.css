@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  /* font-weight: 500; */
+  src: local('Myriad Pro Regular'), url('../public/assets/myriad-pro/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  font-style: normal;
+  /* font-weight: 400; */
+  src: local('Myriad Pro Light'), url('../public/assets/myriad-pro/MyriadPro-Light.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Semibold';
+  font-style: normal;
+  /* font-weight: 700; */
+  src: local('Myriad Pro Semibold'), url('../public/assets/myriad-pro/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  /* font-weight: bold; */
+  src: local('Myriad Pro Bold'), url('../public/assets/myriad-pro/MYRIADPRO-BOLD.woff') format('woff');
+}
+
+
+html {
+  font-family: 'Myriad Pro Regular';
+  scroll-behavior: smooth
+}
+
+body {
+  font-family: 'Myriad Pro Regular';
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  scroll-behavior: smooth;
+  background-color: whitesmoke;
+}
+
+a,
+a:hover {
+  text-decoration: none
+}
+
+a:focus {
+  outline: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+table,
+div,
+ul,
+li,
+button,
+input,
+button,
+select,
+tr,
+td,
+th {
+  font-family: 'Myriad Pro Regular';
+  font-weight: 600
+}
+
+ul {
+  padding: 0;
+  margin: 0
+}
+
+ul li {
+  list-style: none
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.InnerHeaderPageSection {
+  position: relative;
+  background: black;
+  z-index: 1;
+  padding: 20px 0;
+}
+
+.InnerHeaderPageSection .InnerHeaderPageBg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.InnerHeaderPageSection h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Myriad Pro Bold';
+  text-align: right;
+}
+
+.InnerHeaderPageSection ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.InnerHeaderPageSection ul li a {
+  color: white;
+  margin-right: 10px;
+  font-family: 'Myriad Pro Bold';
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+#body-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+#body-scroll::-webkit-scrollbar-thumb {
+  background-color: #0083A9;
+  border-radius: 50px;
+}
+
+#body-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+  background-color: #0083A9;
+  border-radius: 50px;
+}
+
+#custom-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+#custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #999999;
+  border-radius: 50px;
+}
+
+#custom-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+  background-color: #999999;
+  border-radius: 50px;
+}
+
+/* --------------------------------- MOBILE RESPONSIVE CSS */
+
+@media only screen and (max-width: 600px) {
+
+  /* LOGIN PAGE */
+
+  .LoginPageSection .LoginPageFlex .LoginPageheader .tatalogoimg {
+    width: 20% !important;
+  }
+
+  .LoginPageSection .LoginPageFlex .LoginPageBox .loginpageBoxDiv {
+    width: 100% !important;
+  }
+
+  .LoginPageSection .LoginPageFlex .LoginPagefooter .mwslogoImg {
+    width: 30% !important;
+  }
+
+  /* MODULE PAGE CSS */
+
+  .footerpage .mwslogoImg {
+    width: 30% !important;
+  }
+
+  .ModuledetailsSection .container .col-md-2.col-sm-2.col-xs-6 {
+    width: 50% !important;
+  }
+
+  /* HRDASHBOARD PAGE CSS */
+
+  .DashboardPageSection .DashboardDetailsSection .sidebar-open {
+    left: -160px !important;
+  }
+
+  .DashboardPageSection .content-open {
+    margin-left: -160px !important;
+  }
+
+  .DashboardDetailsContent h1 {
+    font-size: 20px !important;
+  }
+
+  /* REGISTER EMPLOYEE CSS */
+
+  .RegisterEmployeeformimg {
+    display: none !important;
+  }
+
+  .RegisterEmployeeForm {
+    padding: 20px 10px !important;
+  }
+
+  .RegisterEmployeePageSection .form-group-warn input {
+    margin-bottom: 20px;
+  }
+
+  .DashboardPageSection #sidebar {
+    width: 200px !important;
+  }
+}
+
+.css-wsp0cs-MultiValueGeneric {
+  font-size: 71% !important
+}

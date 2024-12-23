@@ -1,0 +1,45 @@
+@media print {
+
+    .PrintCallib .ReporttableSection table tr th,
+    .PrintCallib .InstrumentusedSection table tr th,
+    .PrintCallib .ResultPageSection table tr th {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .PrintCallib .ReporttableSection table tr td,
+    .PrintCallib .InstrumentusedSection table tr td,
+    .PrintCallib .ResultPageSection table tr td {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .PrintCallib .Reportmasterdatasection h4,
+    .PrintCallib .Reportmasterdatasection label {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .PrintCallib table tr td {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .FooterdataSection table tr td {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .page-break {
+        page-break-after: always;
+        padding: 10px;
+    }
+
+    .page-break:last-child {
+        page-break-after: auto;
+    }
+
+    .Approvedtxt {
+        display: none !important;
+    }
+}

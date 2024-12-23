@@ -1,0 +1,443 @@
+.CompleteRegistrationPageSection {
+    padding: 3em 0;
+}
+
+/* .CompleteRegistrationPageSection li {
+    width: 100%;
+    background: #378f37;
+    padding: 14px 0;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px 0 0 10px;
+    color: #fff;
+}
+
+.CompleteRegistrationPageSection li span {
+    background: #1b421b;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 30px;
+    color: #ffffff;
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+} */
+
+.CompleteregisterForm .fixedGroudBox {
+    background: whitesmoke;
+    padding: 30px 20px;
+    margin-bottom: 10px !important;
+    border: 2px dashed #dddddd;
+    border-radius: 10px;
+}
+
+.CompleteRegistrationPageSection form .fixedGroudBox label {
+    display: block;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.CompleteRegistrationPageSection form .fixedGroudBox input {
+    font-size: 14px;
+    cursor: not-allowed;
+    border: 1px solid #BEB9A6;
+    background: white;
+    color: #606060;
+    font-family: 'Myriad Pro Regular';
+}
+
+.CompleteRegistrationPageSection form .fixedGroudBox select {
+    font-size: 14px;
+    cursor: not-allowed;
+    border: 1px solid #BEB9A6;
+    background: white;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+    margin-bottom: 10px;
+}
+
+.CompleteRegistrationPageSection form .fixedGroudBox select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+}
+
+.CompleteRegistrationPageSection form select.roleTypeSelect{
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+}
+
+.CompleteRegistrationPageSection form label {
+    display: block;
+    font-size: 12px;
+    color: #002B45;
+    margin-bottom: 10px;
+    font-family: 'Myriad Pro Regular';
+}
+
+.CompleteRegistrationPageSection form label b {
+    color: #ED2939;
+}
+
+.CompleteRegistrationPageSection form select {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background: white;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.CompleteRegistrationPageSection form input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.CompleteRegistrationPageSection form p {
+    margin: 0;
+    font-size: 12px;
+    color: #0a0a0a;
+}
+
+.CompleteRegistrationPageSection form .SubmitNextbtn {
+    background: #34B233;
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+    padding: 10px 30px;
+    border-radius: 4px;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.CompleteRegistrationFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+
+.RegisterEmployeeformimg {
+    width: 100%;
+}
+
+.CompleteregisterForm {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.CompleteregisterForm .formheadingline h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 16px;
+    color: #262626;
+    margin-bottom: 20px;
+    font-family: 'Myriad Pro Bold';
+}
+
+.CompleteregisterForm .formheadingline h2 hr {
+    display: block;
+    width: 84%;
+    border-top: 2px solid #c3c3c3;
+}
+
+.CompleteRegistrationPageSection .FormGenderFlexBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.CompleteRegistrationPageSection .FormGenderFlexBox .FormGenderBox {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.CompleteRegistrationPageSection .FormGenderFlexBox .FormGenderBox:last-child {
+    margin-right: 0;
+}
+
+.CompleteRegistrationPageSection .FormGenderFlexBox .FormGenderBox label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #efefef;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+
+.CompleteRegistrationPageSection .FormGenderFlexBox .FormGenderBox label img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.CompleteRegistrationPageSection .FormGenderFlexBox .FormGenderBox input {
+    margin: 0;
+    width: auto;
+}
+
+.CompleteRegistrationPageSection form table {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.CompleteRegistrationPageSection form table tr th {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.CompleteRegistrationPageSection form table tr th b {
+    color: red;
+}
+
+.CompleteRegistrationPageSection form table tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.CompleteRegistrationPageSection form table tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.CompleteRegistrationPageSection form table tr td {
+    color: black;
+    font-size: 14px;
+    padding: 10px 16px;
+    /* position: relative; */
+    border: 1px solid #ebebeb;
+    vertical-align: middle;
+}
+
+.CompleteRegistrationPageSection form table tr td button {
+    padding: 0;
+    background: transparent;
+    border: none;
+    /* display: block; */
+    text-align: center;
+    /* width: 100%; */
+}
+
+.CompleteRegistrationPageSection form table tr td .fa-trash-alt {
+    font-size: 20px;
+    color: #ED2939;
+}
+
+.CompleteRegistrationPageSection form table tr td input {
+    margin: 0;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.CompleteRegistrationPageSection form table tr td select {
+    margin: 0;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.CompleteRegistrationPageSection form table tr td .handleCheckboxChangeFlex {
+    display: flex;
+    margin-top: 4px;
+}
+
+.CompleteRegistrationPageSection form table tr td .handleCheckboxChangeFlex input {
+    width: auto;
+    margin-right: 4px;
+}
+
+.CompleteRegistrationPageSection form table tr td .handleCheckboxChangeFlex label {
+    margin: 0;
+    color: #999999;
+    font-size: 12px;
+}
+
+.CompleteRegistrationPageSection form table tr td .StartMonthYearFlex {
+    display: flex;
+    align-items: center;
+}
+
+.CompleteRegistrationPageSection form table tr td .StartMonthYearFlex b {
+    margin: 0 8px;
+    font-size: 16px;
+}
+
+.CompleteRegistrationPageSection form table tr td .calculateexptxt {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 0;
+    font-family: 'Myriad Pro Regular';
+}
+
+.CompleteRegistrationPageSection form table tr td .calculateExperienceFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #878787;
+}
+
+.CompleteRegistrationPageSection form table tr td .calculateExperienceFlex span:first-child {
+    margin-left: 0;
+}
+
+.CompleteRegistrationPageSection form table tr td .calculateExperienceFlex span {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.CompleteRegistrationPageSection form table tr td .calculateExperienceFlex span b {
+    background: whitesmoke;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 4px;
+    color: #000;
+}
+
+.CompleteRegistrationPageSection form .AddnewBtn {
+    background: #5A245A;
+    color: #fff;
+    border: 1px solid #5A245A;
+    font-size: 10px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.CompleteRegistrationPageSection form .AddnewBtn:disabled {
+    display: none;
+}
+
+.CompleteRegistrationPageSection form table tr td .StartMonthYearFlex select:disabled {
+    opacity: 0.3;
+}
+
+.CompleteRegistrationPageSection form table tr th:disabled {
+    display: none !important;
+}
+
+.CompleteRegistrationPageSection form table tr td .calculateexptxt:disabled {
+    opacity: 0.3;
+}
+
+.CompleteRegistrationPageSection .SaveButtonBox {
+    text-align: right;
+}
+
+.CompleteRegistrationPageSection .SaveButtonBox span {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    background: #0083A9;
+    padding: 10px 30px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 3px;
+}
+
+.CompleteRegistrationPageSection .SaveModalBox .saveiconBox {
+    background: #34B233;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.CompleteRegistrationPageSection .SaveModalBox .saveiconBox i {
+    color: #fff;
+    font-size: 50px;
+}
+
+.CompleteRegistrationPageSection .SaveModalBox h4 {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Myriad Pro Bold';
+}
+
+.CompleteRegistrationPageSection .SaveModalBox p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000;
+}
+
+.CompleteRegistrationPageSection .SaveModalBox p b {
+    margin: 0 6px;
+    color: #3D7EDB;
+    text-transform: uppercase;
+}
+
+.CompleteRegistrationPageSection .SaveModalBox button {
+    margin: 40px auto 0;
+    display: block;
+    background: #ED2939;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 30px;
+}
+
+.PasswordmustInstructionFlexBox{
+    display: flex;
+}
+
+.PasswordmustInstructionFlexBox .PasswordInputsBox{
+    width: 22%;
+    position: relative;
+}
+
+.PasswordmustInstructionFlexBox .PasswordInputsBox .PasswordMustBox{
+    position: absolute;
+    right: -20em;
+    top: 26px;
+    background: #f7f7f7;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.PasswordmustInstructionFlexBox .PasswordInputsBox .PasswordMustBox .fa-caret-left{
+    position: absolute;
+    left: -14px;
+    top: 4px;
+    font-size: 32px;
+    color: #b7b7b7;
+}
+
+.PasswordmustInstructionFlexBox .PasswordInputsBox .PasswordMustBox ul li{
+    margin: 6px auto;
+    font-size: 12px;
+}
+
+.PasswordmustInstructionFlexBox .PasswordInputsBox .PasswordMustBox ul li i{
+    margin-right: 6px;
+}

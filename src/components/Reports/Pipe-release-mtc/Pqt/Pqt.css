@@ -1,0 +1,274 @@
+.PQTPageSection .PipeCatingTable table {
+    width: 100%;
+}
+
+.PQTPageSection .PipeCatingTable table tr td {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 16px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ProcedureQualificationBox table {
+    width: 100%;
+}
+
+.PQTPageSection .ProcedureQualificationBox table tr th {
+    padding: 2px 0 2px 290px;
+    width: 50%;
+    min-width: 100px;
+    color: #000000;
+    border-left: 1px solid #999999;
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ProcedureQualificationBox table tr td {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border-right: 1px solid #999999;
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ProcedureQualificationBox table tr td h2 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Myriad Pro Light';
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.PQTPageSection .ClientDetailsBox table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox table tr th {
+    padding: 20px 0;
+    min-width: 100px;
+    color: #000000;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ClientDetailsBox table tr th h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid #585858;
+    display: inline-block;
+    padding: 4px 70px;
+}
+
+
+
+.PQTPageSection .ClientDetailsBox2 table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox2 table tr th {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000000;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ClientDetailsBox2 table tr th span {
+    font-family: "Myriad Pro Light";
+}
+
+.PQTPageSection .ClientDetailsBox3 table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox3 table tr td {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 16px;
+    text-align: center;
+    font-family: "Myriad Pro Light";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ClientDetailsBox3 table tr th {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 16px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ClientDetailsBox4 table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox4 table tr th {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.PQTPageSection .ClientDetailsBox4 table tr th span {
+    font-family: "Myriad Pro Light";
+}
+
+.PQTPageSection .ClientDetailsBox5 table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox5 table tr th {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-right: 1px solid #999999; */
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+}
+
+.PQTPageSection .ClientDetailsBox5 table tr td {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+}
+
+.PQTPageSection .ClientDetailsBox6 table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox6 table tr th {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    text-align: center;
+    /* border-right: 1px solid #999999; */
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+}
+
+.PQTPageSection .ClientDetailsBox6 table tr td {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+}
+
+.PQTPageSection .ClientDetailsBox7 table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox7 table tr th {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+}
+
+.PQTPageSection .ClientDetailsBox7 table tr td {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+}
+
+.PQTPageSection .ClientDetailsBox8 table {
+    width: 100%;
+}
+
+.PQTPageSection .ClientDetailsBox8 table tr th {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+}
+
+.PQTPageSection .ClientDetailsBox8 table tr td {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+}
+
+.PQTPageSection .ClientDetailsBox8 .ClientDetailsBox8Flex {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 10px;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    justify-content: center;
+}
+
+.PQTPageSection .ClientDetailsBox8 .ClientDetailsBox8Flex table {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.PQTPageSection .FooterPqtSection table {
+    width: 100%;
+}
+
+.PQTPageSection .FooterPqtSection table tr th {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Myriad Pro Regular";
+}
+
+.PQTPageSection .FooterPqtSection table tr td {
+    padding: 4px 20px;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+}

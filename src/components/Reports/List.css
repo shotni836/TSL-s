@@ -1,0 +1,204 @@
+.ReportsPageSection {
+    padding: 2em 0;
+}
+
+.ReportsPageSection .ReportsTableDetails {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.ReportsPageSection .ReportsTableDetails h4 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group .ProcessSheetFlexBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group .ProcessSheetFlexBox select {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 12%;
+    outline: none;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group .ProcessSheetFlexBox input {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 10%;
+    background: #fff;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group .ProcessSheetFlexBox input::-webkit-outer-spin-button,
+.ReportsPageSection .ReportsTableDetails .form-group .ProcessSheetFlexBox input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group .ProcessSheetFlexBox input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group .ProcessSheetFlexBox b {
+    font-size: 20px;
+    line-height: 10px;
+    height: 14px;
+    margin-right: 4px;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group label {
+    min-width: 120px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+.ReportsPageSection .ReportsTableDetails .form-group input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+
+}
+
+.ReportsPageSection .ReportsTableDetails select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.ReportsPageSection .ReportsTableDetails table {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.ReportsPageSection .ReportsTableDetails table tr th {
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    /* text-align: center; */
+
+}
+
+.ReportsPageSection .ReportsTableDetails table tr td {
+    background: transparent;
+    font-size: 14px;
+    padding: 10px 20px;
+    /* text-align: center; */
+    border: 1px solid #e5e5e5;
+}
+
+.ShowtableBox {
+    text-align: right;
+}
+
+.ShowtableBox button {
+    background: #34B233;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 8px 16px;
+}
+
+.downgraded-button button {
+    background: #ED2939 !important;
+}
+
+.ReportsPageSection .ReportsTableDetails table tr td input {
+    width: 50%;
+    padding: 4px 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+    border: 1px solid #ababab;
+}
+
+.ReportsPageSection .ReportsTableDetails table tr td select {
+    width: 90%;
+    padding: 4px 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+    border: 1px solid #ababab;
+}
+
+.ReportsPageSection .ReportsTableDetails table tr td select {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+
+.ReportsPageSection .ReportsTableDetails table tr td input.green-cell {
+    border: 1px solid #34B233;
+    color: #34B233;
+
+}
+
+.ReportsPageSection .ReportsTableDetails table tr td input.red-cell {
+    background-color: #ED2939;
+    color: #ED2939;
+}
+
+.ReportsPageSection .ReportsTableDetails table tr td input.white-cell {
+    background-color: #fff;
+    color: #000;
+}
+
+.ReportsPageSection .cell-green {
+    border-color: green !important;
+    color: black;
+}
+
+.ReportsPageSection .cell-red {
+    border-color: red !important;
+    color: black;
+}
+
+.ReportsPageSection .cell-no-border {
+    border-color: rgb(247, 243, 243);
+    color: black
+}
+
+.ReportsPageSection .ag-theme-alpine .ag-header {
+    background: #5a245a;
+}
+
+.ReportsPageSection .ag-theme-alpine .ag-header-cell-text {
+    color: #fff;
+}
+
+.ReportsPageSection .ag-theme-alpine .ag-header-cell-resize::after {
+    background-color: transparent;
+}

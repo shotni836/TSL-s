@@ -1,0 +1,44 @@
+{
+  "reportTableData": {
+    "reportTableList": [
+      {
+        "srNo": 1,
+        "coatFieldNo": "",
+        "pipeNo": "",
+        "heatNo": "",
+        "length": "",
+        "aslNo": "",
+        "cbf": "",
+        "cbt": "",
+        "ebf": "",
+        "ebt": "",
+        "cbaf": "",
+        "cbat": "",
+        "holiday": "",
+        "resMagn": "",
+        "visual": "",
+        "coatDate": "",
+        "remarks": ""
+      },
+      {
+        "srNo": 2,
+        "coatFieldNo": "",
+        "pipeNo": "",
+        "heatNo": "",
+        "length": "",
+        "aslNo": "",
+        "cbf": "",
+        "cbt": "",
+        "ebf": "",
+        "ebt": "",
+        "cbaf": "",
+        "cbat": "",
+        "holiday": "",
+        "resMagn": "",
+        "visual": "",
+        "coatDate": "",
+        "remarks": ""
+      }
+    ]
+  }
+}

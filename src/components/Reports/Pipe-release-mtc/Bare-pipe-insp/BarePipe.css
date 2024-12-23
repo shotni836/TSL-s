@@ -1,0 +1,372 @@
+.bare-pipe-inspection .SubmitBtnFlexBox .SubmitBtn {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+    border: none;
+}
+
+.bare-pipe-inspection {
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.RemarksFlexBox {
+    text-align: left;
+    width: 30%;
+}
+
+.RemarksFlexBox label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.RemarksFlexBox input {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 10px;
+    color: #525252;
+    margin-bottom: 10px;
+    outline: none;
+    width: 76%;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+}
+
+.ApproveRejectUIFlex {
+    display: flex;
+}
+
+.ApproveRejectUIFlex .custom-radio {
+    margin-bottom: 0;
+}
+
+.SelectWitnessFlexBox {
+    width: 50%;
+    text-align: left;
+}
+
+.SelectWitnessFlexBox label {
+    text-align: left;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.SelectWitnessFlexBox select {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 10px;
+    color: #525252;
+    margin-bottom: 10px;
+    outline: none;
+    width: 50%;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+}
+
+.SubmitBtnFlexBox {
+    margin-top: 20px;
+}
+
+.BarePipeInspForm .form-group {
+    text-align: left;
+}
+
+.BarePipeInspForm .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.BarePipeInspForm .form-group h4 {
+    margin: 0;
+    font-size: 14px;
+    background: #f3f3f3;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.BarePipeInspForm .renderApprovalFlexBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BarePipeInspForm .renderApprovalFlexBox button {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+    border: none;
+}
+
+.witness-left-count {
+    max-width: 80px;
+}
+
+.BarePipeReport {
+    overflow-x: hidden;
+    background: #fff;
+}
+
+/* --------------------------------------------- POTRAIT SCREEN CSS */
+
+.CustomBarePipeWitnessFlex {
+    display: flex;
+    width: 72%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.CustomBarePipeWitnessFlex .HeaderDataSection h1 {
+    font-size: 16px;
+}
+
+.CustomBarePipeWitnessFlex .ReporttableSection table tr {
+    height: 33.67px;
+}
+
+.CustomBarePipeWitnessFlex .ReporttableSection table tr th {
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+.CustomBarePipeWitnessFlex .ReporttableSection table tr td {
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+.CustomBareWitnessBox {
+    height: 715px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: absolute;
+}
+
+/* .CustomBareWitnessBox span {
+    height: 715px;
+    border: 2px solid #c9c9c9;
+    border-left: none;
+    display: block;
+    padding: 0 4px;
+    margin-left: 10px;
+} */
+
+.CustomBareWitnessBox h4 {
+    margin: 0;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.PotraitBarePipeSectionPage form .form-group {
+    padding: 0px 6px;
+}
+
+.PotraitBarePipeSectionPage .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.PotraitBarePipeSectionPage .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.CustomBarePipeWitnessBox .CustomBarePipeWitnessBox1 {
+    height: 122px;
+}
+
+.CustomBarePipeWitnessBox .CustomBarePipeWitnessBox2 {
+    height: 146px;
+}
+
+.CustomBareWitnessBox .witnessesByPipeDiv p {
+    font-size: 12px;
+    color: #666666;
+    margin: 0;
+}
+
+.CustomBareWitnessBox .CustomBorderLine {
+    border: 2px solid #bbbbbb;
+    border-left: none;
+    height: 33.67px;
+    margin-left: 4px;
+    padding: 0 2px;
+    margin-right: 2px;
+}
+
+
+.CustomBareWitnessBox .CustomBorderLine1 {
+    border: 2px solid #bbbbbb;
+    border-left: none;
+    height: 22.67px;
+    margin-left: 4px;
+    padding: 0 2px;
+    margin-right: 2px;
+}
+
+.CustomBareWitnessBox .Approvelevel1FlexBox {
+    display: flex;
+    align-items: center;
+    height: 33.67px;
+}
+
+.CustomBareWitnessBox .Approvelevel1FlexBox1 {
+    display: flex;
+    align-items: center;
+    height: 22.67px;
+}
+
+.CustomBareWitnessBox .Approvelevel1Flex {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.CustomBareWitnessBox .Approvelevel1Flex input {
+    margin-left: 6px;
+}
+
+.CustomBarePipeWitnessFlex .FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .TPISignatureimg {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.CustomBareWitnessBox .RemarksCustomHeight {
+    height: 33.67px;
+}
+
+.CustomBareWitnessBox .RemarksCustomHeight1 {
+    height: 208.67px;
+}
+
+.CustomBareWitnessBox .RemarksCustomHeight2 {
+    height: 221.67px;
+}
+
+@media print {
+
+    /* .BarePipePrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatalogoimg {
+        width: 40px !important;
+    }
+
+    .BarePipePrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+        width: 80px !important;
+    } */
+
+    .BarePipePrintReport .InspReportSection form .form-group h4 {
+        font-size: 10px !important;
+    }
+
+    .BarePipePrintReport .PotraitBarePipeSectionPage form .form-group {
+        padding: 0 6px !important;
+    }
+
+    .BarePipePrintReport .InspReportSection form .form-group label {
+        min-width: 110px !important;
+        font-size: 10px !important;
+    }
+
+    .BarePipePrintReport .CustomBareWitnessBox .CustomBorderLine,
+    .BarePipePrintReport .CustomBareWitnessBox .Approvelevel1FlexBox {
+        height: 20.67px;
+    }
+
+    .BarePipePrintReport .CustomBarePipeWitnessFlex {
+        page-break-before: always;
+        width: 100% !important;
+    }
+
+    .BarePipePrintReport .CustomBarePipeWitnessFlex .HeaderDataSection h1 {
+        font-size: 12px !important;
+    }
+
+    .BarePipePrintReport .CustomBarePipeWitnessFlex .ReporttableSection table tr {
+        height: 20px !important;
+    }
+
+    .BarePipePrintReport .CustomBarePipeWitnessFlex .ReporttableSection table tr th {
+        font-size: 10px !important;
+        padding: 2px 0 !important;
+    }
+
+    .BarePipePrintReport .CustomBarePipeWitnessFlex .ReporttableSection table tr td {
+        font-size: 10px !important;
+        padding: 2px 0 !important;
+    }
+
+    .BarePipePrintReport .PotraitBarePipeSectionPage .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        width: 70px !important;
+        min-width: 70px !important;
+        max-width: 70px !important;
+    }
+
+    .BarePipePrintReport .PotraitBarePipeSectionPage .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+        width: 100px !important;
+        min-width: 100px !important;
+        max-width: 100px !important;
+    }
+
+    .BarePipePrintReport .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        top: 4px !important;
+    }
+
+    .BarePipePrintReport .FooterdataSection table tr td .FooterDataSignatureSection .FooterDataSignBox {
+        height: 80px !important;
+    }
+
+    .BarePipePrintReport .FooterdataSection table tr td .FooterDataSignatureSection {
+        padding: 0 !important;
+    }
+
+    .BarePipePrintReport .HeaderDataSection p {
+        font-size: 10px !important;
+    }
+
+    .BarePipePrintReport .ResultPageSection table tr td {
+        font-size: 10px;
+    }
+
+    .BarePipePrintReport .ReportremarksSection table tr td {
+        font-size: 10px;
+    }
+
+    .BarePipePrintReport .FooterdataSection table tr td .FooterDataSignatureSection .INSPECTEDBYBoxLabelBox {
+        font-size: 10px;
+    }
+
+    .BarePipePrintReport .InstrumentusedSection table tr th {
+        font-size: 10px;
+    }
+
+    .BarePipePrintReport .InstrumentusedSection table tr td {
+        font-size: 10px;
+    }
+
+    .BarePipePrintReport .CustomBarePipeWitnessBox {
+        min-width: 56px;
+    }
+
+    .BarePipePrintReport .CustomBareWitnessBox .witnessesByPipeDiv p {
+        font-size: 12px;
+    }
+}

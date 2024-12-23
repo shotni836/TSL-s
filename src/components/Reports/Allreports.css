@@ -1,0 +1,683 @@
+.HeaderDataSection {
+    background-color: #fff;
+    padding: 2px 0;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.HeaderDataSection .HeaderDataFlexdisplay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.HeaderDataSection .HeaderDataFlexdisplay .tatalogoimg {
+    width: 70px;
+}
+
+.HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+    width: 140px;
+    position: relative;
+    top: 0;
+}
+
+.HeaderDataSection p {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+    font-family: "Myriad Pro Regular";
+}
+
+.HeaderDataSection h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-family: "Myriad Pro Regular";
+}
+
+.InspReportSection {
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.InspReportSection form .form-group {
+    display: flex;
+    align-items: baseline;
+    margin: 0 0;
+}
+
+.InspReportSection form .form-group span {
+    min-width: 10px;
+}
+
+.InspReportSection form .form-group label {
+    min-width: 140px;
+    font-size: 12px;
+}
+
+.InspReportSection form .form-group h4 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Myriad Pro Light";
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.ReporttableSection table tr th {
+    padding: 2px 0;
+    /* min-width: 100px; */
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.ReporttableSection table tr th:last-child {
+    /* border-right: none; */
+}
+
+.ReporttableSection table tr td:last-child {
+    /* border-right: none; */
+}
+
+.ReporttableSection table tr td {
+    padding: 2px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    /* border-bottom: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: "Myriad Pro Light";
+    word-wrap: break-word;
+}
+
+.InstrumentusedSection table {
+    width: 100%;
+}
+
+.InstrumentusedSection table tr th {
+    padding: 2px 0;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+}
+
+.InstrumentusedSection table tr th:last-child {
+    /* border-right: none; */
+    /* border-top: none; */
+}
+
+.InstrumentusedSection table tr td {
+    padding: 2px 0;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+}
+
+.InstrumentusedSection table tr td:last-child {
+    /* border-right: none; */
+}
+
+.Reportrawmaterialsection {
+    padding: 0;
+}
+
+.Reportrawmaterialsection table {
+    width: 100%;
+}
+
+.Reportrawmaterialsection table tr th {
+    padding: 2px 0;
+    color: #000;
+    border: 1px solid #999999;
+    border-top: none;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+}
+
+.Reportrawmaterialsection table tr th:last-child {
+    /* border-right: none; */
+}
+
+.Reportrawmaterialsection table tr td {
+    padding: 2px 0;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+}
+
+.Reportrawmaterialsection table tr td:last-child {
+    /* border-right: none; */
+}
+
+.InspReportSection .InspReportBox {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.InspectedAcceptedTableFlex {
+    display: flex;
+    width: 100%;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox {
+    min-width: 20%;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox h2 {
+    padding: 2px 0;
+    color: #000;
+    border-bottom: 1px solid #999999;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    margin: 0;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox h6 {
+    padding: 2px 0;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    border-bottom: none;
+    border-top: none;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    background-color: #fff;
+    margin: 0;
+}
+
+.InspectedAcceptedTableFlex .AcceptedBox {
+    min-width: 80%;
+    border-left: 1px solid #999999;
+    /* border-bottom: 1px solid #999999; */
+}
+
+.InspectedAcceptedTableFlex .AcceptedBox h2 {
+    padding: 2px 0;
+    color: #000;
+    /* border-left: none; */
+    border-bottom: 1px solid #999999;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    margin: 0;
+}
+
+.InspectedAcceptedTableFlex .AcceptedBox .AccceptedBYFlexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.InspectedAcceptedTableFlex .AcceptedBox h6 {
+    padding: 2px 0;
+    color: #000;
+    border-left: 1px solid #999999;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    background-color: #fff;
+    margin: 0;
+}
+
+.InspectedAcceptedTableFlex .AcceptedBox .NDDBox {
+    text-align: center;
+    width: 25%;
+}
+
+.InspectedAcceptedTableFlex .AcceptedBox .NDDBox .TPISignatureimg {
+    width: 50%;
+}
+
+.InspectedAcceptedTableFlex .AcceptedBox .NDDBox span {
+    display: block;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox .INSPECTEDBYTdTable {
+    padding: 2px 0;
+    color: #000;
+    border-top: none;
+    text-align: center;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox .INSPECTEDBYTdTable .INSPECTEDBYBox {
+    position: relative;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox .INSPECTEDBYTdTable .INSPECTEDBYBox .TATAStampImg {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox .INSPECTEDBYTdTable .INSPECTEDBYBox .QCSignatureImg {
+    width: 90%;
+    display: block;
+    margin: 10px auto 0;
+    position: relative;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox .INSPECTEDBYTdTable .INSPECTEDBYBox .INSPECTEDBYBoxLabelBox span {
+    display: block;
+}
+
+.InspectedAcceptedTableFlex .InspectedBox .INSPECTEDBYTdTable .INSPECTEDBYBox .INSPECTEDBYBoxLabelBox {
+    font-size: 14px;
+    padding: 10px 0 0;
+}
+
+.ReporttableSection .container-fluid .row .col-md-12.col-sm-12.col-xs-12 {
+    padding: 0;
+}
+
+.FooterdataSection .container-fluid .row .col-md-12.col-sm-12.col-xs-12 {
+    padding: 0;
+}
+
+.InstrumentusedSection .container-fluid .row .col-md-12.col-sm-12.col-xs-12 {
+    padding: 0;
+}
+
+.Reportrawmaterialsection .container-fluid .row .col-md-12.col-sm-12.col-xs-12 {
+    padding: 0;
+}
+
+.ReporttableSection table {
+    margin: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.ReportremarksSection table {
+    width: 100%;
+}
+
+.ReportremarksSection table tr td {
+    padding: 2px calc(var(--bs-gutter-x) * .5);
+    color: #000;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Myriad Pro Regular';
+}
+
+.Reportmasterdatasection {
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.ResultPageSection {
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.ResultPageSection table {
+    width: 100%;
+}
+
+.ResultPageSection table tr td {
+    padding: 2px calc(var(--bs-gutter-x) * .5);
+    color: #000;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Myriad Pro Regular';
+    border: 1px solid #999999;
+    border-left: none;
+    border-right: none;
+}
+
+.ResultPageSections {
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.ResultPageSections table {
+    width: 100%;
+}
+
+.ResultPageSections table tr td {
+    padding: 2px calc(var(--bs-gutter-x) * .5);
+    color: #000;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Myriad Pro Regular';
+}
+
+.ApprovalStatusSection {
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.PipeNumberTable table thead tr th:nth-child(2) {
+    width: 70px;
+}
+
+.TapeApplicationSectionTable {
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.TapeApplicationSectionTable table {
+    width: 100%;
+}
+
+.ChromateReportCustomTable {
+    border-bottom: none;
+}
+
+/* .ChromateReportCustomTable thead tr th:nth-child(2){
+    width: 60px;
+}
+
+.ChromateReportCustomTable thead tr th:nth-child(3){
+    width: 50px;
+} */
+
+.AcceptedBox .AccceptedBYFlexBox h4 {
+    margin: 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.BarePipeInspCustomTable tr th:nth-child(1) {
+    width: 100px;
+}
+
+.BarePipeReport .InspectedAcceptedTableFlex .InspectedBox .INSPECTEDBYTdTable .INSPECTEDBYBox .INSPECTEDBYBoxLabelBox .QCFooterText {
+    margin-top: 45px;
+}
+
+.FooterdataSection table {
+    width: 100%;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.FooterdataSection table tr th {
+    padding: 2px 0;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+}
+
+.FooterdataSection table tr td {
+    padding: 2px 0;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+}
+
+.FooterdataSection table tr td .FooterDataSignatureSection {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.FooterdataSection table tr td .FooterDataSignatureSection .FooterDataSignBox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 96px;
+}
+
+.FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+    width: 150px;
+    min-width: 100px;
+    max-width: 100px;
+    margin-top: 0;
+}
+
+.FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+    filter: brightness(2.9);
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.FooterdataSection table tr td .FooterDataSignatureSection .INSPECTEDBYBoxLabelBox span {
+    display: block;
+    text-align: center;
+}
+
+.FooterdataSection table tr td .FooterDataSignatureSection .INSPECTEDBYBoxLabelBox {
+    margin-top: 10px;
+}
+
+.FooterdataSection table tr td .AccceptedBYFlexBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+}
+
+.FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .TPISignatureimg {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .AcceptedBoxLabelBox {
+    text-align: center;
+}
+
+.FooterdataSection table tr td .AccceptedBYFlexBox .NDDBox .AcceptedBoxLabelBox span {
+    display: block;
+}
+
+.DustlevelDetailsSection table {
+    width: 100%;
+}
+
+.DustlevelDetailsSection table tr th {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.DustlevelDetailsSection table tr td {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.DownloadPrintFlexSection {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: #ffffff;
+    padding: 6px 10px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.DownloadPrintFlexSection h4 {
+    color: #fff;
+    margin: 0;
+    font-size: 10px;
+    cursor: pointer;
+    background: #525252;
+    margin-left: 6px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.ProcessSheetView {
+    background: #fff;
+}
+
+.CustomPhosWitnessFlex {
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.CustomPhosWitnessFlex .CustomPhosWitnessBox1 {
+    height: 117.5px;
+}
+
+.CustomPhosWitnessFlex .CustomPhosWitnessBox2 {
+    height: 105px;
+}
+
+.CustomPhosWitnessFlex .CustomPhosBlastWitnessBox {
+    height: 541px;
+}
+
+.CustomPhosWitnessFlex .Approvelevel1FlexBox {
+    display: flex;
+    align-items: center;
+    height: 23px;
+}
+
+.CustomPhosWitnessFlex .Approvelevel1Flex {
+    display: flex;
+    height: 23px;
+    align-items: center;
+}
+
+.CustomPhosWitnessFlex .CustomBorderLine {
+    border: 2px solid #bbbbbb;
+    border-left: none;
+    height: 23px;
+    margin-left: 4px;
+    padding: 0 2px;
+    margin-right: 2px;
+}
+
+.CustomPhosWitnessFlex .witnessesByPipeDiv p {
+    font-size: 12px;
+    color: #666666;
+    margin: 0;
+}
+
+.CustomChromateWitnessFlex {
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.CustomChromateWitnessFlex .CustomChromateWitnessBox1 {
+    height: 117.5px;
+}
+
+.CustomChromateWitnessFlex .CustomChromateWitnessBox2 {
+    height: 105px;
+}
+
+.CustomChromateWitnessFlex .CustomChromateBlastWitnessBox {
+    height: 359px;
+}
+
+.CustomChromateWitnessFlex .Approvelevel1FlexBox {
+    display: flex;
+    align-items: center;
+    height: 23px;
+}
+
+.CustomChromateWitnessFlex .Approvelevel1Flex {
+    display: flex;
+    height: 23px;
+    align-items: center;
+}
+
+.CustomChromateWitnessFlex .CustomBorderLine {
+    border: 2px solid #bbbbbb;
+    border-left: none;
+    height: 23px;
+    margin-left: 4px;
+    padding: 0 2px;
+    margin-right: 2px;
+}
+
+.CustomChromateWitnessFlex .witnessesByPipeDiv p {
+    font-size: 12px;
+    color: #666666;
+    margin: 0;
+}
+
+.orderBtn {
+    background: #3d7edb;
+    color: #fff;
+    font-weight: 600;
+    padding: 6px 10px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.orderBtn:hover {
+    background-color: #206fdd;
+}
+
+@media print {
+    /* @page {
+        size: A4;
+        margin: 10mm;
+    } */
+
+    .DownloadPrintFlexSection {
+        display: none !important;
+    }
+
+    .inspection-report-pdf {
+        display: none;
+    }
+}

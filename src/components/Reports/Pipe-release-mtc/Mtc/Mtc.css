@@ -1,0 +1,79 @@
+.MTCFirstTableSection table,
+.MTCSecondTableSection table,
+.MTCThirdTableSection table,
+.MTCFourthTableSection table,
+.MTCFifthTableSection table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.MTCFirstTableSection table th,
+.MTCSecondTableSection table th,
+.MTCThirdTableSection table th,
+.MTCFourthTableSection table th,
+.MTCFifthTableSection table th {
+    padding: 2px 0;
+    min-width: 100px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    word-wrap: break-word;
+}
+
+.MTCFirstTableSection table td,
+.MTCSecondTableSection table td,
+.MTCThirdTableSection table td,
+.MTCFourthTableSection table td,
+.MTCFifthTableSection table td {
+    padding: 2px;
+    color: #000;
+    border: 1px solid #999999;
+    /* border-left: none; */
+    /* border-bottom: none; */
+    font-size: 12px;
+    text-align: center;
+    font-family: "Myriad Pro Light";
+    word-wrap: break-word;
+}
+
+.MTCFirstTableSection table td.Aboutdetailstext {
+    text-align: left;
+}
+
+.MTCFirstTableSection table td.Aboutdetailstext b {
+    display: block;
+    font-family: 'Myriad Pro Regular';
+}
+
+.MTCFirstTableSection table td.LPECOATINGREGULARText {
+    text-align: left;
+}
+
+.MTCFirstTableSection table td.LPECOATINGREGULARText b {
+    display: block;
+    font-family: 'Myriad Pro Regular';
+}
+
+.MTCFirstTableSection table td.LPECOATINGREGULARText ul {
+    padding-left: 20px;
+}
+
+.MTCFirstTableSection table td.LPECOATINGREGULARText ul li {
+    list-style: decimal;
+    font-family: 'Myriad Pro Light';
+}
+
+.MTCFooterSignSection table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.MTCFooterSignSection table td {
+    padding-top: 50px;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+}

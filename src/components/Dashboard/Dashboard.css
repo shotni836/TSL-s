@@ -1,0 +1,290 @@
+.DashboardPageSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+.DashboardHeaderSection {
+    background-color: #3D7EDB;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.DashboardHeaderSection .ModulePageheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DashboardHeaderSection .ModulePageheader .tatasteellogoimg {
+    width: 120px;
+    position: relative;
+    top: 1px;
+}
+
+.DashboardPageSection .sidebar-open {
+    left: -180px !important;
+    width: 250px !important;
+}
+
+.DashboardPageSection .sidebar-open li span {
+    display: none;
+}
+
+.DashboardPageSection .sidebar-open li {
+    text-align: right;
+}
+
+.DashboardPageSection .sidebar-open li i {
+    min-width: 40px;
+    text-align: center;
+    background: #002B45;
+    color: #fff;
+    border-radius: 50px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.DashboardPageSection #sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 84vh;
+    background-color: #fff;
+    transition: left 0.3s ease;
+    padding: 60px 12px 0;
+}
+
+.DashboardPageSection #sidebar-toggle {
+    display: none;
+}
+
+.DashboardPageSection #content {
+    transition: margin-left 0.3s ease;
+}
+
+.DashboardHeaderSection .ModulePageheader .tatalogoimg {
+    min-width: 56px;
+    height: 50px;
+}
+
+.DashboardPageSection .DashboardFooter {
+    padding: 10px 0 10px 30px;
+    background: #fff;
+}
+
+.DashboardPageSection .DashboardFooter .mwslogoImg {
+    min-width: 113px;
+    height: 35px;
+}
+
+.DashboardPageSection .DashboardDetailsSection {
+    display: flex;
+    align-items: flex-start;
+    background: whitesmoke;
+    height: 100vh;
+}
+
+.DashboardPageSection .content-open {
+    width: 100%;
+    margin-left: -180px;
+}
+
+.DashboardDetailsContent {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.DashboardDetailsContent h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.DashboardDetailsSection .sidebartoggleRound {
+    position: absolute;
+    right: -20px;
+    top: 10px;
+}
+
+.DashboardDetailsSection .sidebartoggleRound i {
+    background: #3D7EDB;
+    border-radius: 50px;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.DashboardPageSection .SideBarSection ul li .RegisterEmployeeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #002B45;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in-out !important;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.DashboardPageSection .SideBarSection ul li .RegisterEmployeeBtn:hover {
+    color: #0083A9;
+}
+
+.DashboardPageSection .SideBarSection ul li .RegisterEmployeeBtn i {
+    margin-right: 10px;
+    min-width: 20px;
+    font-size: 16px;
+}
+
+.DashboardPageSection .SideBarSection .tabs li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #002B45;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in-out !important;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.DashboardPageSection .SideBarSection .tabs li i {
+    margin-right: 10px;
+    min-width: 20px;
+    font-size: 16px;
+}
+
+.DashboardPageSection .QualityDashboardAccordian .accordion-item {
+    border: none;
+}
+
+.DashboardPageSection .QualityDashboardAccordian .accordion-item ul.accordion-body {
+    width: 238px;
+    background: #fff;
+}
+
+.DashboardPageSection .QualityDashboardAccordian .accordion-item ul.accordion-body li a {
+    padding-left: 30px;
+}
+
+.DashboardPageSection .QualityDashboardAccordian .accordion-button {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.DashboardPageSection .QualityDashboardAccordian .accordion-item .accordion-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #002B45;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in-out !important;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+.DashboardPageSection .QualityDashboardAccordian .accordion-item .accordion-button i {
+    margin-right: 10px;
+    min-width: 20px;
+    font-size: 16px;
+}
+
+.DashboardDetailsContent .ExternalDrowpdown {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.DashboardDetailsContent .ExternalDrowpdown .dropdown {
+    margin-right: 10px;
+}
+
+.DashboardDetailsContent .ExternalDrowpdown .dropdown-toggle {
+    background-color: #3D7EDB;
+    color: #fff;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.DashboardDetailsContent .ExternalDrowpdown .dropdown-toggle i {
+    margin-left: 6px;
+}
+
+.DashboardDetailsContent .ExternalDrowpdown .dropdown-toggle::after {
+    display: none;
+}
+
+.DashboardDetailsContent .ExternalDrowpdown .dropdown .dropdown-menu.show {
+    display: block;
+    overflow: auto;
+    max-height: 320px;
+    padding: 0;
+}
+
+.DashboardDetailsContent .ExternalDrowpdown .dropdown ul.dropdown-menu a {
+    font-weight: bold;
+    font-family: 'Myriad Pro Regular';
+}
+
+.DashboardDetailsContent .ExternalDrowpdown ul li .dropdown-item {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: 'Myriad Pro Semibold';
+    line-height: normal;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.DashboardDetailsContent .tab-content h6 {
+    margin: 0;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.DashboardPageSection .SideBarSection .tabs li.LogoutCustomLI {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.DashboardPageSection #sidebar ul li .submenu li .RegisterEmployeeBtn {
+    padding: 10px 0px 10px 30px;
+    margin: 0;
+    color: #858585;
+}
+
+.DashboardPageSection #sidebar ul li .submenu li .submenu li .RegisterEmployeeBtn {
+    padding: 10px 0px 10px 40px;
+    margin: 0;
+    color: #696969;
+}
+
+.DashboardPageSection #sidebar .SIdebarsubmenuUl {
+    overflow: auto;
+    height: 70vh;
+}

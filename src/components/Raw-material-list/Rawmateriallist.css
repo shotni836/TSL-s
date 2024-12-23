@@ -1,0 +1,317 @@
+.RawmateriallistPageSection {
+    padding: 2em 0;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables h2 {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderAddbutton a {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderAddbutton a i {
+    margin-right: 6px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter label select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+    width: 150px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .DateFilterBox {
+    display: flex;
+    align-items: center;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .DateFilterBox .form-group {
+    margin-right: 20px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .DateFilterBox label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .DateFilterBox input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .DateFilterBox select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderAddbutton .TableQcLink {
+    background-color: transparent;
+    color: #000;
+    text-decoration: underline;
+    height: auto;
+    width: auto;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter {
+    display: flex;
+    align-items: center;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter span i {
+    margin-right: 4px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .tableheaderDate {
+    margin-right: 20px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .tableheaderDate label {
+    margin-right: 0;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .tableheaderDate input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Myriad Pro Regular';
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .tableheaderDate select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Myriad Pro Regular';
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .tableheaderflex .tableheaderfilter .tableheaderDate .fa-refresh {
+    margin-top: 20px;
+}
+
+.RawmateriallistTables table {
+    width: 100%;
+}
+
+.RawmateriallistTables table tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.RawmateriallistTables table tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.RawmateriallistTables table tr th {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.RawmateriallistTables table tr td {
+    color: black;
+    font-size: 14px;
+    padding: 10px 16px;
+    border: 1px solid #b7b7b7;
+    font-family: 'Myriad Pro Regular';
+}
+
+.RawmateriallistTables table tr td a {
+    border-right: 2px solid #cfcfcf;
+    display: inline-block;
+    color: #7c7c00;
+    /* text-decoration: underline; */
+    text-align: center;
+    padding: 0 10px;
+}
+
+.chart-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.RawmateriallistTables table tr td a:first-child {
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+.RawmateriallistTables table tr td a:last-child {
+    border-right: none;
+}
+
+.RawmateriallistTables table tr td .fa-eye,
+.RawmateriallistTables table tr td .fa-upload {
+    color: #34B233;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.RawmateriallistTables table tr td a .ApproveBtn {
+    text-decoration: underline;
+}
+
+.RawmateriallistPageSection .Rawmaterialinspectionlistlegend {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+}
+
+.RawmateriallistPageSection .Rawmaterialinspectionlistlegend li:first-child {
+    border-left: none;
+}
+
+.RawmateriallistPageSection .Rawmaterialinspectionlistlegend li {
+    border-left: 2px solid #cfcfcf;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.RawmateriallistPageSection .Rawmaterialinspectionlistlegend li i {
+    margin-right: 4px;
+}
+
+.RawmaterialTestTypeFlexSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.RawmaterialTestTypeFlexSection .form-group select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    width: 40%;
+}
+
+.ReactModal__Overlay {
+    z-index: 999;
+}
+
+.ReactModal__Overlay h2 {
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ReactModal__Overlay .dropzone {
+    padding: 20px;
+    border: 2px dashed #dddddd;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.ReactModal__Overlay .dropzone p {
+    margin: 0;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.ReactModal__Overlay .dropzone h2 i {
+    font-size: 20px;
+}
+
+.ReactModal__Overlay .image-preview-container .image-preview {
+    padding: 20px;
+    cursor: pointer;
+    transform: translateY(0);
+    transition-duration: 0.3s;
+    box-shadow: 0 0 16px 0 rgb(175 175 175 / 47%);
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.ReactModal__Overlay .image-preview-container .image-preview p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.ReactModal__Overlay .image-preview-container .image-preview svg {
+    font-size: 16px;
+    margin-left: 10px;
+    color: #707070;
+}
+
+.ReactModal__Overlay .image-preview-container .image-preview svg.fa-trash {
+    color: #ed2939;
+}
+
+.ReactModal__Overlay .image-preview-container .LegendUploadModalBox {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.ReactModal__Overlay .image-preview-container .LegendUploadModalBox span {
+    font-size: 14px;
+}
+
+.ReactModal__Overlay .image-preview-container .LegendUploadModalBox span svg {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #707070;
+}
+
+.ReactModal__Overlay .image-preview-container .LegendUploadModalBox span svg.fa-trash {
+    color: #ed2939;
+}

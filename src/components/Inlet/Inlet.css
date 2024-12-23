@@ -1,0 +1,157 @@
+.InletSectionPage {
+    padding: 3em 0;
+}
+
+.InletSectionPage .InletTables {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 20px;
+    /* border: 1px solid #f1f1f1; */
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.InletSectionPage .InletTables .form-group1 label{
+    min-width: 120px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+.InletSectionPage .InletTables .form-group select {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    background: #fff;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.InletSectionPage .InletTables .form-group .ProductionDateDatePicker{
+    pointer-events: all;
+    background: #fff;
+    cursor: pointer;
+}
+
+.InletSectionPage .InletTables .form-group label {
+    min-width: 120px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+.InletSectionPage .InletTables .form-group .react-datepicker-wrapper{
+    width: 100%;
+} 
+
+.InletSectionPage .InletTables .form-group input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+    pointer-events: none;
+}
+
+.InletSectionPage .InletTables table tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.InletSectionPage .InletTables table tr th {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+    background-color: transparent;
+}
+
+.InletSectionPage .InletTables .INSTRUMENTUSEDTable tr th:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.InletSectionPage .InletTables .INSTRUMENTUSEDTable tr th{
+    text-align: center;
+    font-size: 14px;
+}
+
+.InletSectionPage .InletTables table tr td {
+    color: black;
+    font-size: 14px;
+    padding: 10px 16px;
+    border: 1px solid #e5e5e5;
+    background-color: transparent;
+}
+
+.InletTables .form-group1 .ProcessSheetFlexBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.InletTables .form-group1 .ProcessSheetFlexBox select {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 12%;
+    outline: none;
+}
+
+.InletTables .form-group1 .ProcessSheetFlexBox input {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 10%;
+    background: #fff;
+    outline: none;
+}
+
+.InletTables .form-group1 .ProcessSheetFlexBox input::-webkit-outer-spin-button,
+.InletTables .form-group1 .ProcessSheetFlexBox input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.InletTables .form-group1 .ProcessSheetFlexBox input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.InletTables .form-group1 .ProcessSheetFlexBox b {
+    font-size: 20px;
+    line-height: 10px;
+    height: 14px;
+    margin-right: 4px;
+}
+
+.InletTables .form-group1 .ProcessSheetFlexBox select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.InletSectionPage .InletTables h4{
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InletSectionPage .InletTables h4 span{
+    color: #3D7EDB;
+    display: inline-block;
+    font-size: 16px;
+}

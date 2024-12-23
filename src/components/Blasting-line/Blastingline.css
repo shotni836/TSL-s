@@ -1,0 +1,199 @@
+.AddproductionparameterchartSection .ppcdiagramBox {
+    position: relative;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    padding: 60px 30px 30px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .TopBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    /* border: 1px solid #999999; */
+    margin-bottom: 220px;
+    padding-left: 150px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .TopBox .TopBoxspan1 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 18%;
+    background-color: #ffffff;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .TopBox .TopBoxspan1 label {
+    position: relative;
+    top: 26px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .TopBox .TopBoxspan2 {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    background: #fff;
+    height: 20px;
+    border: 1px solid #999999;
+    z-index: 1;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .TopBox .TopBoxspan3 {
+    width: 20px;
+    background: #fff;
+    height: 170px;
+    border: 1px solid #999999;
+    margin-top: 150px;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .bottomBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border: 1px solid #999999;
+    position: relative;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .bottomBox .BlastedLinePipeTxt {
+    position: absolute;
+    bottom: -50px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .bottomBox .BlastedLinePipeTxt hr {
+    margin: 0;
+    border: none;
+    border-left: 1px solid #999999;
+    height: 26px;
+    margin-left: 20px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .bottomBox .bottomBoxspan1 {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    margin-left: 60px;
+    background-color: #999999;
+    height: 50px;
+    position: relative;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .bottomBox .bottomBoxspan1 hr {
+    display: block;
+    position: absolute;
+    margin: 0;
+    bottom: -12px;
+    border: 1px solid #999999;
+    width: 275px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .bottomBox .bottomBoxspan1 b {
+    display: block;
+    position: absolute;
+    margin: 0;
+    bottom: -30px;
+    width: 280px;
+    text-align: center;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .bottomBox .bottomBoxspan2 {
+    display: flex;
+    align-items: center;
+    width: 5%;
+    justify-content: center;
+    margin-left: 10em;
+    background: #fff;
+    height: 150px;
+    border: 1px solid #999999;
+    writing-mode: vertical-lr;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .MidBox {
+    background-color: white;
+    position: absolute;
+    top: 12em;
+    padding-left: 60px;
+    width: 24%;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .MidBox .MidBoxspan1 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    height: 30px;
+    border: 1px solid #999999;
+    position: relative;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .MidBox .MidBoxspan1 b {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .MidBox1 {
+    background-color: white;
+    position: absolute;
+    top: 15em;
+    left: 389px;
+    width: 24%;
+    border: 1px solid #999999;
+    border-top: none;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .MidBox1 .Mid1Boxspan1 {
+    display: flex;
+    align-items: center;
+    width: 38%;
+    background-color: #ffffff;
+    height: 20px;
+    border-right: 1px solid #999999;
+    padding-left: 6px;
+}
+
+.AddproductionparameterchartSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox {
+    margin-bottom: 0;
+}
+
+.AddproductionparameterchartSection .productionparSaveBtn {
+    text-align: right;
+}
+
+.AddproductionparameterchartSection .productionparSaveBtn a {
+    background: #3d7edb;
+    color: #fff;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .ppcUlList {
+    margin-top: 8em;
+    text-align: center;
+}
+
+.AddproductionparameterchartSection .ppcdiagramBox .ppcUlList span {
+    display: inline-block;
+    margin-left: 10em;
+    color: #8b8b8b;
+}
+
+.RawmaterialPageSection .SubmitNextbtn {
+    background: #3D7EDB;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: 'Myriad Pro Light';
+}

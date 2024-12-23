@@ -1,0 +1,72 @@
+.ImageCropTestingPageSection {
+    padding: 3em;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox {
+    text-align: center;
+    background: #fff;
+    padding: 50px 30px;
+    border: 2px dashed #dbdbdb;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox h2 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox button {
+    background: #686868;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding: 8px 30px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .cropper-modal {
+    background-color: #fff;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .image-preview-box {
+    margin-top: 40px;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .CropImageBtn {
+    margin-top: 20px;
+    background-color: #ED2939;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .croppedImagePreviewBox {
+    margin-top: 30px;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 20px;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .croppedImagePreviewBox h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .croppedImagePreviewBox .SubmitBtn {
+    margin: 0;
+    background-color: #34B233;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding: 8px 30px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .original-image-box img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ImageCropTestingPageSection .ImageCropTestingBox .croppedImagePreviewBox img {
+    width: 100%;
+}
