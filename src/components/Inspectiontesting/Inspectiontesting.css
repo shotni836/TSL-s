@@ -1,0 +1,43 @@
+.InspectiontestingPageSection{
+    padding: 3em 0 10em;
+    height: 60vh;
+}
+
+.InspectiontestingPageSection .InspectiontestingDrowpdown{
+    display: flex;
+    align-items: center;
+}
+
+.InspectiontestingPageSection .InspectiontestingDrowpdown .dropdown{
+    margin-right: 10px;
+}
+
+.InspectiontestingPageSection .InspectiontestingDrowpdown .dropdown-toggle{
+    color: #fff;
+    height: 40px;
+    background-color: #3D7EDB;
+    align-items: center;
+    display: inline-flex;
+    padding: 0 20px;
+    border-radius: 4px;
+}
+
+.InspectiontestingPageSection .InspectiontestingDrowpdown .dropdown-toggle i{
+    margin-left: 6px;
+}
+
+.InspectiontestingPageSection .InspectiontestingDrowpdown .dropdown-toggle::after{
+    display: none;
+}
+
+.InspectiontestingDrowpdown ul{
+    padding: 0;
+}
+
+.InspectiontestingDrowpdown ul li .dropdown-item{
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: 'Myriad Pro Semibold';
+    line-height: normal;
+    border-bottom: 1px solid #e1e1e1;
+}

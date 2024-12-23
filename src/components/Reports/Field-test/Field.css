@@ -1,0 +1,39 @@
+@media print {
+
+    .printElong .ReporttableSection table tr th,
+    .printElong .InstrumentusedSection table tr th,
+    .printElong .ResultPageSection table tr th {
+        font-size: 12px !important;
+        padding: 0px !important;
+    }
+
+    .printElong .ReporttableSection table tr td,
+    .printElong .InstrumentusedSection table tr td,
+    .printElong .ResultPageSection table tr td {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .printElong .Reportmasterdatasection h4,
+    .printElong .Reportmasterdatasection label {
+        font-size: 11px !important;
+    }
+
+    .FooterdataSection table tr td {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .page-break {
+        page-break-after: always;
+        padding: 10px;
+    }
+
+    .page-break:last-child {
+        page-break-after: auto;
+    }
+
+    .Approvedtxt {
+        display: none !important;
+    }
+}

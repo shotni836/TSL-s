@@ -1,0 +1,160 @@
+.ThicknessinspPrintReport .CustomBareWitnessBox .witnessesByPipeDiv p {
+    font-size: 9px;
+}
+
+.ThicknessinspPrintReport .CustomPhosWitnessFlex {
+    width: 92%;
+}
+
+.ThicknessinspPrintReport .ReporttableSection table tr th {
+    vertical-align: baseline;
+}
+
+
+.ThicknessinspPrintReport .RemarksCustomHeight4 {
+    height: 41px !important;
+}
+
+.ThicknessinspPrintReport .CustomBareWitnessBox .Approvelevel1FlexBox {
+    height: 22.57px !important;
+}
+
+.ThicknessinspPrintReport .CustomBareWitnessBox .CustomBorderLine {
+    height: 23.67px !important;
+}
+
+.ThicknessinspPrintReport .CustomBareWitnessBox .Approvelevel1Flex {
+    height: 25px !important;
+}
+
+@media print {
+
+    .ThicknessinspPrintReport .CustomBareWitnessBox .Approvelevel1FlexBox {
+        height: 14.57px !important;
+    }
+
+    .ThicknessinspPrintReport .CustomBareWitnessBox .CustomBorderLine {
+        height: 16.67px !important;
+    }
+
+    .ThicknessinspPrintReport .RemarksCustomHeight4 {
+        height: 44px !important;
+    }
+
+    .ThicknessinspPrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatalogoimg {
+        width: 25px !important;
+        margin-bottom: -20px;
+    }
+
+    .ThicknessinspPrintReport .HeaderDataSection .HeaderDataFlexdisplay .tatasteellogoimg {
+        width: 50px !important;
+        margin-bottom: -20px;
+    }
+
+    .ThicknessinspPrintReport .InspReportSection form .form-group label {
+        font-size: 9px;
+        min-width: 110px;
+    }
+
+    .ThicknessinspPrintReport .InspReportSection form .form-group h4 {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .ReporttableSection table tr th {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .ReporttableSection table tr th {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .ReporttableSection table tr td {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .ResultPageSection table tr td {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .InstrumentusedSection table tr th {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .InstrumentusedSection table tr td {
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+    }
+
+    .ThicknessinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection {
+        padding: 0;
+    }
+
+    .ThicknessinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .INSPECTEDBYBoxLabelBox {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .CustomBareWitnessBox .witnessesByPipeDiv p {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .CustomBarePipeWitnessBox {
+        min-width: 20px;
+    }
+
+    .ThicknessinspPrintReport .ReportremarksSection table tr td {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .ReporttableSection table {
+        /* table-layout: auto; */
+    }
+
+    .ThicknessinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .FooterDataSignBox {
+        height: 45px;
+    }
+
+    .ThicknessinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+        width: 100%;
+        min-width: auto;
+        max-width: fit-content;
+        object-fit: contain;
+        height: 45px;
+    }
+
+    .ThicknessinspPrintReport .FooterdataSection table tr td .FooterDataSignatureSection .TATAStampImg {
+        top: 0;
+        right: 10px;
+        left: auto;
+    }
+
+    .ThicknessinspPrintReport .CustomPhosWitnessFlex {
+        page-break-before: always;
+        width: 100% !important;
+    }
+
+    .ThicknessinspPrintReport FooterdataSection table tr td .AccceptedBYFlexBox h3 {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .FooterdataSection table tr th {
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .HeaderDataSection h1 {
+        font-size: 9px;
+        font-size: 9px;
+    }
+
+    .ThicknessinspPrintReport .HeaderDataSection p {
+        font-size: 9px;
+    }
+}

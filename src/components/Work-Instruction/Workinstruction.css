@@ -1,0 +1,205 @@
+.RegisterEmployeePageSection {
+    padding: 3em 0;
+}
+
+.RegisterEmployeePageSection li {
+    width: 100%;
+    background: #e9e9e9;
+    padding: 14px 0;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.RegisterEmployeePageSection li span {
+    background: #9d9d9d;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 50%;
+    max-width: 30px;
+    color: #ffffff;
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.RegisterEmployeeForm {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    /* border: 1px solid #f1f1f1; */
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.RegisterEmployeePageSection form label {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.RegisterEmployeePageSection form label b {
+    color: #ED2939;
+}
+
+.RegisterEmployeePageSection form select {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    /* font-family: 'Myriad Pro Semibold'; */
+}
+
+.RegisterEmployeePageSection .form-group input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+    font-weight: 700;
+}
+
+.RegisterEmployeePageSection .form-group-warn input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.RegisterEmployeePageSection form .SubmitNextbtn {
+    background: #3D7EDB;
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+    padding: 10px 30px;
+    border-radius: 4px;
+    display: inline-block;
+    border: none;
+}
+
+.RegisterEmployeeFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .fadedIcon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .fadedIcon ul{
+    display: flex;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .fadedIcon li {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #999999;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .fadedIcon li i {
+    margin-right: 4px;
+}
+
+.RawmateriallistTables .custom-header {
+    background-color: #5A245A !important;
+    border-right: 1px solid #707070;
+    color: #fff;
+}
+
+.RawmateriallistTables .ag-ltr .ag-header-viewport .ag-header-cell-resize::after {
+    display: none;
+}
+
+.RawmateriallistPageSection .RawmateriallistTables .ag-ltr .ag-cell {
+    border-right: 1px solid #d9d9d9;
+}
+
+.RegisterEmployeeForm h4 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.RegisterEmployeeForm h4 span {
+    color: #34B233;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.WorkinstructionviewSection {
+    padding: 3em 0;
+}
+
+.RegisterEmployeePageSection .RegisterEmployeeForm .form-group .ProcessSheetFlexBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.RegisterEmployeePageSection .RegisterEmployeeForm .form-group .ProcessSheetFlexBox input {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 36%;
+    background: #fff;
+}
+
+.RegisterEmployeePageSection .RegisterEmployeeForm .form-group .ProcessSheetFlexBox select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 12%;
+}
+
+.RegisterEmployeePageSection .RegisterEmployeeForm .form-group .ProcessSheetFlexBox input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.RegisterEmployeePageSection .RegisterEmployeeForm .form-group .ProcessSheetFlexBox input::-webkit-outer-spin-button,
+.RegisterEmployeePageSection .RegisterEmployeeForm .form-group .ProcessSheetFlexBox input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.RegisterEmployeePageSection form .react-datepicker-wrapper{
+    width: 100%;
+}

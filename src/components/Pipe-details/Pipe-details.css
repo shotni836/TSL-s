@@ -1,0 +1,25 @@
+.PipeTallySheetDetails .form-group .ProcessSheetFlexNo select {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 100%;
+    outline: none;
+}
+
+.PipeTallySheetDetails .form-group .ProcessSheetFlexNo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.PipeTallySheetDetails .form-group .ProcessSheetFlexNo input {
+    margin-left: 3px;
+    border: none;
+    padding: 0;
+    width: 100%;
+    background: #fff;
+}

@@ -1,0 +1,341 @@
+.EmployeeListSectionPage {
+    padding: 3em 0 10em;
+}
+
+.EmployeeListSectionPage .EmployeeListTable {
+    width: 100%;
+}
+
+.EmployeeListSectionPage .EmployeeListTable thead tr {
+    background-color: #5A245A;
+    border-radius: 10px 0 0 0;
+}
+
+.EmployeeListSectionPage .EmployeeListTable thead tr th {
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Myriad Pro Light';
+}
+
+.EmployeeListSectionPage .EmployeeListTable thead tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.EmployeeListSectionPage .EmployeeListTable thead tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.EmployeeListSectionPage .EmployeeListTable tbody tr td {
+    padding: 8px 20px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    background: #fff;
+}
+
+.EmployeeListSectionPage .EmployeeListTable tbody tr td .fa-trash-can {
+    cursor: pointer;
+    color: #ED2939;
+    font-size: 16px;
+    display: none;
+}
+
+.EmployeeListSectionPage .EmployeeListTable tbody tr td .fa-eye {
+    color: #34B233;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.EmployeeListSectionPage .EmployeeListTable tbody tr td .fa-edit {
+    color: #5b6105;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.EmployeeListSectionPage .EmployeeListTable tbody tr td img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.EmployeeListSectionPage .EmployeeListTable tbody tr td .form-check.form-switch {
+    display: inline-block;
+    margin: 0;
+    min-height: auto;
+    padding: 0 10px;
+}
+
+.EmployeeListSectionPage .EmployeeListTable tbody tr td .form-check.form-switch .form-check-input {
+    margin: 0;
+    cursor: pointer;
+}
+
+.EmployeeListSectionPage .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.EmployeeListSectionPage .modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.EmployeeListSectionPage .modal-content .modal-body .fa-triangle-exclamation {
+    color: #ff5151;
+    background: #ffeded;
+    font-size: 24px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.EmployeeListSectionPage .modal-content .modal-body h4 {
+    margin: 0;
+    font-size: 16px;
+    padding: 20px 0 0;
+    font-weight: 600;
+    color: #404040;
+}
+
+.EmployeeListSectionPage .modal-content .modal-body p {
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 12px;
+    color: #545454;
+    font-weight: 500;
+}
+
+.EmployeeListSectionPage .modal-content .modal-body button:first-child {
+    width: 100%;
+    background: #dd0d2a;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 0;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.EmployeeListSectionPage .modal-content .modal-body button:last-child {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    padding: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #979797;
+    margin-top: 10px;
+    font-weight: 600;
+    outline: none;
+}
+
+/* Animation keyframes for fading in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.EmployeeListSectionPage .IndicatorsUllist {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.EmployeeListSectionPage .IndicatorsUllist li {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #999999;
+    cursor: pointer;
+}
+
+.EmployeeListSectionPage .IndicatorsUllist li i {
+    margin-right: 4px;
+}
+
+.EmployeeListSectionPage .IndicatorsUllist li .form-check.form-switch {
+    min-height: auto;
+}
+
+.EmployeeListSectionPage .IndicatorsUllist li img {
+    margin-right: 6px;
+    width: 24px;
+}
+
+.EmployeeListSectionPage .IndicatorsUllist .fa-refresh {
+    color: #3d7edb;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.EmployeeListSectionPage .grayscale {
+    filter: grayscale(100%);
+}
+
+.EmployeeListModalBox {
+    padding: 0;
+}
+
+.EmployeeListModalBox .EmployeeListModalHeader {
+    text-align: center;
+    padding: 30px 0;
+    background: #ffebed;
+    border-radius: 10px 10px 0 0;
+}
+
+.EmployeeListModalBox .EmployeeListModalHeader img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.EmployeeListModalBox .EmployeeListModalHeader h2 {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Myriad Pro Regular';
+}
+
+.EmployeeListModalBox .EmployeeListModalFooter {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.EmployeeListModalBox .EmployeeListModalFooter .CloseButton {
+    background: #ED2939;
+    color: #fff;
+    border: none;
+    padding: 6px 30px;
+    font-family: 'Myriad Pro Light';
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.EmployeeListModalBox .EmployeeListModalFooter .SubmitButton {
+    background: #34B233;
+    color: #fff;
+    border: none;
+    padding: 6px 20px;
+    font-family: 'Myriad Pro Light';
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.EmployeeListModalSection {
+    padding: 10px 76px;
+}
+
+.EmployeeListModalSection .form .form-group {
+    margin-bottom: 6px;
+}
+
+.EmployeeListModalSection .form label {
+    min-width: 100px;
+    font-size: 13px;
+    color: #5c5c5c;
+}
+
+.EmployeeListModalSection .form input {
+    width: 60%;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: not-allowed;
+    pointer-events: none;
+    position: relative;
+    font-size: 14px;
+}
+
+.EmployeeListModalSection .form .react-datepicker-wrapper input {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    margin-left: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    pointer-events: all;
+    background: whitesmoke;
+}
+
+.EmployeeListSectionPage .search-container {
+    flex: 10;
+    display: flex;
+    align-items: center;
+}
+
+.EmployeeListSectionPage .search-container input {
+    border: 1px solid #BEB9A6;
+    margin-right: 5px;
+    padding: 7px 8px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.EmployeeListSectionPage select {
+    border: 1px solid #BEB9A6;
+    padding: 8px 6px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    background: white;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.search-container ul li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.search-container ul li:hover {
+    background-color: #f0f0f0;
+}

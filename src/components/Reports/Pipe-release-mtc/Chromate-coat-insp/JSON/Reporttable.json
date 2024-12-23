@@ -1,0 +1,17 @@
+{
+  "reportTableData": {
+    "reportTableList": [
+      {
+        "srNo": 1,
+        "instName":"Roughness Gauge Sr No.- 601482003",
+        "make": "MITUTOYO",
+        "strdRead":"2.97 um Sr No.- 307481201",
+        "accRead":"+10 % of the nominal roughness specimen",
+        "actReadInst":"2.76 um",
+        "error":"-0.21 um",
+        "time":"04:30 PM",
+        "remarks": "OK"
+      }
+    ]
+  }
+}

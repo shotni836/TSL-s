@@ -1,0 +1,14 @@
+{
+  "reportHeaderDetails": {
+    "client": "M/S INDIAN OIL CORPORATION LTD",
+    "reportNo": "BPIR/20230402-01 (PQT)",
+    "poNo": "PLMCGDRD10/27588719 Date.17.02.2022",
+    "testDateShift": "02.04.2022 & DAY SHIFT",
+    "pipeSize":"168.3 mm OD X 6.40 mm WT",
+    "accCriteria": "QAP No.-TSL/COAT/EXT/3LPE/IOCL/01 Rev.00 Date:29.01.2022",
+    "spec": "Client spec- IOCL-MECH-COAT-3LPE-027 Rev. 03 Date: 19.09.2017",
+    "procSheetNo":"TSL/PSC/EXT/3LPE/IOCL/2022-04 Rev.00 Date: 01.04.2022",
+    "typeOfCoating": "3LPE",
+    "procedureWI": "TSL/COAT/QC/WI-17 REV.00"
+  }
+}

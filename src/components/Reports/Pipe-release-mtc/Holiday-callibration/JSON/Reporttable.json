@@ -1,0 +1,18 @@
+{
+  "reportTableData": {
+    "reportTableList": [
+      {
+        "srNo": 1,
+        "instName":"HOLIDAY DETECTOR SR NO.- 28388/1",
+        "make": "BUCKLEY",
+        "strdRead":"Spark gap min. 6 mm / 25+2.5 kV",
+        "accRead":"6 mm spark gap",
+        "actReadInst":"6 mm spark gap observed",
+        "error":"Nill",
+        "time":"05:30 PM",
+        "remarks": "OK"
+      }
+    ],
+    "holidayLine":"254 mm/sec"
+  }
+}

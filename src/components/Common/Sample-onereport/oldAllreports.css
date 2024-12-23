@@ -1,0 +1,160 @@
+.HeaderDataSection {
+    background-color: #3D7EDB;
+    padding: 10px 0;
+    border-bottom: 2px solid #3D7EDB;
+}
+
+.HeaderDataSection p {
+    margin: 0;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.HeaderDataSection h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 30px 0;
+    font-family: 'Myriad Pro Bold';
+}
+
+.Reportmasterdatasection {
+    padding: 10px 0 0;
+}
+
+.Reportmasterdatasection form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Reportmasterdatasection form .form-group label {
+    min-width: 200px;
+    font-size: 12px;
+}
+
+.Reportmasterdatasection form .form-group h4 {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+    margin: 0;
+}
+
+.ReporttableSection {
+    /* padding: 1em 0; */
+}
+
+.ReporttableSection table {
+    width: 100%;
+}
+
+.ReporttableSection table tr th {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Bold';
+}
+
+.ReporttableSection table tr td {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+}
+
+.ReportremarksSection {
+    padding: 10px 0;
+}
+
+.ReportremarksSection p {
+    margin-bottom: 0;
+}
+
+.InstrumentusedSection {
+    /* padding: 1em 0; */
+}
+
+.InstrumentusedSection table {
+    width: 100%;
+}
+
+.InstrumentusedSection table tr th {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Bold';
+}
+
+.InstrumentusedSection table tr td {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+}
+
+.Reportrawmaterialsection {
+    padding: 10px 0;
+}
+
+.Reportrawmaterialsection table {
+    width: 100%;
+}
+
+.Reportrawmaterialsection table tr th {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Bold';
+}
+
+.Reportrawmaterialsection table tr td {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+}
+
+.FooterdataSection {
+    /* padding: 1em 0; */
+    /* padding-bottom: 12px; */
+}
+
+.FooterdataSection table {
+    width: 100%;
+}
+
+.FooterdataSection table tr th {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Bold';
+}
+
+.FooterdataSection table tr td {
+    padding: 6px 0;
+    color: #000;
+    border: 2px solid #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+}
+
+.SampleonereportSection .sampleonereportBox {
+    border: 2px solid #ababab;
+    margin: 10px 0;
+}

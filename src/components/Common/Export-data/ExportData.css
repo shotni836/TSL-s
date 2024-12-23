@@ -1,0 +1,17 @@
+.fa-file-excel {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #1D6F42;
+}
+
+.fa-file-pdf {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #f40f02;
+}
+
+.export-buttons i:hover {
+    color: #007bff;
+}

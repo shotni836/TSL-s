@@ -1,0 +1,699 @@
+.CoatingPageSection {
+    padding: 3em 0;
+}
+
+.CoatingPageSection .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+.CoatingPageSection .form-group1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+.CoatingPageSection .form-group1 .ProcessTypeFlex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.CoatingPageSection .form-group1 .ProcessTypeFlex .ProcessTypeBox {
+    min-width: 73%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    padding: 10px;
+    background: #fff;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.CoatingPageSection .form-group1 .ProcessTypeFlex .ProcessTypeBox label {
+    margin-left: 10px;
+}
+
+.CoatingPageSection .form-group input {
+    width: 64%;
+    padding: 10px 16px;
+    border: 1px solid #BEB9A6;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    outline: none;
+}
+
+.CoatingPageSection .form-group2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+.CoatingPageSection .form-group2 label {
+    margin-right: 30px;
+    color: #002B45;
+    font-size: 13px;
+}
+
+.CoatingPageSection .form-group2 input {
+    width: 64%;
+    padding: 9px 16px;
+    border: 1px solid #BEB9A6;
+    border-radius: 4px;
+    color: #999999;
+    font-size: 12px;
+    outline: none;
+}
+
+.CoatingPageSection .form-group1 input {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #BEB9A6;
+    border-radius: 4px;
+    color: #000;
+    font-size: 12px;
+    outline: none;
+}
+
+.CoatingPageSection .form-group select {
+    width: 64%;
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    outline: none;
+}
+
+.CoatingPageSection .form-group label {
+    margin-right: 30px;
+    color: #002B45;
+    font-size: 13px;
+}
+
+.CoatingPageSection .form-group1 label {
+    color: #002B45;
+    font-size: 13px;
+}
+
+.CoatingPageSection .form-group .radioBtnBox label {
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.ClientPageSection .firsttableContainer .firstTable table input::placeholder {
+    color: #d3c6c6;
+}
+
+.ClientPageSection .firsttableContainer .firsttable {
+    min-width: 900px;
+    max-height: 257px;
+}
+
+.ClientPageSection .firsttableContainer .firsttable table {
+    margin-bottom: 1em;
+}
+
+.ClientPageSection .range-labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ClientPageSection .range-labels span {
+    flex: 1;
+    text-align: center;
+}
+
+.ClientPageSection .firsttableContainer .PipeSizeFlexBox {
+    display: block;
+}
+
+.ClientPageSection .firsttableContainer .PipeSizeFlexBox label {
+    display: block;
+}
+
+.CoatingPageSection .split-container .PipeSizeselectinputBox {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    justify-content: space-between;
+}
+
+.CoatingPageSection .split-container .PipeSizeselectinputBox input:last-child {
+    margin-right: 0;
+}
+
+.CoatingPageSection .css-b62m3t-container {
+    width: 64%;
+}
+
+.CoatingPageSection .split-container .PipeSizeselectinputBox span {
+    display: block;
+    margin: 0 10px;
+    color: #262626;
+}
+
+.CoatingPageSection .split-container .PipeSizeselectinputBox label {
+    margin-right: 10px;
+}
+
+.CoatingPageSection .radioBtn .radioBtnBox {
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    padding: 10px;
+    background: #f9f9f9;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.CoatingPageSection .radioBtn .radioBtnBox input {
+    max-width: min-content;
+    flex: auto;
+    margin: 0;
+}
+
+.ClientPageSection .firsttableContainer .removeButton {
+    color: #ED2939;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ClientPageSection .firsttableContainer .removeButton:disabled {
+    color: #999999;
+}
+
+.ClientPageSection .firsttableContainer .subBtn,
+.ClientPageSection .firsttableContainer .backBtn {
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #008CBA;
+}
+
+.ClientPageSection .firsttableContainer .subBtn:hover,
+.ClientPageSection .firsttableContainer .backBtn:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.ClientPageSection .textarea .form-group {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ClientPageSection .textarea .form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ClientPageSection .textarea textarea {
+    width: 100%;
+    padding: 10px 16px;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    color: #6e6e6e;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Myriad Pro Regular';
+    height: 60px;
+}
+
+.ClientPageSection .firsttableContainer {
+    min-height: 140px;
+    max-height: 140px;
+    overflow: auto;
+    margin-bottom: 14px;
+}
+
+.ClientPageSection .firsttableContainer .firsttable table tr th:first-child {
+    border-radius: 10px 0 0 0;
+    min-width: 70px;
+    font-family: 'Myriad Pro Light';
+}
+
+.ClientPageSection .firsttableContainer .firsttable table tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.ClientPageSection .firsttableContainer .firsttable table tr th {
+    color: white;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.ClientPageSection .firsttableContainer .firsttable table tr td {
+    color: black;
+    font-size: 14px;
+    padding: 10px 16px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+}
+
+.ClientPageSection .firsttableContainer .firsttable table tr td input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+    line-height: normal;
+}
+
+.ClientPageSection .firsttableContainer .AddnewBtn {
+    background: #5A245A;
+    color: white;
+    border: 1px solid #5A245A;
+    font-size: 10px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.MaterialtableSectionTable {
+    padding: 2em 0;
+    border-bottom: 1px solid #999999;
+}
+
+.MaterialtableSectionTable .formheadingline h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 16px;
+    color: #262626;
+    margin-bottom: 10px;
+    font-family: 'Myriad Pro Bold';
+}
+
+.MaterialtableSectionTable .formheadingline h2 hr {
+    display: block;
+    width: 76%;
+    border-top: 2px solid #c3c3c3;
+}
+
+.MaterialtableSectionTable table {
+    width: 100%;
+    border: none;
+}
+
+.MaterialtableSectionTable table tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.MaterialtableSectionTable table tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.MaterialtableSectionTable table tr th {
+    color: white;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.MaterialtableSectionTable table tr td {
+    color: black;
+    font-size: 12px;
+    padding: 10px 16px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+}
+
+.MaterialtableSectionTable table tr td select {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    background: white;
+    color: #000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.MaterialtableSectionTable table tr td .removeButton {
+    font-size: 20px;
+    color: #ED2939;
+    cursor: pointer;
+}
+
+.AddnewBtn {
+    background: #5A245A;
+    color: white;
+    border: 1px solid #5A245A;
+    font-size: 10px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.TestTableSectionPage {
+    padding: 3em 0;
+}
+
+.TestTableSectionPage .TestTableContainer {
+    overflow: auto;
+}
+
+.TestTableSectionPage .TestTableContainer .TestTable {
+    width: 100%;
+}
+
+.TestTableSectionPage .TestTableContainer .TestTable tr th {
+    color: white;
+    font-size: 10px;
+    padding: 10px 16px;
+}
+
+.TestTableSectionPage .thirdtable-container {
+    overflow-x: auto;
+    max-width: 100%;
+    border-radius: 14px;
+    height: 800px;
+}
+
+.TestTableSectionPage .thirdtable-container table {
+    border: none;
+}
+
+.TestTableSectionPage .thirdtable-container .thirdTable thead {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.TestTableSectionPage .thirdTable th {
+    background-color: #5A245A;
+    color: white;
+    font-size: 12px;
+    padding: 10px 16px;
+    /* top: 0;
+    position: sticky;
+    z-index: 1; */
+}
+
+.an-simple-select__option.an-simple-select__option--is-selected {
+    background-color: white;
+    color: red;
+}
+
+.an-simple-select__option:hover {
+    background-color: green;
+}
+
+.TestTableSectionPage .thirdTable th .css-b62m3t-container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.TestTableSectionPage .thirdTable th .css-1fdsijx-ValueContainer {
+    justify-content: flex-start;
+}
+
+/* .TestTableSectionPage .thirdTable tr:nth-child(even) {
+    background-color: #5A245A;
+} */
+
+.TestTableSectionPage .thirdTable th {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.TestTableSectionPage .thirdTable td {
+    padding: 10px;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background-color: #fff;
+}
+
+.TestTableSectionPage .thirdTable td .removeButton {
+    font-size: 20px;
+    color: #ED2939;
+    cursor: pointer;
+}
+
+.TestTableSectionPage .thirdTable td .WitnessFlexTd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.TestTableSectionPage .thirdTable td .WitnessFlexTd label {
+    cursor: pointer;
+}
+
+.TestTableSectionPage .thirdTable td .RadioBoxInput {
+    display: none;
+}
+
+.TestTableSectionPage .thirdTable td .css-b62m3t-container {
+    width: 100%;
+}
+
+.TestTableSectionPage .thirdTable td .css-1fdsijx-ValueContainer {
+    justify-content: flex-start;
+}
+
+.TestTableSectionPage .thirdTable input {
+    width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 1px solid #BEB9A6;
+    border-radius: 4px;
+    color: #000;
+    outline: none;
+    font-family: 'Myriad Pro Regular';
+    font-size: 14px;
+}
+
+.TestTableSectionPage .thirdTable select {
+    width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 1px solid #BEB9A6;
+    border-radius: 4px;
+    color: #000;
+    outline: none;
+    font-family: 'Myriad Pro Regular';
+    font-size: 14px;
+}
+
+.CoatingPageSection .FlexSubmitFlex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.CoatingPageSection .FlexSubmitFlex .backBtn {
+    background: #0083A9;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.CoatingPageSection .FlexSubmitFlex .subBtn {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+    border: none;
+}
+
+.TestTableSectionPage .thirdTable td span {
+    display: block;
+    font-size: 12px;
+}
+
+.TestTableSectionPage .thirdTable td .BaseValueFlex {
+    display: flex;
+    align-items: center;
+}
+
+.TestTableSectionPage .thirdTable td .BaseValueFlex b {
+    margin-right: 6px;
+}
+
+.TestTableSectionPage .thirdTable td .BaseValueFlex input {
+    padding: 2px 10px;
+    margin-right: 10px;
+}
+
+.TestTableSectionPage .thirdTable td .BaseValueFlex input:last-child {
+    margin-right: 0;
+}
+
+.RemarksLabelTable {
+    border-radius: 10px;
+}
+
+.RemarksLabelTable th {
+    padding: 10px 16px;
+    color: white;
+    border: 1px solid #686868;
+}
+
+.RemarksLabelTable td {
+    padding: 10px 16px;
+    color: black;
+    border: 1px solid #dfdfdf;
+}
+
+.RemarksLabelTable td textarea {
+    width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 1px solid #BEB9A6;
+    border-radius: 4px;
+    color: #000;
+    outline: none;
+    font-family: 'Myriad Pro Regular';
+    font-size: 14px;
+}
+
+
+.doubling-input,
+.numeric-input {
+    font-size: calc(var(--ag-font-size) + 1px);
+    padding-left: calc(var(--ag-cell-horizontal-padding) - 1px);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* Completely fill the space for number arrow buttons */
+.doubling-input::-webkit-outer-spin-button,
+.doubling-input::-webkit-inner-spin-button {
+    width: 25px;
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    height: 100%;
+}
+
+/* ------------------------------------- ADD STATION PAGE SECTION CSS */
+
+.AddStationPageSection {
+    padding: 3em 0;
+    background: #fff;
+}
+
+.AddStationPageSection form .form-group {
+    margin-bottom: 10px;
+}
+
+.AddStationPageSection form .form-group label {
+    min-width: 120px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.AddStationPageSection form .form-group h4 {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Myriad Pro Regular";
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 12px 14px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background: #f9f9f9;
+    cursor: not-allowed;
+}
+
+.AddStationPageSection .RemarksLabelTable .ag-header-row {
+    background: #5A245A;
+    color: white;
+}
+
+.AddStationPageSection .RemarksLabelTable .ag-header-cell-resize::after {
+    display: none;
+}
+
+.AddStationPageSection .RemarksLabelTable .ag-header-cell,
+.AddStationPageSection .RemarksLabelTable .ag-cell {
+    border-right: 1px solid #efefef;
+}
+
+.AddStationPageSection .FlexSubmitFlex {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.AddStationPageSection .FlexSubmitFlex .subBtn {
+    background: #3D7EDB;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: 'Myriad Pro Light';
+}
+
+.AddStationPageSection .AddStationDetails {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.AddStationPageSection .AddStationDetails h4 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AddStationPageSection .AddStationDetails h4 span {
+    color: #34B233;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.proFieldNumberFlex {
+    display: flex;
+    align-items: center;
+}

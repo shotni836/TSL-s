@@ -1,0 +1,167 @@
+.ProcessSheetdataentrySectionPage {
+    padding: 20px 0;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .fa-refresh {
+    color: #3d7edb;
+    cursor: pointer;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter label {
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter label input {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderfilter label select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderAddbutton a {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderAddbutton button {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 90px;
+    justify-content: center;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .tableheaderflex .tableheaderAddbutton a i {
+    margin-right: 6px;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .fadedIcon {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable li {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #999999;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable li i {
+    margin-right: 4px;
+}
+
+.ProcessSheetdataentrySectionPage .ag-theme-alpine {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.ProcessSheetdataentrySectionPage .custom-header {
+    background-color: #5A245A !important;
+    border-right: 1px solid #707070;
+    color: #fff;
+}
+
+.ProcessSheetdataentrySectionPage .custom-header .ag-header-cell:hover {
+    background-color: #5A245A !important;
+}
+
+.ProcessSheetdataentrySectionPage .ag-ltr .ag-header-cell-resize {
+    display: none;
+}
+
+.ProcessSheetdataentrySectionPage .ag-cell {
+    border-right: 1px solid #e3e3e3;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .fadedIcon ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .fadedIcon label {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.ProcessSheetdataentrySectionPage .ProcessSheetlistTable .fadedIcon label select {
+    border: 1px solid #c5c5c5;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.ProcessDataEntryListBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ProcessDataEntryListBox a {
+    display: block;
+    background: #484848;
+    padding: 4px 16px;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 4px;
+    font-family: 'Myriad Pro Regular';
+    font-size: 13px;
+}
+
+.ProcessDataEntryListBox a.current-process-selection {
+    background: #5A245A;
+    color: #fff;
+}

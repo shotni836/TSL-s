@@ -1,0 +1,52 @@
+.MasterslistPageSection{
+    width: 100%;
+}
+
+.MasterslistPageSection thead tr th{
+    background-color: #5A245A;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #975c97;
+}
+
+.MasterslistPageSection thead tr th:first-child{
+    border-radius: 4px 0 0 0;
+}
+
+.MasterslistPageSection thead tr th:last-child{
+    border-radius: 0 4px 0 0;
+}
+
+.MasterslistPageSection tbody tr td{
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #dfdfdf;
+}
+
+.MasterslistPageSection .RawmateriallistTables .fadedIcon{
+    justify-content: space-between;
+}
+
+.MasterslistPageSection .RawmateriallistTables .fadedIcon .MastersFlexBox label{
+    display: block;
+    margin-bottom: 6px;
+}
+
+.MasterslistPageSection .RawmateriallistTables .fadedIcon .MastersFlexBox select{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+}
+
+.MasterslistPageSection .RawmateriallistTables .fadedIcon ul {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}

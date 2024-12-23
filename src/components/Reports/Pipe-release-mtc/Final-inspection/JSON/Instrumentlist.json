@@ -1,0 +1,25 @@
+{
+    "instrumentUsedData": {
+  "instrumentList": [
+    {
+      "SrNo": "1",
+      "InstrumentName": "MAGNETOMETER",
+      "InstrumentIDSerialNo": "350/12"
+    },
+    {
+      "SrNo": "2",
+      "InstrumentName": "BEVEL PROTECTOR",
+      "InstrumentIDSerialNo": "193782"
+    },
+    {
+      "SrNo": "3",
+      "InstrumentName": "THICKNESS GAUGE",
+      "InstrumentIDSerialNo": ""
+    },
+    {
+      "SrNo": "4",
+      "InstrumentName": "SCALE",
+      "InstrumentIDSerialNo": "TSBSL/LDP/COAT/SC-02"
+    }
+  ]
+}}

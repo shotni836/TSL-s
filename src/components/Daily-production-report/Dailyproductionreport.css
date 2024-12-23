@@ -1,0 +1,13 @@
+.DPRPageSection .InspectedAcceptedTableFlex .InspectedBox h2 {
+    border-right: 2px solid #999999;
+}
+
+.DPRPageSection .InspectedAcceptedTableFlex .AcceptedBox h2 {
+    border: none;
+    border-bottom: 2px solid #999999;
+}
+
+.RegisterEmployeePageSection .form-group input,
+.RegisterEmployeePageSection .RegisterEmployeeForm .form-group .ProcessSheetFlexBox {
+    margin-bottom: 10px;
+}

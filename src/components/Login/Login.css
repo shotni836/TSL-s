@@ -1,0 +1,224 @@
+.LoginPageSection {
+    background: linear-gradient(0deg, white, rgb(255 255 255 / 68%));
+}
+
+
+.LoginPageSection .LoginPageBgSection {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../../assets/images/bg.jpg) center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.LoginPageSection .LoginPageFlex {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageheader {
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageheader .tatasteellogoimg {
+    width: 120px;
+    position: relative;
+    /* top: 20px; */
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageheader .tatalogoimg {
+    width: 6%;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPagefooter {
+    padding: 10px 0;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPagefooter .mwslogoImg {
+    width: 10%;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPagefooter p {
+    margin: 0;
+    display: inline;
+    color: #000;
+    font-family: 'Myriad Pro Semibold';
+    float: right;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageBox .loginpageBoxDiv {
+    width: 30%;
+    /* background: rgb(0 0 0 / 13%); */
+    margin: 0 auto;
+    padding: 50px 50px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm input {
+    width: 100%;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    color: #000;
+    background: transparent;
+    font-size: 14px;
+    padding: 0 10px;
+    font-family: 'Myriad Pro Regular';
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm input:internal-autofill-selected{
+    background-color: #fff !important;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .LoginSubmitbtn {
+    background: #3c5899;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+    height: 40px;
+    width: -webkit-fill-available;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Myriad Pro Regular';
+    font-size: 12px;
+    color: #000000;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .help img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .form-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .form-group .LoginInputBox {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .form-group .LoginInputBox img {
+    /* filter: contrast(0.01); */
+    width: 16px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .form-group .LoginInputBox .invalid-feedback {
+    /* display: none; */
+    width: 100%;
+    font-size: 10px;
+    color: #ED2939;
+    text-align: right;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .fa-eye {
+    width: 12px;
+    color: #999;
+    cursor: pointer;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .fa-eye-slash {
+    width: 12px;
+    color: #999;
+    cursor: pointer;
+}
+
+.centered-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.modal-footer {
+    border-top: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.okbtn {
+    background: #3c5899;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Myriad Pro Light';
+    height: 40px;
+    width: 120px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .PasswordMustBox{
+    position: absolute;
+    right: -20em;
+    top: 0;
+    background: #f7f7f7;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .PasswordMustBox ul li{
+    margin: 6px auto;
+    font-size: 12px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .PasswordMustBox ul li i{
+    margin-right: 6px;
+}
+
+.LoginPageSection .LoginPageFlex .LoginPageForm .PasswordMustBox .fa-caret-left{
+    position: absolute;
+    left: -14px;
+    top: 4px;
+    font-size: 32px;
+    color: #b7b7b7;
+}

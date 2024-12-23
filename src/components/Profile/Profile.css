@@ -1,0 +1,216 @@
+.ProfilePageSection {
+    padding: 2em 0;
+}
+
+.ProfilePageSection .ProfileSectionForm {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.ProfilePageSection .ProfileSectionForm .formheadingline h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 16px;
+    color: #262626;
+    margin-bottom: 20px;
+    font-family: 'Myriad Pro Bold';
+}
+
+.ProfilePageSection .ProfileSectionForm .formheadingline h2 hr {
+    display: block;
+    width: 84%;
+    border-top: 2px solid #c3c3c3;
+}
+
+.ProfilePageSection .ProfileSectionForm label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.ProfilePageSection .ProfileSectionForm label p {
+    margin: 0;
+    color: #3D7EDB;
+    cursor: pointer;
+}
+
+.ProfilePageSection .ProfileSectionForm input {
+    font-size: 14px;
+    border: 1px solid #BEB9A6;
+    background: white;
+    font-family: 'Myriad Pro Regular';
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 4px;
+    color: black;
+}
+
+.ProfilePageSection .ProfileSectionForm .ProfileNameInput {
+    font-size: 14px;
+    border: 1px solid #BEB9A6;
+    background: white;
+    color: #606060;
+    font-family: 'Myriad Pro Regular';
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.ProfilePageSection .ProfileSectionForm .form-group-warn {
+    margin-bottom: 30px;
+}
+
+.ProfilePageSection .ProfileSectionForm select {
+    font-size: 14px;
+    border: 1px solid #BEB9A6;
+    background: white;
+    font-family: 'Myriad Pro Regular';
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 4px;
+    color: black;
+}
+
+.ProfilePageSection .ProfileSectionForm .ProfileNameSelect {
+    font-size: 14px;
+    border: 1px solid #BEB9A6;
+    background: white;
+    color: #606060;
+    font-family: 'Myriad Pro Regular';
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.ProfilePageSection form table {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.ProfilePageSection form table tr th {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.ProfilePageSection form table tr th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.ProfilePageSection form table tr th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.ProfilePageSection form table tr td {
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+    /* position: relative; */
+    border: 1px solid #ebebeb;
+    vertical-align: middle;
+}
+
+.ProfilePageSection form table tr td select {
+    margin: 0;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.ProfilePageSection form table tr td button {
+    padding: 0;
+    background: transparent;
+    border: none;
+    /* display: block; */
+    text-align: center;
+    /* width: 100%; */
+}
+
+.ProfilePageSection form table tr td .fa-trash-alt {
+    font-size: 20px;
+    color: #ED2939;
+}
+
+.ProfilePageSection form .AddnewBtn {
+    background: #5A245A;
+    color: #fff;
+    border: 1px solid #5A245A;
+    font-size: 10px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ProfilePageSection .ProfileSectionForm .edit {
+    text-align: end;
+    color: #0d6efd;
+}
+
+.changed-value {
+    background-color: lightyellow;
+}
+
+.ProfilePageSection .ProfileSectionForm .edited {
+    border-color: red;
+}
+
+.ProfilePageSection form .oldNewestEducation {
+    margin: 0;
+    font-size: 12px;
+    color: #0a0a0a;
+    margin: 0;
+}
+
+.ExperienceFlexBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ExperienceFlexBox p{
+    margin: 0;
+}
+
+.ProfilePageSection form table tr td .handleCheckboxChangeFlex {
+    display: flex;
+    margin-top: 4px;
+}
+
+.ProfilePageSection form table tr td .handleCheckboxChangeFlex label {
+    margin: 0;
+    color: #999999;
+    font-size: 12px;
+}
+
+.ProfilePageSection form table tr td .handleCheckboxChangeFlex input {
+    width: auto;
+    margin-right: 4px;
+}
+
+.ProfileSectionFooter {
+    margin-top: 2em;
+}
+
+.ProfilePageSection .ProfileSectionForm .updatebtn {
+    background: #34B233;
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+    padding: 10px 30px;
+    border-radius: 4px;
+    display: block;
+    border: none;
+    outline: none;
+}

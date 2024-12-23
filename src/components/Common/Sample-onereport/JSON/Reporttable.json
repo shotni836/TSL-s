@@ -1,0 +1,24 @@
+{
+  "reportTableData": {
+    "reportTableList": [
+      {
+        "srNo": 1,
+        "pipeNo": "N20064348",
+        "coatingDate": "18.04.2023 (PQT)",
+        "referenceStandard": "ISO 21809-1",
+        "operatingTemp": 23,
+        "testDuration": "28 Days",
+        "acceptanceCriteria": "Max. radius of disbondment 7.0 mm",
+        "result": "2.34 mm",
+        "remarks": "OK"
+      },
+      {
+        "srNo": 2,
+        "operatingTemp": 80,
+        "acceptanceCriteria": "Max. radius of disbondment 15.0 mm",
+        "result": "5.09 mm",
+        "remarks": "OK"
+      }
+    ]
+  }
+}

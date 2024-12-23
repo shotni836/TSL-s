@@ -1,0 +1,24 @@
+{
+  "reportRawMaterialData": {
+    "rawMaterialList": [
+      {
+        "MATERIAL": "EPOXY",
+        "MANUFACTURER": "3M INDIA LTD",
+        "GRADE": "226N 8G GREEN",
+        "BATCH_NO": "IN-3D03A-1"
+      },
+      {
+        "MATERIAL": "BOREALIS",
+        "MANUFACTURER": "ADHESIVE",
+        "GRADE": "ME0420",
+        "BATCH_NO": "225419"
+      },
+      {
+        "MATERIAL": "POLYETHYLENE",
+        "MANUFACTURER": "BOROUGE",
+        "GRADE": "HE 3450 H",
+        "BATCH_NO": "4122319"
+      }
+    ]
+  }
+}

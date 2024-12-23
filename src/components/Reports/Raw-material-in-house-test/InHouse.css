@@ -1,0 +1,27 @@
+@media print {
+
+    .InHousePrintOnly .ReporttableSection table tr td,
+    .InHousePrintOnly .InstrumentusedSection table tr td {
+        font-size: 9px !important;
+        padding: 0px !important;
+    }
+
+    .InHousePrintOnly .Reportmasterdatasection h4,
+    .InHousePrintOnly .Reportmasterdatasection label {
+        font-size: 9px !important;
+        padding: 0px !important;
+    }
+
+    .page-break {
+        page-break-after: always;
+        padding: 10px;
+    }
+
+    .page-break:last-child {
+        page-break-after: auto;
+    }
+
+    .Approvedtxt {
+        display: none !important;
+    }
+}

@@ -1,0 +1,201 @@
+.DustlevelPageSection {
+    padding: 20px 0;
+}
+
+.DustlevelPageSection .DustlevelTables h4 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DustlevelPageSection .DustlevelTables h4 span {
+    color: #34B233;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.DustlevelPageSection .DustlevelTables {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    /* border: 1px solid #f1f1f1; */
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.DustlevelPageSection .DustlevelTables .form-group label {
+    min-width: 120px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.DustlevelPageSection .DustlevelTables .form-group {
+    margin-bottom: 10px;
+}
+
+.DustlevelPageSection .DustlevelTables .form-group input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+    /* margin-bottom: 10px; */
+}
+
+.DustlevelPageSection .DustlevelTables .form-group input.formattedDateTestDate {
+    background: whitesmoke;
+    cursor: not-allowed;
+    pointer-events: auto;
+}
+
+.DustlevelPageSection .DustlevelTables .form-group select {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    /* margin-bottom: 30px; */
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.DustlevelPageSection .form-group .ProcessSheetFlexBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.DustlevelPageSection .form-group .ProcessSheetFlexBox select {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 12%;
+    outline: none;
+}
+
+.DustlevelPageSection .form-group .ProcessSheetFlexBox input {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 10%;
+    background: #fff;
+}
+
+.DustlevelPageSection .form-group .ProcessSheetFlexBox input::-webkit-outer-spin-button,
+.DustlevelPageSection .form-group .ProcessSheetFlexBox input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.DustlevelPageSection .form-group .ProcessSheetFlexBox input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.DustlevelPageSection .form-group .ProcessSheetFlexBox b {
+    font-size: 20px;
+    line-height: 10px;
+    height: 14px;
+    margin-right: 4px;
+}
+
+.DustlevelPageSection .form-group .ProcessSheetFlexBox select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.RawmaterialPageSection .DustlevelPageSection .form-group .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.DustlevelPageSection .SubmitBtn {
+    background: #3D7EDB;
+    color: #fff;
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: 'Myriad Pro Light';
+    display: inline-block;
+}
+
+.DustlevelPageSection .PQTBox {
+    margin: 0;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.DustlevelPageSection .PQTBox input {
+    margin-right: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.DustlevelPageSection .PQTBox label {
+    cursor: pointer;
+}
+
+.DustlevelReportUploadModal .DustlevelReportUploadBox .dropzone {
+    border: 2px dashed #cccccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.DustlevelReportUploadModal .DustlevelReportUploadBox .dropzone p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.DustlevelReportUploadModal .btn-close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background: #ED2939;
+    opacity: 1;
+    color: #fff;
+    line-height: normal;
+    padding: 10px 8px;
+    border-radius: 0 0 10px 10px;
+}
+
+.DustlevelReportUploadModal .submit-button {
+    display: flex;
+    align-items: center;
+    background: #3D7EDB;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 20px auto 0;
+}
+
+.DustlevelReportUploadModal .DustlevelReportUploadBox ul li {
+    justify-content: center;
+    font-size: 14px;
+    color: #000;
+    margin: 10px 0 0;
+}

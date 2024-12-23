@@ -1,0 +1,17 @@
+.AssignLabFieldTest .form-group .ProcessSheetFlexBox {
+  margin-bottom: 10px;
+}
+
+.AssignLabFieldTest .SubmitBtn {
+  display: flex;
+  align-items: center;
+  background: #3D7EDB;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  height: 40px;
+  width: 90px;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+@media print {
+
+    .Hardness .ReporttableSection table tr th,
+    .Hardness .InstrumentusedSection table tr th,
+    .Hardness .ResultPageSection table tr th {
+        font-size: 12px !important;
+        padding: 0px !important;
+    }
+
+    .Hardness .ReporttableSection table tr td,
+    .Hardness .InstrumentusedSection table tr td,
+    .Hardness .ResultPageSection table tr td {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .Hardness .Reportmasterdatasection h4,
+    .Hardness .Reportmasterdatasection label {
+        font-size: 11px !important;
+    }
+
+    .FooterdataSection table tr td {
+        font-size: 11px !important;
+        padding: 0px !important;
+    }
+
+    .page-break {
+        page-break-after: always;
+        padding: 10px;
+    }
+
+    .page-break:last-child {
+        page-break-after: auto;
+    }
+
+    .Approvedtxt {
+        display: none !important;
+    }
+}

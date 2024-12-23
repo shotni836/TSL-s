@@ -1,0 +1,360 @@
+.EditEdittallytagmappingPageSection {
+    padding: 3em 0;
+}
+
+.EdittallytagmappingPageSection .DownloadButton {
+    text-align: right;
+    /* margin-bottom: 20px; */
+    /* display: none; */
+}
+
+.EdittallytagmappingPageSection .DownloadButton .fa-file-excel {
+    background: #34B233;
+    color: #fff;
+    font-size: 16px;
+    min-width: 36px;
+    margin-left: 10px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.EdittallytagmappingPageSection .DownloadButton button i {
+    margin-left: 6px;
+}
+
+.EdittallytagmappingPageSection .DragDropUploadBox i {
+    font-size: 50px;
+    color: #6a6a6a;
+}
+
+.EdittallytagmappingPageSection h1 {
+    font-size: 16px;
+    color: #323232;
+}
+
+.EdittallytagmappingPageSection .DragDropUploadBox h4 {
+    margin: 0;
+    color: #4c4c4c;
+    font-size: 20px;
+    padding: 6px 0;
+}
+
+.EdittallytagmappingPageSection .DragDropUploadBox h6 {
+    display: inline-block;
+    margin: 0;
+    background: #efefef;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #101010;
+    border: 1px solid #cfcfcf;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.EdittallytagmappingPageSection .DragDropUploadBox span {
+    display: block;
+    font-size: 16px;
+}
+
+.DragDropUploadBox .dropzone {
+    background: whitesmoke;
+    padding: 30px 0;
+    border: 2px dashed #c1c1c1;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.DragDropUploadDivBox .NumberrowsTxt {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+.DragDropUploadDivBox .NumberrowsTxt b {
+    color: #518ada;
+}
+
+.DragDropUploadDivBox .NumberrowsSubmitFlexBox {
+    margin: 0;
+    margin-top: 20px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.DragDropUploadDivBox table {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.DragDropUploadDivBox table tbody {
+    position: relative;
+}
+
+
+
+.EditEdittallytagmappingtable .successfulModalBox .successfuliconBox {
+    background: #34B233;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.EditEdittallytagmappingtable .successfulModalBox .successfuliconBox i {
+    color: #fff;
+    font-size: 50px;
+}
+
+.EditEdittallytagmappingtable .validateSuccessfullModal .validatesuccessfuliconBox {
+    background: #34B233;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.EditEdittallytagmappingtable .validateSuccessfullModal .validatesuccessfuliconBox i {
+    color: #fff;
+    font-size: 50px;
+}
+
+.EditEdittallytagmappingtable .validateSuccessfullModal button {
+    margin: 40px auto 0;
+    display: block;
+    background: #ED2939;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 30px;
+}
+
+.EditEdittallytagmappingtable .successfulModalBox h4 {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Myriad Pro Bold';
+}
+
+.EditEdittallytagmappingtable .successfulModalBox p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.EditEdittallytagmappingtable .successfulModalBox p b {
+    margin: 0 6px;
+    color: #3D7EDB;
+    text-transform: uppercase;
+}
+
+.EditEdittallytagmappingtable .successfulModalBox button {
+    margin: 40px auto 0;
+    display: block;
+    background: #ED2939;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 30px;
+}
+
+.EditEdittallytagmappingtable table tr th {
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.EditEdittallytagmappingtable table tr td {
+    background: transparent;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    /* border: 1px solid #f1f1f1; */
+    box-shadow: 0 0 20px 1px #ededed;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group {
+    margin-bottom: 10px;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group label {
+    min-width: 120px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .totalPipeLengthLabel {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox select {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 12%;
+    outline: none;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox input {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 10%;
+    background: #fff;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox input::-webkit-outer-spin-button,
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .ProcessSheetFlexBox b {
+    font-size: 20px;
+    line-height: 10px;
+    height: 14px;
+    margin-right: 4px;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group input {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group select {
+    width: 100%;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails hr {
+    border: 1px dashed #999999;
+}
+
+.EdittallytagmappingPageSection select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .DatemonthyearFlex {
+    display: flex;
+    align-items: center;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .DatemonthyearFlex select {
+    margin: 0;
+    text-align: center;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails .form-group .DatemonthyearFlex b {
+    margin: 0 10px;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails h5 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.EdittallytagmappingPageSection .PipeTallySheetDetails h5 span {
+    color: #34B233;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.duplicate-row {
+    background-color: #e11c1c;
+    /* Light red background for duplicate rows */
+}
+
+button#checkModal {
+    margin-right: 20px;
+}
+
+.cancelDeleteButton {
+    height: 25px;
+    width: 20px;
+}
+
+
+.action-radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.action-radio-buttons input {
+    margin-right: 5px;
+}
+
+.action-radio-buttons div {
+    display: flex;
+}
+
+.DragDropUploadDivBox .SearchBox input {
+    width: 300px;
+    border: 1px solid #BEB9A6;
+    padding: 8px 10px;
+    font-size: 14px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular';
+}

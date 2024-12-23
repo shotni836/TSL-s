@@ -1,0 +1,113 @@
+{
+  "headerData": {
+    "title": "CATHODIC DISBONDMENT TEST REPORT",
+    "formatInfo": {
+      "formatNumber": "TSL/COAT/QC/F-17/",
+      "revision": "06",
+      "date": "13.11.2021"
+    }
+  },
+  "reportMasterData": {
+    "client": "M/S HINDUSTAN PETROLEUM CORPORATION LIMITED",
+    "reportNo": "CDT/20230517-01",
+    "poNo": "22001053-OQ-10157",
+    "dateAndShift": "17.05.2023 & DAY",
+    "pipeSize": "168.3 mm OD X 6.40 mm WT",
+    "processSheetNo": "TSL/PSC/EXT/3LPE/HPCL/2023-01 Rev.00 DATE: 09.02.2023",
+    "typeOfCoating": "3LPE",
+    "procedureWI": "TSL/COAT/QC/WI-35",
+    "testStartDate": "19.04.2023",
+    "testStartTime": "3:00 PM",
+    "testFinishDate": "17.05.2023",
+    "testFinishTime": "3:00 PM"
+  },
+  "reportTableData": {
+    "reportTableList": [
+      {
+        "srNo": 1,
+        "pipeNo": "N20064348",
+        "coatingDate": "18.04.2023 (PQT)",
+        "referenceStandard": "ISO 21809-1",
+        "operatingTemp": 23,
+        "testDuration": "28 Days",
+        "acceptanceCriteria": "Max. radius of disbondment 7.0 mm",
+        "result": "2.34 mm",
+        "remarks": "OK"
+      },
+      {
+        "srNo": 2,
+        "operatingTemp": 80,
+        "acceptanceCriteria": "Max. radius of disbondment 15.0 mm",
+        "result": "5.09 mm",
+        "remarks": "OK"
+      }
+    ]
+  },
+  "remarksData": {
+    "conformingSpecification": "ABOVE RESULTS ARE CONFORMING TO SPECIFICATION: TRACTEBEL PTS Doc. No. P.019141 G 11077 005, Reply to Bidder's Prebid Queries - Document No. P.019141-G-11031-001 ",
+    "dated": "Dated. 12.07.2022, QCT No.P.019141 G 11013 006 Dated.08.06.2021",
+    "qapNo": "TSL/COAT/3LPE/HPCL/01 Rev.02 DATE: 03.02.2023",
+    "qapSerialNo": "14.0, 14.6"
+  },
+  "reportRawMaterialData": {
+    "rawMaterialList": [
+      {
+        "MATERIAL": "EPOXY",
+        "MANUFACTURER": "3M INDIA LTD",
+        "GRADE": "226N 8G GREEN",
+        "BATCH_NO": "IN-3D03A-1"
+      },
+      {
+        "MATERIAL": "BOREALIS",
+        "MANUFACTURER": "ADHESIVE",
+        "GRADE": "ME0420",
+        "BATCH_NO": "225419"
+      },
+      {
+        "MATERIAL": "POLYETHYLENE",
+        "MANUFACTURER": "BOROUGE",
+        "GRADE": "HE 3450 H",
+        "BATCH_NO": "4122319"
+      }
+    ]
+  },
+  "instrumentUsedData": {
+    "instrumentList": [
+      {
+        "SrNo": "01",
+        "InstrumentName": "Cathodic Disbondment Tester (Coed)",
+        "InstrumentIDSerialNo": "123410"
+      },
+      {
+        "SrNo": "02",
+        "InstrumentName": "HOT PLATE",
+        "InstrumentIDSerialNo": "151253"
+      },
+      {
+        "SrNo": "03",
+        "InstrumentName": "UTILITY KNIFE",
+        "InstrumentIDSerialNo": "------"
+      },
+      {
+        "SrNo": "04",
+        "InstrumentName": "DIGITAL VERNIER CALIPER",
+        "InstrumentIDSerialNo": "7482/1262"
+      },
+      {
+        "SrNo": "05",
+        "InstrumentName": "TEMPERATURE GAUGE",
+        "InstrumentIDSerialNo": "210957948"
+      }
+    ]
+  },
+  "footerData": {
+    "inspectedBy": {
+      "signature": "",
+      "role": "QC ENGINEER"
+    },
+    "acceptedBy": {
+      "signature": "",
+      "role": "TPIA / CLIENT"
+    }
+  }
+}

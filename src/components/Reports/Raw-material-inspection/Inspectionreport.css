@@ -1,0 +1,31 @@
+.InspectionCustomReport .FooterdataSection table {
+    table-layout: fixed;
+}
+
+.InspectionCustomReport .ReporttableSection table tr th {
+    padding: 12px 0;
+}
+
+.InspectionCustomReport .FooterdataSection table tr th {
+    border-top: none;
+}
+
+.InspectionCustomReport .ReporttableSection table tr td {
+    padding: 12px 0;
+}
+
+
+@media print {
+    .hideApproval {
+        display: none !important;
+    }
+
+    .page-break {
+        page-break-after: always;
+        padding: 10px;
+    }
+
+    .page-break:last-child {
+        page-break-after: auto;
+    }
+}
