@@ -319,8 +319,12 @@ function ThicknessInsp() {
       const response = await fetch(Environment.BaseAPIURL + "/api/User/InspectionSheetApproval", {
         method: "POST",
         headers: {
+<<<<<<< HEAD
           'Content-Type': `application/json`,
           'Authorization': `Bearer ${token}`,
+=======
+          "Content-Type": "application/json",
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         },
         body: JSON.stringify(formData),
       });
@@ -355,6 +359,7 @@ function ThicknessInsp() {
   //     const response = await fetch(Environment.BaseAPIURL + "/api/User/InspectionSheetApproval", {
   //       method: "POST",
   //       headers: {
+<<<<<<< HEAD
   //         'Content-Type': `application/json`,
   'Authorization': `Bearer ${token}`,
     //       },
@@ -385,6 +390,37 @@ function ThicknessInsp() {
         setLoading(false)
       }, 3000);
     }, []);
+=======
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(formData),
+  //     });
+
+  //     const responseBody = await response.text();
+
+  //     if (responseBody === '100' || responseBody === '200') {
+  //       toast.success('Sheet Approved!');
+  //       console.log("Form data sent successfully!");
+  //     } else {
+  //       console.error(
+  //         "Failed to send form data to the server. Status code:",
+  //         response.status
+  //       );
+  //       console.error("Server response:", responseBody);
+  //     }
+  //   } catch (error) {
+  //     console.error("An error occurred while sending form data:", error);
+  //   }
+  // };
+
+  useEffect(() => {
+    // fetchData();
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000);
+  }, []);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
   return (
     <>

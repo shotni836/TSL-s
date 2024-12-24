@@ -1489,7 +1489,7 @@ function Rawmaterial() {
                                                                             </thead>
                                                                             <tbody>
                                                                                 {tableData.length === 0 ? (
-                                                                                    <tr><td colSpan="11">Data not available.</td></tr>
+                                                                                    <tr><td colSpan="4">No data available.</td></tr>
                                                                                 ) : (
                                                                                     tableData?.map((item, index) => (
                                                                                         Array.from({ length: numRows }).map((_, rowIndex) => {
@@ -1554,7 +1554,7 @@ function Rawmaterial() {
                                                                                 </thead>
                                                                                 <tbody>
                                                                                     {tableData.length === 0 ? (
-                                                                                        <tr><td colSpan="9">Data not available.</td></tr>
+                                                                                        <tr><td colSpan="4">No data available.</td></tr>
                                                                                     ) : (
                                                                                         tableData?.map((item, index) => (
                                                                                             Array.from({ length: 1 }).map((_, rowIndex) => {
@@ -1628,7 +1628,7 @@ function Rawmaterial() {
                                                                                     </thead>
                                                                                     <tbody>
                                                                                         {tableData.length === 0 ? (
-                                                                                            <tr><td colSpan="11">Data not available.</td></tr>
+                                                                                            <tr><td colSpan="4">No data available.</td></tr>
                                                                                         ) : (
                                                                                             tableData?.map((item, index) => (
                                                                                                 Array.from({ length: numRows }).map((_, rowIndex) => {
@@ -1706,7 +1706,7 @@ function Rawmaterial() {
                                                                                     </thead>
                                                                                     <tbody>
                                                                                         {tableData.length === 0 ? (
-                                                                                            <tr><td colSpan="12">Data not available.</td></tr>
+                                                                                            <tr><td colSpan="4">No data available.</td></tr>
                                                                                         ) : (
                                                                                             tableData?.map((item, index) => (
                                                                                                 Array.from({ length: numRows }).map((_, rowIndex) => {

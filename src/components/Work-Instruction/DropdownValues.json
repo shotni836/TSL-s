@@ -1,0 +1,137 @@
+{
+  "EmpType": [
+    {
+      "co_param_id": 18,
+      "co_param_val_id": 519,
+      "co_param_val_name": "Permanent",
+      "co_param_val_alias": "Permanent"
+    },
+    {
+      "co_param_id": 18,
+      "co_param_val_id": 520,
+      "co_param_val_name": "Subsidiary",
+      "co_param_val_alias": "Subsidiary"
+    },
+    {
+      "co_param_id": 18,
+      "co_param_val_id": 521,
+      "co_param_val_name": "Contractual",
+      "co_param_val_alias": "Contractual"
+    },
+    {
+      "co_param_id": 18,
+      "co_param_val_id": 522,
+      "co_param_val_name": "TPI",
+      "co_param_val_alias": "TPI"
+    }
+  ],
+  "Designation": [
+    {
+      "co_param_val_id": 1,
+      "co_param_val_name": "Engineer",
+      "co_param_val_alias": "Engineer"
+    },
+    {
+      "co_param_val_id": 2,
+      "co_param_val_name": "Associate Engineer-I",
+      "co_param_val_alias": "AE-I"
+    },
+    {
+      "co_param_val_id": 3,
+      "co_param_val_name": "Associate Engineer-II",
+      "co_param_val_alias": "AE-II"
+    },
+    {
+      "co_param_val_id": 4,
+      "co_param_val_name": "Associate Engineer-III",
+      "co_param_val_alias": "AE-III"
+    },
+    {
+      "co_param_val_id": 5,
+      "co_param_val_name": "Associate Engineer",
+      "co_param_val_alias": "AE"
+    },
+    {
+      "co_param_val_id": 6,
+      "co_param_val_name": "Sr.Associate",
+      "co_param_val_alias": "sr.AE"
+    },
+    {
+      "co_param_val_id": 7,
+      "co_param_val_name": "Head",
+      "co_param_val_alias": "Head"
+    },
+    {
+      "co_param_val_id": 8,
+      "co_param_val_name": "Manager",
+      "co_param_val_alias": "Manager"
+    },
+    {
+      "co_param_val_id": 9,
+      "co_param_val_name": "Associate-I",
+      "co_param_val_alias": "As-I"
+    },
+    {
+      "co_param_val_id": 10,
+      "co_param_val_name": "Sr.Manager",
+      "co_param_val_alias": "Sr.Manager"
+    },
+    {
+      "co_param_val_id": 11,
+      "co_param_val_name": "Area ​Manager",
+      "co_param_val_alias": "A M"
+    },
+    {
+      "co_param_val_id": 12,
+      "co_param_val_name": "Head QA Tubes & LDP KHOPOLI",
+      "co_param_val_alias": "Head QA Tubes & LDP KHOPOLI"
+    },
+    {
+      "co_param_val_id": 13,
+      "co_param_val_name": "Sr. Area ​Manager",
+      "co_param_val_alias": "Sr. Area ​Manager"
+    }
+  ],
+  "Department": [
+    {
+      "co_param_val_id": 14,
+      "co_param_val_name": "Marketing",
+      "co_param_val_alias": "Marketing"
+    },
+    {
+      "co_param_val_id": 15,
+      "co_param_val_name": "PPC",
+      "co_param_val_alias": "PPC"
+    },
+    {
+      "co_param_val_id": 16,
+      "co_param_val_name": "Quality",
+      "co_param_val_alias": "Quality"
+    },
+    {
+      "co_param_val_id": 17,
+      "co_param_val_name": "Production",
+      "co_param_val_alias": "Production"
+    },
+    {
+      "co_param_val_id": 18,
+      "co_param_val_name": "IT",
+      "co_param_val_alias": "IT"
+    },
+    {
+      "co_param_val_id": 19,
+      "co_param_val_name": "Maintenance",
+      "co_param_val_alias": "Maintenance"
+    },
+    {
+      "co_param_val_id": 20,
+      "co_param_val_name": "PDIR",
+      "co_param_val_alias": "PDIR"
+    },
+    {
+      "co_param_val_id": 21,
+      "co_param_val_name": "Dispatch",
+      "co_param_val_alias": "Dispatch"
+    }
+  ]
+}

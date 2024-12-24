@@ -12,11 +12,16 @@ import 'react-toastify/dist/ReactToastify.css';
 import Environment from "../../environment";
 
 function Formatlistedit() {
+<<<<<<< HEAD
   const token = secureLocalStorage.getItem('token')
   const searchParams = new URLSearchParams(window.location.search);
   const Id = searchParams.get("id");
   const moduleId = searchParams.get('moduleId');
   const menuId = searchParams.get('menuId');
+=======
+  const searchParams = new URLSearchParams(window.location.search);
+  const Id = searchParams.get("id");
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
@@ -42,11 +47,15 @@ function Formatlistedit() {
     setLoading(true);
     const fetchData = async () => {
       try {
+<<<<<<< HEAD
         const response = await axios.get(`${Environment.BaseAPIURL}/api/User/ViewFormatListData?Id=${Id}`, {
           headers: {
             'Authorization': `Bearer ${token}`,
           }
         });
+=======
+        const response = await axios.get(`${Environment.BaseAPIURL}/api/User/ViewFormatListData?Id=${Id}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         const data = response.data[0];
         setFormData((prevFormData) => ({
           ...prevFormData,
@@ -73,6 +82,7 @@ function Formatlistedit() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+<<<<<<< HEAD
       const response = await axios.post(`${Environment.BaseAPIURL}/api/User/InsertFormatListData`, formData, {
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -81,6 +91,12 @@ function Formatlistedit() {
       if (response.status === 200) {
         toast.success('Work Instruction updated successfully!');
         navigate(`/formatlistlist?moduleId=${moduleId}&menuId=${menuId}`);
+=======
+      const response = await axios.post(`${Environment.BaseAPIURL}/api/User/InsertFormatListData`, formData);
+      if (response.status === 200) {
+        toast.success('Work Instruction updated successfully!');
+        navigate('/formatlistlist');
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       } else {
         toast.error('Failed to update Work Instruction');
       }
@@ -104,8 +120,12 @@ function Formatlistedit() {
                 <div className='row'>
                   <div className='col-md-12 col-sm-12 col-xs-12'>
                     <ul>
+<<<<<<< HEAD
                       <li><Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
                       <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/formatlistlist?moduleId=${moduleId}&menuId=${menuId}`}> Format List</Link></li>
+=======
+                      <li> <Link to='/dashboard?moduleId=618'>Quality Module</Link></li>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                       <li><h1>/ &nbsp; Format List Edit</h1></li>
                     </ul>
                   </div>

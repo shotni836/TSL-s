@@ -12,16 +12,23 @@ import { toast } from 'react-toastify';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 import Environment from "../../environment";
 import secureLocalStorage from 'react-secure-storage';
+<<<<<<< HEAD
 import { encryptData } from '../Encrypt-decrypt';
+=======
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
 function ListBlastingline() {
   const navigate = useNavigate();
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
+<<<<<<< HEAD
   const moduleId = searchParams.get('moduleId');
   const menuId = searchParams.get('menuId');
   const token = secureLocalStorage.getItem('token');
 
+=======
+  const menuId = searchParams.get('menuId');
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const userId = secureLocalStorage.getItem("userId");
   const empId = secureLocalStorage.getItem("empId");
   const userRole = secureLocalStorage.getItem("userRole");
@@ -41,11 +48,15 @@ function ListBlastingline() {
 
   const fetchData = async () => {
     try {
+<<<<<<< HEAD
       const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetProdBlastingdata_New?UserId=${encryptData(userId)}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
       });
+=======
+      const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetProdBlastingdata_New?UserId=${userId}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (Array.isArray(response.data)) {
         setDataList(response?.data);
         fetchPermissions();
@@ -63,10 +74,14 @@ function ListBlastingline() {
   const fetchPermissions = async () => {
     try {
       const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetPermissionDetailsByPageId`, {
+<<<<<<< HEAD
         params: { UserId: encryptData(userId), PageId: menuId },
         headers: {
           Authorization: `Bearer ${token}`
         }
+=======
+        params: { UserId: userId, PageId: menuId }
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       });
       setPermissions(response.data[0]);
     } catch (error) {
@@ -75,6 +90,7 @@ function ListBlastingline() {
   };
 
   const handleViewClick = (row) => {
+<<<<<<< HEAD
     navigate(`/viewblastingline?menuId=${menuId}&id=${encryptData(row.ProdBlastingId)}&pm_Approve_level=view&pm_processSheet_id=${encryptData(row.ProcsheetId)}`, '_blank');
   };
 
@@ -92,6 +108,25 @@ function ListBlastingline() {
 
   const handleSecondLevel = (row) => {
     navigate(`/viewblastingline?menuId=${menuId}&id=${encryptData(row.ProdBlastingId)}&pm_Approve_level=second&pm_processSheet_id=${encryptData(row.ProcsheetId)}`, '_blank');
+=======
+    navigate(`/viewblastingline?id=${row.ProdBlastingId}&pm_Approve_level=view&pm_processSheet_id=${row.ProcsheetId}&menuId=${menuId}`, '_blank');
+  };
+
+  const handleEdit = (row) => {
+    navigate(`/addblastingline?menuId=${menuId}&action=edit&id=${row.ProdBlastingId}`, '_blank');
+  };
+
+  const handleHodLevel = (row) => {
+    navigate(`/viewblastingline?id=${row.ProdBlastingId}&pm_Approve_level=hod&pm_processSheet_id=${row.ProcsheetId}&menuId=${menuId}`, '_blank');
+  };
+
+  const handleFirstLevel = (row) => {
+    navigate(`/viewblastingline?id=${row.ProdBlastingId}&pm_Approve_level=first&pm_processSheet_id=${row.ProcsheetId}&menuId=${menuId}`, '_blank');
+  };
+
+  const handleSecondLevel = (row) => {
+    navigate(`/viewblastingline?id=${row.ProdBlastingId}&pm_Approve_level=second&pm_processSheet_id=${row.ProcsheetId}&menuId=${menuId}`, '_blank');
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   };
 
   const getUniqueOptions = (data, key) => {
@@ -148,7 +183,11 @@ function ListBlastingline() {
               <div className="row">
                 <div className="col-md-12 col-sm-12 col-xs-12">
                   <ul>
+<<<<<<< HEAD
                     <li><Link to={`/productiondashboard?moduleId=${moduleId}`}>Production Module</Link></li>
+=======
+                    <li><Link to="/productiondashboard?moduleId=619">Production Module</Link></li>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                     <li><h1>/&nbsp; Blasting Line List </h1></li>
                   </ul>
                 </div>
@@ -188,7 +227,11 @@ function ListBlastingline() {
                         </form>
                       </div>
                       <div className='tableheaderAddbutton'>
+<<<<<<< HEAD
                         <Link to={`/addblastingline?moduleId=${moduleId}&menuId=${menuId}`} style={{ float: 'right' }}>
+=======
+                        <Link to={`/addblastingline?menuId=${menuId}`} style={{ float: 'right' }}>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                           <i className="fas fa-plus"></i> Add
                         </Link>
                       </div>
@@ -214,7 +257,11 @@ function ListBlastingline() {
                         </thead>
                         <tbody>
                           {displayData.length === 0 ? (
+<<<<<<< HEAD
                             <tr><td colSpan="6">Data not available.</td></tr>
+=======
+                            <tr><td colSpan="6">No data available.</td></tr>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                           ) : (
                             displayData.map((row, index) => (
                               <tr key={index}>

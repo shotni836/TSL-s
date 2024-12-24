@@ -344,8 +344,12 @@ function ChromateCoatInsp() {
             const response = await fetch(Environment.BaseAPIURL + "/api/User/InspectionSheetApproval", {
                 method: "POST",
                 headers: {
+<<<<<<< HEAD
                     'Content-Type': `application/json`,
                     'Authorization': `Bearer ${token}`,
+=======
+                    "Content-Type": "application/json",
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                 },
                 body: JSON.stringify(formData),
             });

@@ -185,9 +185,15 @@
 }
 
 .PotraitBarePipeSectionPage .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
+<<<<<<< HEAD
     width: 130px;
     min-width: 130px;
     max-width: 130px;
+=======
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 }
 
 .CustomBarePipeWitnessBox .CustomBarePipeWitnessBox1 {

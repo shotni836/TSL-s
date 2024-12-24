@@ -343,16 +343,17 @@ function Packingreport() {
 
     // Effect to update editableReleaseSumm when releaseSumm changes
     useEffect(() => {
+        console.log(releaseSumm.pm_balance_pipe, "okay")
         setEditableReleaseSumm({
-            pm_order_pipe: releaseSumm.pm_order_pipe || "",
+            pm_order_pipe: parseInt(releaseSumm.pm_po_item_qty / 12) || "",
             pm_po_item_qty: releaseSumm.pm_po_item_qty || "",
         });
     }, [releaseSumm]);
 
     // Effect to update values whenever editableReleaseSumm changes
     useEffect(() => {
-        const balanceQuantityNo = (editableReleaseSumm.pm_order_pipe - releaseSumm.pm_current_pipe_release + releaseSumm.PreviousPipeCount);
-        const balanceQuantityLen = (editableReleaseSumm.pm_po_item_qty - releaseSumm.pm_current_pipe_release_length + releaseSumm.PreviousPipelength)
+        const balanceQuantityNo = releaseSumm.pm_balance_pipe != null ? releaseSumm.pm_balance_pipe : (editableReleaseSumm.pm_order_pipe - releaseSumm.pm_current_pipe_release + releaseSumm.PreviousPipeCount);
+        const balanceQuantityLen = releaseSumm.pm_balance_pipe_length != null ? releaseSumm.pm_balance_pipe_length : (editableReleaseSumm.pm_po_item_qty - releaseSumm.pm_current_pipe_release_length + releaseSumm.PreviousPipelength)
         setCalculatedValues({ balanceQuantityNo, balanceQuantityLen });
     }, [editableReleaseSumm]);
 
@@ -376,6 +377,7 @@ function Packingreport() {
                 balance_pipe: calculatedValues.balanceQuantityNo.toString(),
                 balance_pipe_length: calculatedValues.balanceQuantityLen.toString(),
                 procsheet_id: parseInt(headerDetails.psno),
+                cprl_run_id: parseInt(Id),
                 project_id: headerDetails.projectId,
                 _pipedetails: []
             }
@@ -611,11 +613,11 @@ function Packingreport() {
                                                                                                 <td>{pm_Approve_level1 === 'editOrder' ? (
                                                                                                     <input
                                                                                                         name="pm_order_pipe"
-                                                                                                        value={editableReleaseSumm.pm_order_pipe}
+                                                                                                        value={parseInt(releaseSumm.pm_po_item_qty / 12)}
                                                                                                         onChange={handleInputChange}
                                                                                                     />
                                                                                                 ) : (
-                                                                                                    releaseSumm.pm_order_pipe
+                                                                                                    parseInt(releaseSumm.pm_po_item_qty / 12)
                                                                                                 )}
                                                                                                 </td>
                                                                                                 <td>{pm_Approve_level1 === 'editOrder' ? (

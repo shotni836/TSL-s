@@ -211,7 +211,7 @@ function Listcoatingapplicationline() {
                         </thead>
                         <tbody>
                           {displayData.length === 0 ? (
-                            <tr><td colSpan="6">Data not available.</td></tr>
+                            <tr><td colSpan="6">No data available.</td></tr>
                           ) : (
                             displayData.map((row, index) => (
                               <tr key={index}>

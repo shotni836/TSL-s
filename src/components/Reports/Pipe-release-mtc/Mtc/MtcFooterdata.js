@@ -61,23 +61,23 @@ function MtcFooterdata({ data, witness }) {
                                         <div className="FooterDataSignBox">
                                             {
                                                 // Check if there is any data available, otherwise show "Draft"
-                                                data[0]?.employeeSign ? (
+                                                data[1]?.employeeSign ? (
                                                     <img className="QCSignatureImg" src={`${Environment.ImageURL}/${data[0]?.employeeSign}`} alt="QC Signature" />
                                                 ) : (
                                                     <h3 style={{ margin: '0', padding: '30px' }}>Draft</h3>
                                                 )
                                             }
                                             {
-                                                data[0]?.employeeSign &&
+                                                data[1]?.employeeSign &&
                                                 <img src={tatastamp} className="TATAStampImg" alt="TATA Stamp" />
                                             }
                                         </div>
 
                                         <div className="INSPECTEDBYBoxLabelBox">
-                                            <span>{data[0]?.employeeName}</span>
-                                            <span>{data[0]?.designation} {data[0]?.department}</span>
-                                            <span>{formatDate(data[0]?.date)}</span>
-                                            <span style={{ color: data[0]?.status == "Accepted" || data[0]?.status == "Approved" ? '#34B233' : data[0]?.status == "Pending" ? "#FFA100" : "#ED2939" }}>{data[0]?.status}</span>
+                                            <span>{data[1]?.employeeName}</span>
+                                            <span>{data[1]?.designation} {data[1]?.department}</span>
+                                            <span>{formatDate(data[1]?.date)}</span>
+                                            <span style={{ color: data[1]?.status == "Accepted" || data[1]?.status == "Approved" ? '#34B233' : data[1]?.status == "Pending" ? "#FFA100" : "#ED2939" }}>{data[1]?.status}</span>
                                         </div>
                                     </div>
                                 </td>

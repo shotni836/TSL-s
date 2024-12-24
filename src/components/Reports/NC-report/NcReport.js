@@ -458,12 +458,12 @@ function NcReport() {
                                                                                         return (
                                                                                             <tr key={index + 1}>
                                                                                                 <td>{index + 1}</td>
-                                                                                                <td>{item.pm_pipe_code || "-"}</td>
-                                                                                                <td>{new Date(item.pm_reject_date).toLocaleDateString('en-GB').replace(/\//g, "-") || "-"}</td>
-                                                                                                <td>{item.rejectStatusid || "-"}</td>
+                                                                                                <td>{item.pipeNo || "-"}</td>
+                                                                                                <td>{item.dateOfNC || "-"}</td>
+                                                                                                <td>{item.natureOfNC || "-"}</td>
                                                                                                 <td>{item.dateOfReprocess || "-"}</td>
-                                                                                                <td>{item.field_no || "-"}</td>
-                                                                                                <td>{item.remarks || "-"}</td>
+                                                                                                <td>{item.fieldNo || "-"}</td>
+                                                                                                <td>{item.pm_test_result_suffix || "-"}</td>
                                                                                             </tr>
                                                                                         )
                                                                                     })}
@@ -504,18 +504,17 @@ function NcReport() {
                                                                             </tr>
                                                                             <tr>
                                                                                 <th>Department</th>
-                                                                                <td>Quality</td>
-                                                                                {/* <td>{testDetails[0].Department || "-"}</td> */}
+                                                                                <td>{testDetails[0].Department || "-"}</td>
                                                                                 <th>Department</th>
-                                                                                <td>Production</td>
+                                                                                <td>{testDetails[0].Department || "-"}</td>
                                                                                 <th>Responsibility</th>
-                                                                                <td>Production Shift Incharge</td>
+                                                                                <td>{testDetails[0].Department || "-"}</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <th>Date</th>
-                                                                                <td>{new Date(headerDetails?.pm_issued_date).toLocaleDateString('en-GB').replace(/\//g, "-") || "-"}</td>
+                                                                                <td>{testDetails[0].Department || "-"}</td>
                                                                                 <th>Target Date</th>
-                                                                                <td colSpan={3}>{new Date(headerDetails?.pm_target_date).toLocaleDateString('en-GB').replace(/\//g, "-") || "-"}</td>
+                                                                                <td colSpan={3}>{testDetails[0].Department || "-"}</td>
                                                                             </tr>
                                                                         </thead>
                                                                     </table>
@@ -531,21 +530,19 @@ function NcReport() {
                                                                     <table>
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td colSpan={3} style={{ borderBottom: "none", padding: '2px 12px' }}>Root Cause Analysis: <br /> <span style={{ fontFamily: 'Myriad Pro Light' }}>{headerDetails?.pm_root_cause}</span></td>
+                                                                                <td colSpan={3} style={{ borderBottom: "none", padding: '2px 12px' }}>ABOVE RESULTS ARE CONFORMING TO SPECIFICAION - <span style={{ fontFamily: 'Myriad Pro Light' }}>{headerDetails?.specification} & QAP NO.- {headerDetails?.acceptanceCriteria || "-"}</span></td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td colSpan={3} style={{ padding: '2px 12px' }}>Correction Action Planned - <br /> <span style={{ fontFamily: 'Myriad Pro Light' }}>{headerDetails?.pm_correction_action}</span></td>
+                                                                                <td colSpan={3} style={{ borderBottom: "none", padding: '2px 12px' }}>ABOVE RESULTS ARE CONFORMING TO SPECIFICAION - <span style={{ fontFamily: 'Myriad Pro Light' }}>{headerDetails?.specification} & QAP NO.- {headerDetails?.acceptanceCriteria || "-"}</span></td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td colSpan={1} style={{ padding: '2px 12px', borderRight: '1px solid #dddddd', maxWidth: '350px', width: '350px' }}>Implementation Date - <span style={{ fontFamily: 'Myriad Pro Light' }}>{signatureReport[0] ? new Date(signatureReport[0]?.date).toLocaleDateString('en-GB').replace(/\//g, "-") || "-" : '-'}</span></td>
-                                                                                <td colSpan={2} style={{ padding: '2px 12px' }}>Signature - <span style={{ fontFamily: 'Myriad Pro Light' }}>{signatureReport[0] ? <img className="QCSignatureImg" src={`${Environment.ImageURL}/${signatureReport[0]?.employeeSign}`} alt="QC Signature" /> : "-"}</span></td>
+                                                                                <td>Date</td><td colSpan={2}>-</td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td colSpan={3} style={{ padding: '2px 12px' }}>Effectiveness of corrective action - <br /> <span style={{ fontFamily: 'Myriad Pro Light' }}>{headerDetails?.pm_action_effectiveness}</span></td>
+                                                                                <td colSpan={3} style={{ borderBottom: "none", padding: '2px 12px' }}>ABOVE RESULTS ARE CONFORMING TO SPECIFICAION - <span style={{ fontFamily: 'Myriad Pro Light' }}>{headerDetails?.specification} & QAP NO.- {headerDetails?.acceptanceCriteria || "-"}</span></td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td colSpan={1} style={{ padding: '2px 12px', borderRight: '1px solid #dddddd', maxWidth: '350px', width: '350px' }}>Reviewed Date - <span style={{ fontFamily: 'Myriad Pro Light' }}>{signatureReport[1] ? new Date(signatureReport[1]?.date).toLocaleDateString('en-GB').replace(/\//g, "-") || "-" : '-'}</span></td>
-                                                                                <td colSpan={2} style={{ padding: '2px 12px' }}>Reviewed By - <span style={{ fontFamily: 'Myriad Pro Light' }}>{signatureReport[1] ? <img className="QCSignatureImg" src={`${Environment.ImageURL}/${signatureReport[1]?.employeeSign}`} alt="QC Signature" /> : "-"}</span></td>
+                                                                                <td>Date</td><td>-</td><td>-</td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>
@@ -554,7 +551,7 @@ function NcReport() {
                                                         </div>
                                                     </section>
 
-                                                    {/* <Footerdata data={signatureReport} /> */}
+                                                    <Footerdata data={signatureReport} />
                                                 </div>
                                             </div>
                                         </div>

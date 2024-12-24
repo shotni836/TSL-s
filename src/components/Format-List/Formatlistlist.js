@@ -4,7 +4,11 @@ import Header from '../Common/Header/Header'
 import Footer from '../Common/Footer/Footer'
 import Loading from '../Loading';
 import RegisterEmployeebg from '../../assets/images/RegisterEmployeebg.jpg';
+<<<<<<< HEAD
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+=======
+import { Link, useNavigate } from 'react-router-dom';
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import axios from 'axios';
@@ -13,6 +17,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Environment from "../../environment";
 import { AgGridReact } from "ag-grid-react";
 import * as XLSX from "xlsx";
+<<<<<<< HEAD
 import secureLocalStorage from 'react-secure-storage';
 import { encryptData } from '../Encrypt-decrypt';
 
@@ -23,6 +28,13 @@ function Formatlistlist() {
   const queryParams = new URLSearchParams(location.search);
   const moduleId = queryParams.get('moduleId');
   const menuId = queryParams.get('menuId');
+=======
+
+function Formatlistlist() {
+
+  const navigate = useNavigate();
+
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const [data, setData] = useState([]);
   const [fromDate, setFromDate] = useState('');
   const [toDate, setToDate] = useState('');
@@ -67,11 +79,15 @@ function Formatlistlist() {
     try {
       const params = new URLSearchParams();
       params.append('pm_process_type_id', testingtype);
+<<<<<<< HEAD
       const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetFormatlistlistData`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         }
       });
+=======
+      const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetFormatlistlistData`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (Array.isArray(response.data)) {
         setData(response.data);
       } else {
@@ -91,18 +107,32 @@ function Formatlistlist() {
 
   const handleViewClick = (data) => {
     console.log(data)
+<<<<<<< HEAD
     navigate(`/formatlistview?moduleId=${moduleId}&menuId=${menuId}&id=${encryptData(data.data.pm_format_id)}`)
   };
 
   const handleListClick = (data) => {
     navigate(`/formatlistedit?moduleId=${moduleId}&menuId=${menuId}&id=${encryptData(data.data.pm_format_id)}`)
+=======
+    navigate(`/formatlistview?id=${data.data.pm_format_id}`)
+  };
+
+  const handleListClick = (data) => {
+    navigate(`/formatlistedit?id=${data.data.pm_format_id}`)
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   };
 
   const actionCellRenderer = (params) => (
     <div className="action-icons">
+<<<<<<< HEAD
       <Link to={`/formatlistview?moduleId=${moduleId}&menuId=${menuId}&id=${encryptData(params.data.pm_format_id)}`} className="fas fa-eye" style={{ color: "#4CAF50", margin: '4', paddingRight: "10px", cursor: "pointer", borderRight: "1px solid #afafaf", marginRight: "10px" }}></Link>
 
       <Link to={`/formatlistedit?moduleId=${moduleId}&menuId=${menuId}&id=${encryptData(params.data.pm_format_id)}`} className="fas fa-edit" style={{ color: "#4CAF50", margin: '4', paddingRight: "10px", cursor: "pointer" }}></Link>
+=======
+      <Link to={`/formatlistview?id=${params.data.pm_format_id}`} className="fas fa-eye" style={{ color: "#4CAF50", margin: '4', paddingRight: "10px", cursor: "pointer", borderRight: "1px solid #afafaf", marginRight: "10px" }}></Link>
+
+      <Link to={`/formatlistedit?id=${params.data.pm_format_id}`} className="fas fa-edit" style={{ color: "#4CAF50", margin: '4', paddingRight: "10px", cursor: "pointer" }}></Link>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
     </div>
   );
 
@@ -200,7 +230,11 @@ function Formatlistlist() {
                 <div className='row'>
                   <div className='col-md-12 col-sm-12 col-xs-12'>
                     <ul>
+<<<<<<< HEAD
                       <li> <Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
+=======
+                      <li> <Link to='/dashboard?moduleId=618'>Quality Module</Link></li>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                       <li><h1>/ &nbsp; {testingtypeval}</h1></li>
                     </ul>
                   </div>

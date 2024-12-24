@@ -11,14 +11,20 @@ import secureLocalStorage from 'react-secure-storage';
 import html2pdf from 'html2pdf.js';
 import Loading from "../../Loading";
 import Loader from "../../Loader";
+<<<<<<< HEAD
 import { decryptData } from '../../Encrypt-decrypt';
+=======
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
 function formatDate(dateString) {
     return dateString ? new Date(dateString).toLocaleDateString('en-GB') : "-";
 }
 
 function Indentation() {
+<<<<<<< HEAD
     const token = secureLocalStorage.getItem('token');
+=======
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
     const [loading, setLoading] = useState(false);
     const [loader, setLoader] = useState(false);
     const { tstmaterialid } = useParams();
@@ -52,6 +58,7 @@ function Indentation() {
     let test_date1 = null;
     let pm_Approve_level1 = null;
     let menuId1 = null;
+<<<<<<< HEAD
 
     let pm_project_id = null;
     let pm_processSheet_id = null;
@@ -79,6 +86,23 @@ function Indentation() {
         if (pathSegments[i].startsWith('test_date=')) {
             test_date1 = pathSegments[i].substring('test_date='.length);
             test_date = decryptData(test_date1)
+=======
+    for (let i = 0; i < pathSegments.length; i++) {
+        if (pathSegments[i].startsWith('pm_project_id=')) {
+            pm_project_id1 = pathSegments[i].substring('pm_project_id='.length);
+        }
+        if (pathSegments[i].startsWith('pm_processSheet_id=')) {
+            pm_processSheet_id1 = pathSegments[i].substring('pm_processSheet_id='.length);
+        }
+        if (pathSegments[i].startsWith('pm_processtype_id=')) {
+            pm_processtype_id1 = pathSegments[i].substring('pm_processtype_id='.length);
+        }
+        if (pathSegments[i].startsWith('pm_approved_by=')) {
+            pm_approved_by1 = pathSegments[i].substring('pm_approved_by='.length);
+        }
+        if (pathSegments[i].startsWith('test_date=')) {
+            test_date1 = pathSegments[i].substring('test_date='.length);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         }
         if (pathSegments[i].startsWith('pm_Approve_level=')) {
             pm_Approve_level1 = pathSegments[i].substring('pm_Approve_level='.length);
@@ -89,6 +113,7 @@ function Indentation() {
     }
 
     const [id1, id2] = tstmaterialid.split('&');
+<<<<<<< HEAD
     let ID2 = decryptData(id2)
     const [formData, setFormData] = useState({
         pm_comp_id: 1,
@@ -103,6 +128,21 @@ function Indentation() {
         pm_Approve_level: pm_Approve_level1 == "first" ? 1 : pm_Approve_level1 == "second" ? 2 : 0,
         pm_approvedRoleId_by: '0',
         p_test_run_id: parseInt(ID2),
+=======
+    const [formData, setFormData] = useState({
+        pm_comp_id: 1,
+        pm_location_id: 1,
+        pm_project_id: parseInt(pm_project_id1),
+        pm_processSheet_id: parseInt(pm_processSheet_id1),
+        pm_processtype_id: parseInt(pm_processtype_id1),
+        pm_remarks: "",
+        pm_approver_status: true,
+        pm_approved_by: pm_approved_by1,
+        pm_approved_on: new Date().toISOString().split('T')[0],
+        pm_Approve_level: pm_Approve_level1 == "first" ? 1 : pm_Approve_level1 == "second" ? 2 : 0,
+        pm_approvedRoleId_by: '0',
+        p_test_run_id: parseInt(id2),
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         pm_isfinalapproval: 0
     });
 
@@ -119,11 +159,15 @@ function Indentation() {
             try {
                 if (tstmaterialid) {
                     const [id1, id2, id3, id4] = tstmaterialid.split('&');
+<<<<<<< HEAD
                     const response = await axios.post(`${Environment.BaseAPIURL}/api/User/GetIndentationDataReport?pm_procsheet_id=${id1}&testRunId=${id2}&rtype=${id3}&testid=${id4}`, {}, {
                         headers: {
                             'Authorization': `Bearer ${token}`,
                         }
                     });
+=======
+                    const response = await axios.post(`${Environment.BaseAPIURL}/api/User/GetIndentationDataReport?pm_procsheet_id=${id1}&testRunId=${id2}&rtype=${id3}&testid=${id4}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                     const data = response?.data[0];
                     setHeaderDetails(data._CdTesHeaderDetails[0] || {});
                     setTestDetails(data._CdTestDetails || []);
@@ -140,22 +184,30 @@ function Indentation() {
                     setTotalPlus(parseInt(data._CdTestDetails[0].pm_reqmnt_temperature) + parseInt(data._CdTestDetails[0].pm_reqmnt_temp_plus))
                     setTotalMinus(parseInt(data._CdTestDetails[0].pm_reqmnt_temperature) - parseInt(data._CdTestDetails[0].pm_reqmnt_temp_Minus))
 
+<<<<<<< HEAD
                     const response1 = await axios.get(`${Environment.BaseAPIURL}/api/User/GETInstrumentDetails?TestRunId=${id2}&ProcessSheetId=${pm_processSheet_id1}`, {
                         headers: {
                             'Authorization': `Bearer ${token}`,
                         }
                     });
+=======
+                    const response1 = await axios.get(`${Environment.BaseAPIURL}/api/User/GETInstrumentDetails?TestRunId=${id2}&ProcessSheetId=${pm_processSheet_id1}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                     const data1 = response1?.data;
                     setInstrumentDetails(data1);
                 }
                 try {
                     if (tstmaterialid) {
                         const [id1, id2, id3, id4] = tstmaterialid.split('&');
+<<<<<<< HEAD
                         const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetInspectedByAcceptedByDetails?matid=${id3}&testId=${id2}`, {
                             headers: {
                                 'Authorization': `Bearer ${token}`,
                             }
                         });
+=======
+                        const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetInspectedByAcceptedByDetails?matid=${id3}&testId=${id2}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                         const data = response?.data;
                         setSignatureReport(data)
                         callWitness()
@@ -176,11 +228,15 @@ function Indentation() {
     async function callWitness() {
         try {
             const [id1, id2] = tstmaterialid.split('&');
+<<<<<<< HEAD
             const response1 = await axios.post(`${Environment.BaseAPIURL}/api/User/GetEmployeeTypeWithName?p_procsheet_id=${pm_processSheet_id1}&p_test_run_id=${id2}&p_type_id=${pm_processtype_id1}`, {}, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 }
             });
+=======
+            const response1 = await axios.post(`${Environment.BaseAPIURL}/api/User/GetEmployeeTypeWithName?p_procsheet_id=${pm_processSheet_id1}&p_test_run_id=${id2}&p_type_id=${pm_processtype_id1}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
             if (!response1 || !response1.data) {
                 toast.error('Witness not found.');
             }
@@ -316,8 +372,12 @@ function Indentation() {
             const response = await fetch(Environment.BaseAPIURL + "/api/User/InspectionSheetApproval", {
                 method: "POST",
                 headers: {
+<<<<<<< HEAD
                     'Content-Type': `application/json`,
                     'Authorization': `Bearer ${token}`,
+=======
+                    "Content-Type": "application/json",
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                 },
                 body: JSON.stringify({ formData, 'checkedPipes': [''] }),
             });

@@ -65,7 +65,6 @@ function Calibrationlist() {
       setLoading(false);
     }
   };
-
   const handleViewClick = (row) => {
     navigate(`/calibrationview?moduleId=${moduleId}&menuId=${menuId}&id=${encryptData(row.calib_id)}&pm_Approve_level=view`, '_blank');
   };

@@ -12,7 +12,10 @@ import tatalogo from "../../assets/images/tata-blue-logo.png";
 import html2pdf from 'html2pdf.js';
 import Loading from '../Loading';
 import Loader from '../Loader';
+<<<<<<< HEAD
 import { encryptData, decryptData } from '../Encrypt-decrypt';
+=======
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
 function ViewBlastingline() {
   const [loading, setLoading] = useState(false);
@@ -23,11 +26,16 @@ function ViewBlastingline() {
   const [witnessSelected, setWitnessSelected] = useState(false);
   const [showWitness, setShowWitness] = useState(true);
   const [witnessData, setWitnessData] = useState([])
+<<<<<<< HEAD
+=======
+  const location = useLocation();
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const [isClicked, setIsClicked] = useState(false)
   const navigate = useNavigate();
   const companyId = secureLocalStorage.getItem("emp_current_comp_id");
   const userId = secureLocalStorage.getItem("userId");
   const [approvalData, setApprovalData] = useState([])
+<<<<<<< HEAD
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const menuId1 = searchParams.get('menuId');
@@ -42,12 +50,26 @@ function ViewBlastingline() {
 
   const pm_processSheet_id2 = decryptData(pm_processSheet_id1)
   const Id2 = decryptData(Id)
+=======
+  const searchParams = new URLSearchParams(location.search);
+  const Id = searchParams.get("id");
+  let pm_processSheet_id1 = searchParams.get('pm_processSheet_id');
+  let pm_Approve_level1 = searchParams.get('pm_Approve_level');
+  let menuId1 = searchParams.get('menuId');
+  const [workview, setWorkview] = useState([]);
+  const appBlast = menuId1 === '28' ? 2 : 1;
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
   const [formData, setFormData] = useState({
     pm_comp_id: 1,
     pm_location_id: 1,
+<<<<<<< HEAD
     pm_project_id: parseInt(pm_processSheet_id2),
     pm_processSheet_id: parseInt(pm_processSheet_id2),
+=======
+    pm_project_id: parseInt(pm_processSheet_id1),
+    pm_processSheet_id: parseInt(pm_processSheet_id1),
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
     pm_processtype_id: 2,
     pm_remarks: "",
     pm_approver_status: true,
@@ -55,7 +77,11 @@ function ViewBlastingline() {
     pm_approved_on: new Date().toISOString().split('T')[0],
     pm_Approve_level: pm_Approve_level1 === "hod" ? 1 : pm_Approve_level1 === "first" ? 2 : 3,
     pm_approvedRoleId_by: parseInt(userId),
+<<<<<<< HEAD
     p_prod_id: parseInt(Id2),
+=======
+    p_prod_id: parseInt(Id),
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
     p_Approve_Pending: 0,
     pm_isfinalapproval: 0
   });
@@ -64,20 +90,28 @@ function ViewBlastingline() {
     const fetchData = async () => {
       setLoading(true)
       try {
+<<<<<<< HEAD
         const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetProdBlastingdatabyid?id=${Id}`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
         });
+=======
+        const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetProdBlastingdatabyid?id=${Id}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         const data = response.data;
         setWorkview(data[0]);
         try {
           if (Id) {
+<<<<<<< HEAD
             const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetInspectedByAcceptedByDetailsProd?rtype=${encryptData(2)}&p_prod_id=${Id}`, {
               headers: {
                 Authorization: `Bearer ${token}`
               }
             });
+=======
+            const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetInspectedByAcceptedByDetailsProd?rtype=${2}&p_prod_id=${Id}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
             setApprovalData(response?.data);
             callWitness()
           }
@@ -96,11 +130,15 @@ function ViewBlastingline() {
 
   async function callWitness() {
     try {
+<<<<<<< HEAD
       const response1 = await axios.get(`${Environment.BaseAPIURL}/api/User/GetEmployeeTypeWithNameProd?p_procsheet_id=${pm_processSheet_id1}&p_prod_id=${Id}&p_type_id=${(encryptData(2))}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
       });
+=======
+      const response1 = await axios.get(`${Environment.BaseAPIURL}/api/User/GetEmployeeTypeWithNameProd?p_procsheet_id=${pm_processSheet_id1}&p_prod_id=${Id}&p_type_id=${2}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (!response1 || !response1.data) {
         toast.error('Witness not found.');
       }
@@ -247,8 +285,12 @@ function ViewBlastingline() {
       const response = await fetch(Environment.BaseAPIURL + "/api/User/InspectionSheetApprovalProd", {
         method: "POST",
         headers: {
+<<<<<<< HEAD
           'Content-Type': `application/json`,
           'Authorization': `Bearer ${token}`,
+=======
+          "Content-Type": "application/json",
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         },
         body: JSON.stringify(formData),
       });

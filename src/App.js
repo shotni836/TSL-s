@@ -83,6 +83,7 @@ import AssignLabFieldTest from './components/AssignLabFieldTest/AssignLabFieldTe
 
 // DPR
 import Dailyproductionreport from './components/Daily-production-report/Dailyproductionreport';
+import Dailyproductionreportedit from './components/Daily-production-report/Dailyproductionreportedit';
 import Dailyproductionreportlist from './components/Daily-production-report/Dailyproductionreportlist';
 import Dailyproductionreportview from './components/Daily-production-report/Dailyproductionreportview';
 
@@ -367,5 +368,4 @@ const App = () => {
     </>
   )
 }
-
 export default App

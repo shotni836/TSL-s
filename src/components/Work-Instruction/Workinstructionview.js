@@ -8,24 +8,35 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Environment from "../../environment";
 import { toast } from 'react-toastify';
+<<<<<<< HEAD
 import secureLocalStorage from 'react-secure-storage';
+=======
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
 function Workinstructionview() {
   const searchParams = new URLSearchParams(window.location.search);
   const Id = searchParams.get("id");
+<<<<<<< HEAD
   const token = secureLocalStorage.getItem('token')
   const moduleId = searchParams.get('moduleId');
   const menuId = searchParams.get('menuId');
+=======
+
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const [workview, setWorkview] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
+<<<<<<< HEAD
         const response = await axios.get(Environment.BaseAPIURL + `/api/User/ViewWorkInstructionData?Id=${Id}`, {
           headers: {
             'Authorization': `Bearer ${token}`,
           }
         });
+=======
+        const response = await axios.get(Environment.BaseAPIURL + `/api/User/ViewWorkInstructionData?Id=${Id}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         const data = response.data[0];
 
         console.log(data)
@@ -64,8 +75,13 @@ function Workinstructionview() {
                 <div className='row'>
                   <div className='col-md-12 col-sm-12 col-xs-12'>
                     <ul>
+<<<<<<< HEAD
                       <li> <Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
                       <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/workinstructionlist?moduleId=${moduleId}&menuId=${menuId}`}> Work Instruction List</Link></li>
+=======
+                      <li> <Link to='/dashboard?moduleId=618'>Quality Module</Link></li>
+                      <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/workinstructionlist?menuId=29`}> Work Instruction List</Link></li>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                       <li><h1>/ &nbsp; Work Instruction View</h1></li>
                     </ul>
                   </div>

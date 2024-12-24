@@ -128,7 +128,7 @@ function Mtcreport() {
                 setShowRemarks(false)
             }
             setWitnessValue(pm_Approve_level1 == 'first' ? response1?.data[0]?.roleId : '')
-            setFormData({ ...formData, pm_approvedRoleId_by: witnessValue != '' ? witnessValue : pm_Approve_level1 == 'first' ? response1?.data[0]?.roleId.toString() : companyId?.toString(), pm_isfinalapproval: response1?.data.length == 1 ? 1 : 0 })
+            setFormData({ ...formData, pm_approvedRoleId_by: witnessValue != '' ? witnessValue.toString() : pm_Approve_level1 == 'first' ? response1?.data[0]?.roleId.toString() : companyId?.toString(), pm_isfinalapproval: response1?.data.length == 1 ? 1 : 0 })
             setWitnessSelected(true);
 
             const matchingData = response1?.data.find(item => item.roleId == companyId);
@@ -167,7 +167,7 @@ function Mtcreport() {
 
     function handleSelect(e) {
         setWitnessValue(e.target.value)
-        setFormData({ ...formData, pm_approvedRoleId_by: e.target.value })
+        setFormData({ ...formData, pm_approvedRoleId_by: e.target.value.toString() })
         setWitnessSelected(true);
         if (!showRemarks) {
             handleStatusChange("A")
@@ -182,7 +182,7 @@ function Mtcreport() {
     const handleStatusChange = (value) => {
         setIsClicked(true)
         if (value === "A") {
-            setFormData({ ...formData, pm_approver_status: true, pm_approvedRoleId_by: witnessValue != '' ? witnessValue : pm_Approve_level1 == 'first' ? witnessValue.toString() : companyId.toString() });
+            setFormData({ ...formData, pm_approver_status: true, pm_approvedRoleId_by: witnessValue != '' ? witnessValue.toString() : pm_Approve_level1 == 'first' ? witnessValue.toString() : companyId.toString() });
             setWitnessSelected(true);
             setShowWitness(true);
         }
@@ -324,7 +324,7 @@ function Mtcreport() {
                 cprl_run_id: parseInt(data.packingNo),
                 mtc_date: new Date().toLocaleDateString('fr-CA'),
                 remarks: "",
-                issavedraft: true,
+                issavedraft: false,
                 userid: parseInt(empId),
                 roleId: parseInt(roleId)
             }

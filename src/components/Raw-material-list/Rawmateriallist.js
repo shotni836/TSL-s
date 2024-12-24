@@ -5,7 +5,11 @@ import Footer from '../Common/Footer/Footer'
 import Loading from '../Loading';
 import RegisterEmployeebg from '../../assets/images/RegisterEmployeebg.jpg';
 import Pagination from '../Common/Pagination/Pagination';
+<<<<<<< HEAD
 import { Link, useNavigate } from 'react-router-dom';
+=======
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import axios from 'axios';
@@ -17,11 +21,20 @@ import { useDropzone } from 'react-dropzone';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpload, faTrash, faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import Modal from 'react-modal';
+<<<<<<< HEAD
 import { decryptData, encryptData } from '../Encrypt-decrypt';
 
 function Rawmateriallist() {
   const token = secureLocalStorage.getItem('token');
   const navigate = useNavigate()
+=======
+
+function Rawmateriallist() {
+
+  const navigate = useNavigate()
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const userId = secureLocalStorage.getItem("userId");
   const [loading, setLoading] = useState(false);
   const [permissions, setPermissions] = useState({});
@@ -41,10 +54,14 @@ function Rawmateriallist() {
   const fetchPermissions = async () => {
     try {
       const response = await axios.get(`${Environment.BaseAPIURL}/api/User/GetPermissionDetailsByPageId`, {
+<<<<<<< HEAD
         params: { UserId: encryptData(userId), PageId: menuId },
         headers: {
           'Authorization': `Bearer ${token}`,
         }
+=======
+        params: { UserId: userId, PageId: menuId }
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       });
       setPermissions(response.data[0]);
     } catch (error) {
@@ -53,10 +70,15 @@ function Rawmateriallist() {
   }
 
   const searchParams = new URLSearchParams(document.location.search);
+<<<<<<< HEAD
   const moduleId = searchParams.get('moduleId');
   const menuId = searchParams.get('menuId');
   let testingtype1 = searchParams.get('testingtype');
   let testingtype = decryptData(testingtype1);
+=======
+  const menuId = queryParams.get('menuId');
+  let testingtype = searchParams.get('testingtype');
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   let testId = searchParams.get('testId');
   let mtcId = searchParams.get('mtcId');
   let pipeId = searchParams.get('pipeId');
@@ -81,6 +103,7 @@ function Rawmateriallist() {
     testingtypeval = "In Process Field Testing";
     endpoint = 'fieldtest';
   }
+<<<<<<< HEAD
   addscreenurl = `/${endpoint}?moduleId=${moduleId}&menuId=${menuId}&testingtype=${testingtype1}`;
 
   const getProcessUrl = (action, row) => {
@@ -102,6 +125,29 @@ function Rawmateriallist() {
         : testingtype === '609' ? `/fieldtest?moduleId=${moduleId}&menuId=${menuId}&testingtype=${!mtcId ? testingtype1 : encryptData(row.co_param_val_id)}&action=edit&ProcessSheetID=${encryptData(row?.procsheet_id)}&ProcessSheetTypeID=${testingtype1}&TestRunId=${encryptData(row?.pm_test_run_id)}&TestId=${encryptData(row?.pm_test_id)}`
           : row.pm_test_id == 325 ? `/calibration-blasting-report?moduleId=${moduleId}&menuId=${menuId}&action=edit&year=2024&ProcessSheetID=${encryptData(row?.procsheet_id)}&ProcessSheetTypeID=${testingtype1}&TestRunId=${encryptData(row?.pm_test_run_id)}&pm_blasting_test_run_id=256`
             : `/labtest?moduleId=${moduleId}&menuId=${menuId}&testingtype=${!mtcId ? testingtype1 : encryptData(row.co_param_val_id)}&action=edit&ProcessSheetID=${encryptData(row?.procsheet_id)}&ProcessSheetTypeID=${testingtype1}&TestRunId=${encryptData(row?.pm_test_run_id)}&TestId=${encryptData(row?.pm_test_id)}`
+=======
+  addscreenurl = `/${endpoint}?menuId=${menuId}&testingtype=${testingtype}`;
+
+  const getProcessUrl = (action, row) => {
+    return testingtype === '607' ? `/before-process-lab-test/${row.procsheet_id}&${row.pm_test_run_id}&${testingtype}&${row.pm_process_subtype_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+      : testingtype !== '607' && testingtype !== '609' && row.process_type_sub.includes("CD")
+        ? `/cd-test/${row.procsheet_id}&${row.pm_test_run_id}&${!mtcId ? testingtype : row.co_param_val_id}&${row.pm_test_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+        : testingtype === '605' ? `/in-house-test/${row.procsheet_id}&${row.pm_test_run_id}&${testingtype}&${row.pm_process_subtype_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+          : row.pm_test_id == 987 || row.pm_test_id == 1433 ? `/peel-test/${row.procsheet_id}&${row.pm_test_run_id}&${!mtcId ? testingtype : row.co_param_val_id}&${row.pm_test_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+            : row.pm_test_id == 1525 || row.pm_test_id == 1526 ? `/trial-test/${row.procsheet_id}&${row.pm_test_run_id}&${!mtcId ? testingtype : row.co_param_val_id}&${row.pm_test_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+              : testingtype === '609' || row.pm_test_id == 284 || row.pm_test_id == 303 || row.pm_test_id == 304 ? `/field-test/${row.procsheet_id}&${row.pm_test_run_id}&${!mtcId ? testingtype : row.co_param_val_id}&${row.pm_test_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+                : row.pm_test_id == 986 || row.pm_test_id == 293 ? `/indentation-test/${row.procsheet_id}&${row.pm_test_run_id}&${!mtcId ? testingtype : row.co_param_val_id}&${row.pm_test_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+                  : row.pm_test_id == 325 ? `/calibration-blasting-report-view/${row.pm_test_run_id}&${row.pm_test_id}&${!mtcId ? testingtype : row.co_param_val_id}&pm_Approve_level=view&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+                    : `/porosity-test/${row.procsheet_id}&${row.pm_test_run_id}&${!mtcId ? testingtype : row.co_param_val_id}&${row.pm_test_id}&pm_Approve_level=${action}&pm_project_id=${row.project_id}&pm_processSheet_id=${row.procsheet_id}&pm_processtype_id=${row.co_param_val_id}&pm_approved_by=${userId}&test_date=${row.test_date}&menuId=${menuId}`
+  };
+
+  const gotoEdit = (action, row) => {
+    return testingtype === '605' ? `/inhousetest?menuId=${menuId}&testingtype=${testingtype}&action=edit&ProcessSheetID=${row?.procsheet_id}&ProcessSheetTypeID=${testingtype}&TestRunId=${row?.pm_test_run_id}&TestId=${row?.pm_process_subtype_id}`
+      : testingtype === '607' ? `/beforeprocesslabtest?menuId=${menuId}&testingtype=${testingtype}&action=edit&ProcessSheetID=${row?.procsheet_id}&ProcessSheetTypeID=${testingtype}&TestRunId=${row?.pm_test_run_id}&TestId=${row?.pm_process_subtype_id}`
+        : testingtype === '609' ? `/fieldtest?menuId=${menuId}&testingtype=${!mtcId ? testingtype : row.co_param_val_id}&action=edit&ProcessSheetID=${row?.procsheet_id}&ProcessSheetTypeID=${testingtype}&TestRunId=${row?.pm_test_run_id}&TestId=${row?.pm_test_id}`
+          : row.pm_test_id == 325 ? `/calibration-blasting-report?menuId=${menuId}&action=edit&year=2024&ProcessSheetID=${row?.procsheet_id}&ProcessSheetTypeID=${testingtype}&TestRunId=${row?.pm_test_run_id}&pm_blasting_test_run_id=256`
+            : `/labtest?menuId=${menuId}&testingtype=${!mtcId ? testingtype : row.co_param_val_id}&action=edit&ProcessSheetID=${row?.procsheet_id}&ProcessSheetTypeID=${testingtype}&TestRunId=${row?.pm_test_run_id}&TestId=${row?.pm_test_id}`
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   }
 
   const handleViewClick = (data) => {
@@ -121,6 +167,7 @@ function Rawmateriallist() {
 
   const fetchData = async () => {
     try {
+<<<<<<< HEAD
       const response1 = await axios.get(Environment.BaseAPIURL + `/api/User/GetTestlist?grphdrid=${testingtype1}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -133,6 +180,12 @@ function Rawmateriallist() {
           'Authorization': `Bearer ${token}`,
         }
       })
+=======
+      const response1 = await axios.get(Environment.BaseAPIURL + `/api/User/GetTestlist?grphdrid=${testingtype}`)
+      setOptions(response1.data[0]);
+
+      const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetTestTemplateforCoatType`)
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (response.data) {
         if (testingtype !== '605' && testingtype !== '607') {
           GetLabFieldDataList();
@@ -155,11 +208,15 @@ function Rawmateriallist() {
     try {
       const params = new URLSearchParams();
       params.append('pm_process_type_id', testingtype);
+<<<<<<< HEAD
       const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetInProcessLabFieldTestingAsync?ProcessType=${testingtype1}&UserId=${encryptData(userId)}&MtcId=${encryptData(mtcId ? mtcId : 0)}&testid=${encryptData(testId ? testId : 0)}&pipeid=${encryptData(pipeId ? pipeId : 0)}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         }
       });
+=======
+      const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetInProcessLabFieldTestingAsync?ProcessType=${testingtype}&UserId=${userId}&MtcId=${mtcId ? mtcId : 0}&testid=${testId ? testId : 0}&pipeid=${pipeId ? pipeId : 0}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (Array.isArray(response.data)) {
         setData(response.data);
         fetchPermissions();
@@ -178,11 +235,15 @@ function Rawmateriallist() {
     try {
       const params = new URLSearchParams();
       params.append('pm_process_type_id', testingtype);
+<<<<<<< HEAD
       const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetBeforeProcessDataList?ProcessType=${testingtype1}&UserId=${encryptData(userId)}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         }
       });
+=======
+      const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetBeforeProcessDataList?ProcessType=${testingtype}&UserId=${userId}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (Array.isArray(response.data)) {
         setData(response.data[0]);
         fetchPermissions();
@@ -201,11 +262,15 @@ function Rawmateriallist() {
     try {
       const params = new URLSearchParams();
       params.append('pm_process_type_id', testingtype);
+<<<<<<< HEAD
       const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetRMTestingDataList?ProcessType=${testingtype1}&UserId=${encryptData(userId)}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         }
       });
+=======
+      const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetRMTestingDataList?ProcessType=${testingtype}&UserId=${userId}`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (Array.isArray(response.data)) {
         setData(response.data[0]);
         fetchPermissions();
@@ -372,11 +437,15 @@ function Rawmateriallist() {
     }
 
     try {
+<<<<<<< HEAD
       const response = await axios.post(`${Environment.BaseAPIURL}/api/User/UploadReportAttachment`, dataToSend, {
         headers: {
           'Authorization': `Bearer ${token}`,
         }
       });
+=======
+      const response = await axios.post(`${Environment.BaseAPIURL}/api/User/UploadReportAttachment`, dataToSend);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
       const responseBody = await response.text();
       if (responseBody === "1000") {
@@ -404,9 +473,15 @@ function Rawmateriallist() {
                 <div className='row'>
                   <div className='col-md-12 col-sm-12 col-xs-12'>
                     <ul>
+<<<<<<< HEAD
                       <li> <Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
                       <b style={{ color: '#fff' }}>/ &nbsp;</b>
                       <li> <Link to={`/inspectiontesting?moduleId=${moduleId}&menuId=${menuId}`}> Testing </Link> <b style={{ color: '#fff' }}></b></li>
+=======
+                      <li> <Link to='/dashboard?moduleId=618'>Quality Module</Link></li>
+                      <b style={{ color: '#fff' }}>/ &nbsp;</b>
+                      <li> <Link to={`/inspectiontesting?menuId=${menuId}`}> Testing </Link> <b style={{ color: '#fff' }}></b></li>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                       <li><h1>/ &nbsp; {testingtypeval} List</h1></li>
                     </ul>
                   </div>
@@ -493,7 +568,11 @@ function Rawmateriallist() {
                             </thead>
                             <tbody>
                               {displayData.length === 0 ? (
+<<<<<<< HEAD
                                 <tr><td colSpan="8">Data not available.</td></tr>
+=======
+                                <tr><td colSpan="8">No data available.</td></tr>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                               ) : (
                                 displayData.map((row, index) => (
                                   <tr key={index}>

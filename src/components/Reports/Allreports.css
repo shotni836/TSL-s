@@ -456,8 +456,8 @@
 
 .FooterdataSection table tr td .FooterDataSignatureSection .QCSignatureImg {
     width: 150px;
-    min-width: 150px;
-    max-width: 150px;
+    min-width: 100px;
+    max-width: 100px;
     margin-top: 0;
 }
 

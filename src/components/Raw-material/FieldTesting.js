@@ -1203,7 +1203,7 @@ function FieldTesting() {
                                                                                                     {['0°', '90°', '180°', '270°'].map((angle, rowIndex) => {
                                                                                                         const key = `${index}-${rowIndex}`;
                                                                                                         const seqno = (seqnoBase + rowIndex).toString();
-                                                                                                        // const hideResult3 = Math.floor((parseInt(seqno) - 9) / 12) >= 0 && (parseInt(seqno) - 9) % 12 < 4;
+                                                                                                        const hideResult3 = Math.floor((parseInt(seqno) - 9) / 12) >= 0 && (parseInt(seqno) - 9) % 12 < 4;
                                                                                                         return (
                                                                                                             <tr key={key}>
                                                                                                                 <td><input type='checkbox' checked={inputCheckbox[key] || false} /></td>

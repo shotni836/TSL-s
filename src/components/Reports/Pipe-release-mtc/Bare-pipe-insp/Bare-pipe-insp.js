@@ -594,7 +594,7 @@ function BarePipeInsp() {
                                                                             <div className='form-group'>
                                                                                 <label htmlFor="">{key ? key : ''}.</label>
                                                                                 <span>: &nbsp;</span>
-                                                                                <h4>{value ? value : ''}</h4>
+                                                                                <h4 style={{ wordWrap: "break-word", maxWidth: "250px" }}>{value ? value : ''}</h4>
                                                                             </div>
                                                                         </div>
                                                                         <div className='col-md-6 col-sm-6 col-xs-12 p-0'>

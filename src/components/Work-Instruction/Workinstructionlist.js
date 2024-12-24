@@ -4,7 +4,11 @@ import Header from '../Common/Header/Header'
 import Footer from '../Common/Footer/Footer'
 import Loading from '../Loading';
 import RegisterEmployeebg from '../../assets/images/RegisterEmployeebg.jpg';
+<<<<<<< HEAD
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+=======
+import { Link, useNavigate } from 'react-router-dom';
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import axios from 'axios';
@@ -13,6 +17,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Environment from "../../environment";
 import * as XLSX from "xlsx";
 import { AgGridReact } from "ag-grid-react";
+<<<<<<< HEAD
 import secureLocalStorage from 'react-secure-storage';
 import { encryptData } from '../Encrypt-decrypt';
 
@@ -22,6 +27,11 @@ function Workinstructionlist() {
   const queryParams = new URLSearchParams(location.search);
   const moduleId = queryParams.get('moduleId');
   const menuId = queryParams.get('menuId');
+=======
+
+function Workinstructionlist() {
+
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const [data, setData] = useState([]);
   const [fromDate, setFromDate] = useState('');
   const [toDate, setToDate] = useState('');
@@ -70,11 +80,15 @@ function Workinstructionlist() {
     try {
       const params = new URLSearchParams();
 
+<<<<<<< HEAD
       const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetWorkinstructionData`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         }
       });
+=======
+      const response = await axios.get(Environment.BaseAPIURL + `/api/User/GetWorkinstructionData`);
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       if (Array.isArray(response.data)) { // Check if response.data is an array
         setData(response.data);
       } else {
@@ -96,13 +110,21 @@ function Workinstructionlist() {
   const handleViewClick = (data) => {
     console.log(data)
     // window.open('/workinstructionview', '_blank');
+<<<<<<< HEAD
     navigate(`/Workinstructionview?moduleId=${moduleId}&menuId=${menuId}&id=${encryptData(data.data.pm_workinst_detail_id)}`, '_blank')
+=======
+    navigate(`/Workinstructionview?id=${data.data.pm_workinst_detail_id}`, '_blank')
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   };
 
 
   const handleListClick = (data) => {
     console.log(data)
+<<<<<<< HEAD
     navigate(`/Workinstructionedit?moduleId=${moduleId}&menuId=${menuId}&id=${encryptData(data.data.pm_workinst_detail_id)}`, '_blank')
+=======
+    navigate(`/Workinstructionedit?id=${data.data.pm_workinst_detail_id}`, '_blank')
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   };
 
   const actionCellRenderer = (params) => (
@@ -153,6 +175,12 @@ function Workinstructionlist() {
         { headers: [], fields: [] }
       );
 
+<<<<<<< HEAD
+=======
+    console.log("Column Headers:", headers);
+    console.log("Column Fields:", fields);
+
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
     data.forEach((item, index) => {
       console.log(`Row ${index + 1}:`, fields.map((field) => item[field]), "okays");
     });
@@ -205,7 +233,11 @@ function Workinstructionlist() {
                 <div className='row'>
                   <div className='col-md-12 col-sm-12 col-xs-12'>
                     <ul>
+<<<<<<< HEAD
                       <li> <Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
+=======
+                      <li> <Link to='/dashboard?moduleId=618'>Quality Module</Link></li>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                       <li><h1>/ &nbsp; Work Instruction List</h1></li>
                     </ul>
                   </div>
@@ -221,7 +253,11 @@ function Workinstructionlist() {
                       <h4>{testingtypeval} <span>- List page</span></h4>
                       <div className='tableheaderflex'>
                         <div className='tableheaderfilter'>
+<<<<<<< HEAD
                           <span><i className="fas fa-filter"></i> Filter Data</span>
+=======
+                          <span><i className="fas fa-filter"></i> Filter Test Data</span>
+>>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                           <label>
                             From Date:
                             {/* <input type="date" value={fromDate} onChange={(e) => setFromDate(e.target.value)} /> */}
