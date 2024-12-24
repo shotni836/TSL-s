@@ -294,16 +294,9 @@ function Dustlevelview() {
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
           </>
       }
     </>
-=======
-          </div>
-        </>
-    }
-  </>
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   );
 }
 
