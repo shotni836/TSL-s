@@ -13,6 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import secureLocalStorage from 'react-secure-storage';
 
 function Calibrationview() {
+  const token = secureLocalStorage.getItem('token');
   const today = new Date();
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate()

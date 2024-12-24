@@ -16,6 +16,7 @@ import Headerdata from '../Common/Sample-onereport/Headerdata';
 var excludedPipes = []
 
 function BlastingDataEntryInlet() {
+    const token = secureLocalStorage.getItem('token');
     const [fileData, setFileData] = useState([]);
     const date = new Date();
     const defaulttestdate = date.toLocaleDateString("en-CA");

@@ -17,6 +17,7 @@ function formatDate(dateString) {
 }
 
 function ImpactTestReports() {
+    const token = secureLocalStorage.getItem('token');
     const [loading, setLoading] = useState(false);
     const [loader, setLoader] = useState(false);
     const { tstmaterialid } = useParams();

@@ -5,16 +5,11 @@ import "./Workinstruction.css";
 import Header from "../Common/Header/Header";
 import Footer from "../Common/Footer/Footer";
 import RegisterEmployeebg from "../../assets/images/RegisterEmployeebg.jpg";
-<<<<<<< HEAD
-=======
-import RegisterEmployeeformimg from "../../assets/images/RegisterEmployeeformimg.jpg";
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import Environment from "../../environment";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-<<<<<<< HEAD
 import secureLocalStorage from "react-secure-storage";
 
 function Workinstruction() {
@@ -23,13 +18,6 @@ function Workinstruction() {
   const queryParams = new URLSearchParams(window.location.search);
   const moduleId = queryParams.get('moduleId');
   const menuId = queryParams.get('menuId');
-=======
-
-
-function Workinstruction() {
-  const navigate = useNavigate();
-
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const [state, setState] = useState({
     loading: true,
     formData: {
@@ -67,26 +55,15 @@ function Workinstruction() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-<<<<<<< HEAD
       const response = await axios.post(Environment.BaseAPIURL + "/api/User/InsertWorkinstructionData", formData, {
         headers: {
           'Authorization': `Bearer ${token}`,
-=======
-      console.log("Form Data:", formData); // Debug: Log form data to console
-      const response = await axios.post(Environment.BaseAPIURL + "/api/User/InsertWorkinstructionData", formData, {
-        headers: {
-          Authorization: `Bearer`
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         }
       });
 
       console.log("Response:", response); // Debug: Log response to console
       toast.success("Form submitted successfully!");
-<<<<<<< HEAD
       navigate(`/workinstructionlist?moduleId=${moduleId}&menuId=${menuId}`); // Navigate to success page
-=======
-      navigate("/workinstructionlist"); // Navigate to success page
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
     } catch (error) {
       console.error("Error submitting form:", error);
       toast.error("Error submitting form. Please try again.");
@@ -114,13 +91,8 @@ function Workinstruction() {
               <div className="row">
                 <div className="col-md-12 col-sm-12 col-xs-12">
                   <ul>
-<<<<<<< HEAD
                     <li><Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
                     <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/workinstructionlist?moduleId=${moduleId}&menuId=${menuId}`}> Work Instruction List</Link></li>
-=======
-                    <li><Link to="/dashboard?moduleId=618">Quality Module</Link></li>
-                    <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/workinstructionlist?menuId=29`}> Work Instruction List</Link></li>
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                     <li><h1>/&nbsp; Work Instruction</h1></li>
                   </ul>
                 </div>

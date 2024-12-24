@@ -7,7 +7,6 @@ import RegisterEmployeebg from '../../assets/images/RegisterEmployeebg.jpg';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Environment from "../../environment";
-<<<<<<< HEAD
 import secureLocalStorage from 'react-secure-storage';
 
 function Formatlistview() {
@@ -16,27 +15,17 @@ function Formatlistview() {
   const Id = searchParams.get("id");
   const moduleId = searchParams.get('moduleId');
   const menuId = searchParams.get('menuId');
-=======
-
-function Formatlistview() {
-  const searchParams = new URLSearchParams(window.location.search);
-  const Id = searchParams.get("id");
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 
   const [workview, setWorkview] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-<<<<<<< HEAD
         const response = await axios.get(Environment.BaseAPIURL + `/api/User/ViewFormatListData?Id=${Id}`, {
           headers: {
             'Authorization': `Bearer ${token}`,
           }
         });
-=======
-        const response = await axios.get(Environment.BaseAPIURL + `/api/User/ViewFormatListData?Id=${Id}`);
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
         const data = response.data[0];
 
         console.log(data)
@@ -75,14 +64,9 @@ function Formatlistview() {
                 <div className='row'>
                   <div className='col-md-12 col-sm-12 col-xs-12'>
                     <ul>
-<<<<<<< HEAD
                       <li><Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
                       <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/formatlistlist?moduleId=${moduleId}&menuId=${menuId}`}> Format List</Link></li>
                       <li><h1>/ &nbsp; Format View</h1></li>
-=======
-                      <li> <Link to='/dashboard?moduleId=618'>Quality Module</Link></li>
-                      <li><h1>/ &nbsp; Format List View</h1></li>
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                     </ul>
                   </div>
                 </div>

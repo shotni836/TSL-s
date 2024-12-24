@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
-<<<<<<< HEAD
 import { Link, useNavigate, useLocation } from "react-router-dom";
-=======
-import { Link, useNavigate } from "react-router-dom";
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
 import { toast } from 'react-toastify';
 import axios from 'axios';
 
@@ -15,7 +11,6 @@ import RegisterEmployeebg from "../../assets/images/RegisterEmployeebg.jpg";
 import RegisterEmployeeformimg from "../../assets/images/RegisterEmployeeformimg.jpg";
 import Environment from "../../environment";
 import "./Formatlist.css";
-<<<<<<< HEAD
 import secureLocalStorage from "react-secure-storage";
 
 function Formatlist() {
@@ -24,10 +19,6 @@ function Formatlist() {
   const queryParams = new URLSearchParams(location.search);
   const moduleId = queryParams.get('moduleId');
   const menuId = queryParams.get('menuId');
-=======
-
-function Formatlist() {
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
@@ -52,19 +43,11 @@ function Formatlist() {
       const response = await axios.post(Environment.BaseAPIURL + "/api/User/InsertFormatListData",
         formData, {
         headers: {
-<<<<<<< HEAD
           'Authorization': `Bearer ${token}`,
         }
       });
       console.log("Response:", response);
       navigate(`/formatlistlist?moduleId=${moduleId}&menuId=${menuId}`);
-=======
-          Authorization: `Bearer`
-        }
-      });
-      console.log("Response:", response);
-      navigate("/Formatlistlist");
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
       toast.success("Registration successful");
     } catch (error) {
       console.error("Error submitting form:", error);
@@ -92,15 +75,9 @@ function Formatlist() {
               <div className="row">
                 <div className="col-md-12 col-sm-12 col-xs-12">
                   <ul>
-<<<<<<< HEAD
                     <li><Link to={`/dashboard?moduleId=${moduleId}`}>Quality Module</Link></li>
                     <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/formatlistlist?moduleId=${moduleId}&menuId=${menuId}`}> Format List</Link></li>
                     <li><h1>/&nbsp; Format List </h1></li>
-=======
-                    <li><Link to="/dashboard?moduleId=618">Quality Module</Link></li>
-                    <li><b style={{ color: '#fff' }}>/&nbsp;</b> <Link to={`/Formatlistlist?menuId=31`}> Format List</Link></li>
-                    <li><h1>/&nbsp; Format </h1></li>
->>>>>>> 0a85340d990666d57c1dc8f53a7afcf047357ac9
                   </ul>
                 </div>
               </div>
